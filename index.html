@@ -1,0 +1,288 @@
+<title>Who Got Your Mon?</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="description" content="Look up which recolored Pokemon got nicknamed after you in this Archipelago Emerald multiworld." />
+<style>
+  :root {
+    --bg: #f3efe4;
+    --panel: #ffffff;
+    --ink: #23213a;
+    --ink-soft: #5a5770;
+    --rule: #ddd6bf;
+    --accent: #d4483f;
+    --accent-ink: #ffffff;
+    --card-shadow: 0 1px 0 rgba(35,33,58,0.06), 0 8px 20px -12px rgba(35,33,58,0.25);
+    color-scheme: light;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #191a24;
+      --panel: #23242f;
+      --ink: #ece9f5;
+      --ink-soft: #a6a3ba;
+      --rule: #34364a;
+      --accent: #ff7a68;
+      --accent-ink: #1a1220;
+      --card-shadow: 0 1px 0 rgba(0,0,0,0.3), 0 8px 24px -12px rgba(0,0,0,0.55);
+      color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #191a24; --panel: #23242f; --ink: #ece9f5; --ink-soft: #a6a3ba;
+    --rule: #34364a; --accent: #ff7a68; --accent-ink: #1a1220;
+    --card-shadow: 0 1px 0 rgba(0,0,0,0.3), 0 8px 24px -12px rgba(0,0,0,0.55);
+    color-scheme: dark;
+  }
+  :root[data-theme="light"] {
+    --bg: #f3efe4; --panel: #ffffff; --ink: #23213a; --ink-soft: #5a5770;
+    --rule: #ddd6bf; --accent: #d4483f; --accent-ink: #ffffff;
+    --card-shadow: 0 1px 0 rgba(35,33,58,0.06), 0 8px 20px -12px rgba(35,33,58,0.25);
+    color-scheme: light;
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: -apple-system, "Segoe UI", ui-sans-serif, system-ui, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 4vh 1.25rem 6vh;
+  }
+  main { width: 100%; max-width: 40rem; }
+
+  .eyebrow {
+    font-family: ui-monospace, "SF Mono", Consolas, monospace;
+    font-size: 0.72rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--accent);
+    text-align: center;
+    margin: 0 0 0.6rem;
+  }
+  h1 {
+    font-size: clamp(1.7rem, 5vw, 2.3rem);
+    line-height: 1.15;
+    text-align: center;
+    margin: 0 0 0.6rem;
+    text-wrap: balance;
+    letter-spacing: -0.01em;
+  }
+  .sub {
+    text-align: center;
+    color: var(--ink-soft);
+    font-size: 0.98rem;
+    line-height: 1.5;
+    max-width: 30rem;
+    margin: 0 auto 2.25rem;
+    text-wrap: balance;
+  }
+
+  form.search {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+  }
+  input[type="text"] {
+    flex: 1;
+    font-size: 1rem;
+    padding: 0.85rem 1rem;
+    border-radius: 0.6rem;
+    border: 1.5px solid var(--rule);
+    background: var(--panel);
+    color: var(--ink);
+    outline: none;
+  }
+  input[type="text"]:focus {
+    border-color: var(--accent);
+    box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 22%, transparent);
+  }
+  button {
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0.85rem 1.3rem;
+    border-radius: 0.6rem;
+    border: none;
+    background: var(--accent);
+    color: var(--accent-ink);
+    cursor: pointer;
+  }
+  button:focus-visible, input:focus-visible, a:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+  }
+  button:active { transform: translateY(1px); }
+
+  #status {
+    text-align: center;
+    color: var(--ink-soft);
+    font-size: 0.92rem;
+    min-height: 1.4rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .results { display: flex; flex-direction: column; gap: 0.75rem; }
+
+  .card {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background: var(--panel);
+    border-radius: 0.9rem;
+    padding: 0.9rem 1.1rem;
+    box-shadow: var(--card-shadow);
+  }
+  .card img {
+    width: 64px;
+    height: 64px;
+    image-rendering: pixelated;
+    flex-shrink: 0;
+  }
+  .card .meta { min-width: 0; }
+  .card .species {
+    font-weight: 700;
+    font-size: 1.05rem;
+    text-transform: capitalize;
+    margin: 0 0 0.15rem;
+  }
+  .card .when {
+    font-family: ui-monospace, "SF Mono", Consolas, monospace;
+    font-size: 0.78rem;
+    color: var(--ink-soft);
+  }
+
+  details.browse {
+    margin-top: 2.5rem;
+    border-top: 1px solid var(--rule);
+    padding-top: 1rem;
+  }
+  details.browse summary {
+    cursor: pointer;
+    font-size: 0.88rem;
+    color: var(--ink-soft);
+    text-align: center;
+  }
+  .roster {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(9rem, 1fr));
+    gap: 0.6rem;
+    margin-top: 1.25rem;
+  }
+  .roster .chip {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: var(--panel);
+    border-radius: 0.6rem;
+    padding: 0.5rem 0.6rem;
+    box-shadow: var(--card-shadow);
+    font-size: 0.82rem;
+  }
+  .roster .chip img { width: 28px; height: 28px; image-rendering: pixelated; }
+  .roster .chip span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+  footer {
+    text-align: center;
+    color: var(--ink-soft);
+    font-size: 0.78rem;
+    margin-top: 3rem;
+  }
+</style>
+
+<main>
+  <p class="eyebrow">Emerald Archipelago &middot; Recolor Roster</p>
+  <h1>Somebody caught a Pokemon and named it after you.</h1>
+  <p class="sub">Every time a monster gets caught, hatched, or traded in this run, it's nicknamed after a random player and recolored to match. Type your name to see what you turned into.</p>
+
+  <form class="search" id="searchForm">
+    <input type="text" id="q" placeholder="Your player name&hellip;" autocomplete="off" autocapitalize="none" />
+    <button type="submit">Find me</button>
+  </form>
+
+  <p id="status"></p>
+  <div class="results" id="results"></div>
+
+  <details class="browse">
+    <summary>Or browse the whole roster</summary>
+    <div class="roster" id="roster"></div>
+  </details>
+
+  <footer>Sprites pulled straight from the recolored ROM.</footer>
+</main>
+
+<script>
+  let data = { entries: [] };
+
+  fetch("data.json", { cache: "no-store" })
+    .then(r => r.json())
+    .then(d => {
+      data = d;
+      renderRoster();
+      const params = new URLSearchParams(location.search);
+      const preset = params.get("name");
+      if (preset) {
+        document.getElementById("q").value = preset;
+        runSearch(preset);
+      }
+    })
+    .catch(() => {
+      document.getElementById("status").textContent = "Couldn't load the roster right now — try refreshing.";
+    });
+
+  function fmtDate(iso) {
+    if (!iso) return "";
+    const d = new Date(iso);
+    if (isNaN(d)) return iso;
+    return d.toLocaleDateString(undefined, { year: "numeric", month: "short", day: "numeric" });
+  }
+
+  function card(entry) {
+    const el = document.createElement("div");
+    el.className = "card";
+    el.innerHTML =
+      '<img src="' + entry.image + '" alt="' + entry.species + '" width="64" height="64" />' +
+      '<div class="meta"><p class="species">' + entry.species.toLowerCase() + '</p>' +
+      '<p class="when">' + fmtDate(entry.when) + '</p></div>';
+    return el;
+  }
+
+  function runSearch(query) {
+    const results = document.getElementById("results");
+    const status = document.getElementById("status");
+    results.innerHTML = "";
+    const q = query.trim().toLowerCase();
+    if (!q) { status.textContent = ""; return; }
+    const matches = data.entries.filter(e => e.name.toLowerCase() === q);
+    if (matches.length === 0) {
+      status.textContent = "No Pokemon named after “" + query.trim() + "” yet.";
+      return;
+    }
+    status.textContent = matches.length === 1
+      ? "1 Pokemon found:"
+      : matches.length + " Pokemon found:";
+    matches
+      .slice()
+      .reverse()
+      .forEach(e => results.appendChild(card(e)));
+  }
+
+  document.getElementById("searchForm").addEventListener("submit", (ev) => {
+    ev.preventDefault();
+    runSearch(document.getElementById("q").value);
+  });
+
+  function renderRoster() {
+    const roster = document.getElementById("roster");
+    roster.innerHTML = "";
+    data.entries
+      .slice()
+      .reverse()
+      .forEach(e => {
+        const chip = document.createElement("div");
+        chip.className = "chip";
+        chip.innerHTML = '<img src="' + e.image + '" alt="" /><span>' + e.name + " — " + e.species.toLowerCase() + "</span>";
+        roster.appendChild(chip);
+      });
+  }
+</script>
