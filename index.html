@@ -272,7 +272,7 @@
     const results = document.getElementById("results");
     const status = document.getElementById("status");
     results.innerHTML = "";
-    const q = query.trim().toLowerCase();
+    const q = query.toLowerCase();
     if (!q) { status.textContent = ""; return; }
     const matches = data.entries.filter(e => e.name.toLowerCase() === q);
     if (matches.length === 0) {
