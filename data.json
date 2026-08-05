@@ -1,9 +1,10 @@
 {
-  "version": 1785952286,
+  "version": 1785953013,
   "entries": [
     {
       "name": "HaloKazooi",
       "species": "MANTINE",
+      "level": 6,
       "image": "images/226.png",
       "when": "",
       "types": [
@@ -25,6 +26,7 @@
     {
       "name": "Bigas",
       "species": "SLOWKING",
+      "level": 11,
       "image": "images/199.png",
       "when": "",
       "types": [
@@ -46,6 +48,7 @@
     {
       "name": "beaten",
       "species": "JYNX",
+      "level": 10,
       "image": "images/124.png",
       "when": "",
       "types": [
@@ -67,6 +70,7 @@
     {
       "name": "Dizzy",
       "species": "MURKROW",
+      "level": 33,
       "image": "images/198.png",
       "when": "",
       "types": [
@@ -88,6 +92,7 @@
     {
       "name": "fivesnakes",
       "species": "MAGBY",
+      "level": 6,
       "image": "images/240.png",
       "when": "",
       "types": [
@@ -108,6 +113,7 @@
     {
       "name": "koenig hag",
       "species": "COMBUSKEN",
+      "level": 27,
       "image": "images/281.png",
       "when": "",
       "types": [
@@ -129,6 +135,7 @@
     {
       "name": "Skulltula",
       "species": "MASQUERAIN",
+      "level": 27,
       "image": "images/312.png",
       "when": "",
       "types": [
@@ -150,6 +157,7 @@
     {
       "name": "DrPepper",
       "species": "ENTEI",
+      "level": 8,
       "image": "images/244.png",
       "when": "",
       "types": [
@@ -170,6 +178,7 @@
     {
       "name": "Supershane",
       "species": "TAILLOW",
+      "level": 18,
       "image": "images/304.png",
       "when": "",
       "types": [
@@ -191,6 +200,7 @@
     {
       "name": "Bbrpower",
       "species": "TENTACOOL",
+      "level": 8,
       "image": "images/72.png",
       "when": "",
       "types": [
@@ -212,6 +222,7 @@
     {
       "name": "zarainai",
       "species": "DODRIO",
+      "level": 28,
       "image": "images/85.png",
       "when": "",
       "types": [
@@ -233,6 +244,7 @@
     {
       "name": "silv3r 54",
       "species": "PERSIAN",
+      "level": 11,
       "image": "images/53.png",
       "when": "",
       "types": [
@@ -253,6 +265,7 @@
     {
       "name": "Jackson",
       "species": "DRATINI",
+      "level": 8,
       "image": "images/147.png",
       "when": "",
       "types": [
@@ -273,6 +286,7 @@
     {
       "name": "Jay Beeze",
       "species": "LANTURN",
+      "level": 9,
       "image": "images/171.png",
       "when": "",
       "types": [
@@ -294,6 +308,7 @@
     {
       "name": "BoxingPand",
       "species": "UMBREON",
+      "level": 3,
       "image": "images/197.png",
       "when": "",
       "types": [
@@ -314,6 +329,7 @@
     {
       "name": "Drood",
       "species": "CORSOLA",
+      "level": 11,
       "image": "images/222.png",
       "when": "",
       "types": [
@@ -335,6 +351,7 @@
     {
       "name": "Simuhesa",
       "species": "JUMPLUFF",
+      "level": 7,
       "image": "images/189.png",
       "when": "",
       "types": [
@@ -356,6 +373,7 @@
     {
       "name": "Alex ",
       "species": "FORRETRESS",
+      "level": 6,
       "image": "images/205.png",
       "when": "",
       "types": [
@@ -377,6 +395,7 @@
     {
       "name": "ichfliege",
       "species": "PARASECT",
+      "level": 17,
       "image": "images/47.png",
       "when": "",
       "types": [
@@ -398,6 +417,7 @@
     {
       "name": "ferrousfer",
       "species": "ZUBAT",
+      "level": 16,
       "image": "images/41.png",
       "when": "",
       "types": [
@@ -419,6 +439,7 @@
     {
       "name": "vergeofapa",
       "species": "LUVDISC",
+      "level": 9,
       "image": "images/325.png",
       "when": "",
       "types": [
@@ -439,6 +460,7 @@
     {
       "name": "Sins of a ",
       "species": "HERACROSS",
+      "level": 11,
       "image": "images/214.png",
       "when": "",
       "types": [
@@ -460,6 +482,7 @@
     {
       "name": "vemid",
       "species": "SWINUB",
+      "level": 12,
       "image": "images/220.png",
       "when": "",
       "types": [
@@ -481,6 +504,7 @@
     {
       "name": "Bronyaur",
       "species": "CLEFAIRY",
+      "level": 9,
       "image": "images/35.png",
       "when": "",
       "types": [
@@ -501,6 +525,7 @@
     {
       "name": "Definitely",
       "species": "SEALEO",
+      "level": 6,
       "image": "images/342.png",
       "when": "",
       "types": [
@@ -522,6 +547,7 @@
     {
       "name": "Agreedcobr",
       "species": "SALAMENCE",
+      "level": 20,
       "image": "images/397.png",
       "when": "",
       "types": [
@@ -543,6 +569,7 @@
     {
       "name": "Evangelina",
       "species": "BEEDRILL",
+      "level": 10,
       "image": "images/15.png",
       "when": "",
       "types": [
@@ -564,6 +591,7 @@
     {
       "name": "Acwalan",
       "species": "PUPITAR",
+      "level": 11,
       "image": "images/247.png",
       "when": "",
       "types": [
@@ -585,6 +613,7 @@
     {
       "name": "Haley",
       "species": "RATICATE",
+      "level": 5,
       "image": "images/20.png",
       "when": "",
       "types": [
@@ -605,6 +634,7 @@
     {
       "name": "Xey2510",
       "species": "CAMERUPT",
+      "level": 35,
       "image": "images/340.png",
       "when": "",
       "types": [
@@ -626,6 +656,7 @@
     {
       "name": "Enff",
       "species": "HARIYAMA",
+      "level": 9,
       "image": "images/336.png",
       "when": "",
       "types": [
@@ -646,6 +677,7 @@
     {
       "name": "Empio",
       "species": "LUGIA",
+      "level": 14,
       "image": "images/249.png",
       "when": "",
       "types": [
@@ -667,6 +699,7 @@
     {
       "name": "elrick",
       "species": "ELEKID",
+      "level": 14,
       "image": "images/239.png",
       "when": "",
       "types": [
@@ -687,6 +720,7 @@
     {
       "name": "Joel Nova",
       "species": "XATU",
+      "level": 9,
       "image": "images/178.png",
       "when": "",
       "types": [
@@ -708,6 +742,7 @@
     {
       "name": "AlexOvTheA",
       "species": "LUNATONE",
+      "level": 38,
       "image": "images/348.png",
       "when": "",
       "types": [
@@ -729,6 +764,7 @@
     {
       "name": "Arratem",
       "species": "STARYU",
+      "level": 14,
       "image": "images/120.png",
       "when": "",
       "types": [
@@ -749,6 +785,7 @@
     {
       "name": "Alasaell",
       "species": "MARSHTOMP",
+      "level": 17,
       "image": "images/284.png",
       "when": "",
       "types": [
@@ -770,6 +807,7 @@
     {
       "name": "Cigman",
       "species": "HOPPIP",
+      "level": 15,
       "image": "images/187.png",
       "when": "",
       "types": [
@@ -791,6 +829,7 @@
     {
       "name": "Phlap",
       "species": "PLUSLE",
+      "level": 27,
       "image": "images/353.png",
       "when": "",
       "types": [
@@ -811,6 +850,7 @@
     {
       "name": "Red Panda",
       "species": "OCTILLERY",
+      "level": 6,
       "image": "images/224.png",
       "when": "",
       "types": [
@@ -831,6 +871,7 @@
     {
       "name": "TortCarrot",
       "species": "AZUMARILL",
+      "level": 27,
       "image": "images/184.png",
       "when": "",
       "types": [
@@ -851,6 +892,7 @@
     {
       "name": "dankjoejo",
       "species": "RAICHU",
+      "level": 6,
       "image": "images/26.png",
       "when": "",
       "types": [
@@ -871,6 +913,7 @@
     {
       "name": "Leydryn",
       "species": "NUZLEAF",
+      "level": 25,
       "image": "images/299.png",
       "when": "",
       "types": [
@@ -892,6 +935,7 @@
     {
       "name": "Heinroch",
       "species": "SUDOWOODO",
+      "level": 24,
       "image": "images/185.png",
       "when": "",
       "types": [
@@ -912,6 +956,7 @@
     {
       "name": "Soy",
       "species": "HOUNDOOM",
+      "level": 27,
       "image": "images/229.png",
       "when": "",
       "types": [
@@ -933,6 +978,7 @@
     {
       "name": "KITA",
       "species": "SNUBBULL",
+      "level": 24,
       "image": "images/209.png",
       "when": "",
       "types": [
@@ -953,6 +999,7 @@
     {
       "name": "LennyBuske",
       "species": "FLAREON",
+      "level": 5,
       "image": "images/136.png",
       "when": "",
       "types": [
@@ -973,6 +1020,7 @@
     {
       "name": "DJShamrock",
       "species": "DONPHAN",
+      "level": 25,
       "image": "images/232.png",
       "when": "",
       "types": [
@@ -993,6 +1041,7 @@
     {
       "name": "UziLoogie",
       "species": "VIGOROTH",
+      "level": 20,
       "image": "images/365.png",
       "when": "",
       "types": [
@@ -1013,6 +1062,7 @@
     {
       "name": "Palico",
       "species": "FEEBAS",
+      "level": 25,
       "image": "images/328.png",
       "when": "",
       "types": [
@@ -1033,6 +1083,7 @@
     {
       "name": "Melorum",
       "species": "HORSEA",
+      "level": 25,
       "image": "images/116.png",
       "when": "",
       "types": [
@@ -1053,6 +1104,7 @@
     {
       "name": "Kurohime",
       "species": "EEVEE",
+      "level": 34,
       "image": "images/133.png",
       "when": "",
       "types": [
@@ -1073,6 +1125,7 @@
     {
       "name": "metroid__crime",
       "species": "RHYDON",
+      "level": 29,
       "image": "images/112.png",
       "when": "2026-08-05T17:37:03Z",
       "types": [
