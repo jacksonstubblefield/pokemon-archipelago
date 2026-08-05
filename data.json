@@ -1,5 +1,5 @@
 {
-  "version": 1785953013,
+  "version": 1785955196,
   "entries": [
     {
       "name": "HaloKazooi",
@@ -565,6 +565,28 @@
         "spe": 100
       },
       "nature": "Bashful"
+    },
+    {
+      "name": "Trexx2k",
+      "species": "BEAUTIFLY",
+      "level": null,
+      "image": "images/292.png",
+      "when": "",
+      "types": [
+        "Psychic",
+        "Rock"
+      ],
+      "ability": "Drought",
+      "ability_description": "Summons sunlight in battle.",
+      "stats": {
+        "hp": 60,
+        "atk": 70,
+        "def": 50,
+        "spa": 90,
+        "spd": 50,
+        "spe": 65
+      },
+      "nature": "Rash"
     },
     {
       "name": "Evangelina",
@@ -1143,6 +1165,113 @@
         "spe": 40
       },
       "nature": "Quiet"
+    },
+    {
+      "name": "Waltersby",
+      "species": "SEAKING",
+      "level": 26,
+      "image": "images/119.png",
+      "when": "2026-08-05T18:25:22Z",
+      "types": [
+        "Bug"
+      ],
+      "ability": "Vital Spirit",
+      "ability_description": "Prevents sleep.",
+      "stats": {
+        "hp": 80,
+        "atk": 92,
+        "def": 65,
+        "spa": 65,
+        "spd": 80,
+        "spe": 68
+      },
+      "nature": "Impish"
+    },
+    {
+      "name": "bloodyjig1",
+      "species": "GULPIN",
+      "level": 14,
+      "image": "images/367.png",
+      "when": "2026-08-05T18:25:38Z",
+      "types": [
+        "Fighting"
+      ],
+      "ability": "Synchronize",
+      "ability_description": "Passes on status problems.",
+      "stats": {
+        "hp": 70,
+        "atk": 43,
+        "def": 53,
+        "spa": 43,
+        "spd": 53,
+        "spe": 40
+      },
+      "nature": "Relaxed"
+    },
+    {
+      "name": "Hexa",
+      "species": "STEELIX",
+      "level": 26,
+      "image": "images/208.png",
+      "when": "2026-08-05T18:25:50Z",
+      "types": [
+        "Flying",
+        "Dragon"
+      ],
+      "ability": "Air Lock",
+      "ability_description": "Negates weather effects.",
+      "stats": {
+        "hp": 75,
+        "atk": 85,
+        "def": 200,
+        "spa": 55,
+        "spd": 65,
+        "spe": 30
+      },
+      "nature": "Modest"
+    },
+    {
+      "name": "Leole",
+      "species": "LATIOS",
+      "level": 18,
+      "image": "images/408.png",
+      "when": "2026-08-05T18:26:02Z",
+      "types": [
+        "Dark",
+        "Ground"
+      ],
+      "ability": "Stench",
+      "ability_description": "Helps repel wild Pokemon.",
+      "stats": {
+        "hp": 80,
+        "atk": 90,
+        "def": 80,
+        "spa": 130,
+        "spd": 110,
+        "spe": 110
+      },
+      "nature": "Naive"
+    },
+    {
+      "name": "Robit",
+      "species": "TORKOAL",
+      "level": 26,
+      "image": "images/321.png",
+      "when": "2026-08-05T18:26:15Z",
+      "types": [
+        "Ground"
+      ],
+      "ability": "Soundproof",
+      "ability_description": "Avoids sound-based moves.",
+      "stats": {
+        "hp": 70,
+        "atk": 85,
+        "def": 140,
+        "spa": 85,
+        "spd": 70,
+        "spe": 20
+      },
+      "nature": "Mild"
     }
   ]
 }
