@@ -134,8 +134,8 @@
     box-shadow: var(--card-shadow);
   }
   .card img {
-    width: 64px;
-    height: 64px;
+    width: 128px;
+    height: 128px;
     image-rendering: pixelated;
     flex-shrink: 0;
   }
@@ -243,11 +243,15 @@
     return d.toLocaleDateString(undefined, { year: "numeric", month: "short", day: "numeric" });
   }
 
+  function imgSrc(entry) {
+    return entry.image + "?v=" + (data.version || 0);
+  }
+
   function card(entry) {
     const el = document.createElement("div");
     el.className = "card";
     el.innerHTML =
-      '<img src="' + entry.image + '" alt="' + entry.species + '" width="64" height="64" />' +
+      '<img src="' + imgSrc(entry) + '" alt="' + entry.species + '" width="128" height="128" />' +
       '<div class="meta"><p class="name">' + entry.name + '</p>' +
       '<p class="species">' + entry.species.toLowerCase() + '</p>' +
       '<p class="when">' + fmtDate(entry.when) + '</p></div>';

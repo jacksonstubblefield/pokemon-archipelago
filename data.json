@@ -1,4 +1,5 @@
 {
+  "version": 1785950280,
   "entries": [
     {
       "name": "HaloKazooi",
@@ -256,6 +257,60 @@
       "name": "Leydryn",
       "species": "NUZLEAF",
       "image": "images/299.png",
+      "when": ""
+    },
+    {
+      "name": "Heinroch",
+      "species": "SUDOWOODO",
+      "image": "images/185.png",
+      "when": ""
+    },
+    {
+      "name": "Soy",
+      "species": "HOUNDOOM",
+      "image": "images/229.png",
+      "when": ""
+    },
+    {
+      "name": "KITA",
+      "species": "SNUBBULL",
+      "image": "images/209.png",
+      "when": ""
+    },
+    {
+      "name": "LennyBuske",
+      "species": "FLAREON",
+      "image": "images/136.png",
+      "when": ""
+    },
+    {
+      "name": "DJShamrock",
+      "species": "DONPHAN",
+      "image": "images/232.png",
+      "when": ""
+    },
+    {
+      "name": "UziLoogie",
+      "species": "VIGOROTH",
+      "image": "images/365.png",
+      "when": ""
+    },
+    {
+      "name": "Palico",
+      "species": "FEEBAS",
+      "image": "images/328.png",
+      "when": ""
+    },
+    {
+      "name": "Melorum",
+      "species": "HORSEA",
+      "image": "images/116.png",
+      "when": ""
+    },
+    {
+      "name": "Kurohime",
+      "species": "EEVEE",
+      "image": "images/133.png",
       "when": ""
     }
   ]
