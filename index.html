@@ -1,3 +1,4 @@
+<meta charset="utf-8" />
 <title>are YOU a hideous creature?</title>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta name="description" content="Look up which recolored Pokemon got nicknamed after you in this Archipelago Emerald multiworld." />
@@ -37,6 +38,17 @@
     --rule: #ddd6bf; --accent: #d4483f; --accent-ink: #ffffff;
     --card-shadow: 0 1px 0 rgba(35,33,58,0.06), 0 8px 20px -12px rgba(35,33,58,0.25);
     color-scheme: light;
+  }
+
+  /* Standard Pokemon type colors -- fixed/semantic, not part of the site's
+     own accent palette, so these stay constant across both themes. */
+  :root {
+    --type-normal: #a4acaf; --type-fire: #f08030; --type-water: #6890f0;
+    --type-electric: #f8d030; --type-grass: #78c850; --type-ice: #98d8d8;
+    --type-fighting: #c03028; --type-poison: #a040a0; --type-ground: #e0c068;
+    --type-flying: #a890f0; --type-psychic: #f85888; --type-bug: #a8b820;
+    --type-rock: #b8a038; --type-ghost: #705898; --type-dragon: #7038f8;
+    --type-dark: #705848; --type-steel: #b8b8d0; --type-mystery: #68a090;
   }
 
   * { box-sizing: border-box; }
@@ -126,7 +138,7 @@
 
   .card {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     gap: 1rem;
     background: var(--panel);
     border-radius: 0.9rem;
@@ -154,6 +166,61 @@
   .card .when {
     font-family: ui-monospace, "SF Mono", Consolas, monospace;
     font-size: 0.78rem;
+    color: var(--ink-soft);
+  }
+
+  .types {
+    display: flex;
+    gap: 0.35rem;
+    margin: 0.3rem 0;
+  }
+  .type-pill {
+    display: inline-block;
+    padding: 0.15rem 0.6rem;
+    border-radius: 999px;
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: #fff;
+    text-shadow: 0 1px 1px rgba(0,0,0,0.25);
+  }
+  .card .flavor {
+    font-size: 0.85rem;
+    color: var(--ink-soft);
+    margin: 0 0 0.35rem;
+  }
+  .card .flavor b { color: var(--ink); font-weight: 600; }
+
+  .stat-grid {
+    display: grid;
+    grid-template-columns: 2.5rem 1fr 2.2ch;
+    align-items: center;
+    gap: 0.18rem 0.5rem;
+    font-size: 0.7rem;
+    margin: 0.4rem 0 0.5rem;
+    max-width: 17rem;
+  }
+  .stat-grid .stat-label {
+    color: var(--ink-soft);
+    font-family: ui-monospace, "SF Mono", Consolas, monospace;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+  }
+  .stat-grid .stat-track {
+    background: var(--rule);
+    border-radius: 999px;
+    height: 0.4rem;
+    overflow: hidden;
+  }
+  .stat-grid .stat-fill {
+    height: 100%;
+    background: var(--accent);
+    border-radius: 999px;
+  }
+  .stat-grid .stat-value {
+    font-variant-numeric: tabular-nums;
+    text-align: right;
     color: var(--ink-soft);
   }
 
@@ -247,13 +314,44 @@
     return entry.image + "?v=" + (data.version || 0);
   }
 
+  const STAT_LABELS = [["hp", "HP"], ["atk", "Atk"], ["def", "Def"], ["spa", "SpA"], ["spd", "SpD"], ["spe", "Spe"]];
+  const STAT_MAX = 200;
+
+  function typesHtml(types) {
+    if (!types) return "";
+    return '<div class="types">' + types.map(t =>
+      '<span class="type-pill" style="background:var(--type-' + t.toLowerCase() + ')">' + t + '</span>'
+    ).join("") + '</div>';
+  }
+
+  function statsHtml(stats) {
+    if (!stats) return "";
+    return '<div class="stat-grid">' + STAT_LABELS.map(([key, label]) => {
+      const v = stats[key];
+      const pct = Math.min(100, Math.round((v / STAT_MAX) * 100));
+      return '<span class="stat-label">' + label + '</span>' +
+        '<span class="stat-track"><span class="stat-fill" style="width:' + pct + '%"></span></span>' +
+        '<span class="stat-value">' + v + '</span>';
+    }).join("") + '</div>';
+  }
+
   function card(entry) {
     const el = document.createElement("div");
     el.className = "card";
+    const flavor = (entry.ability || entry.nature)
+      ? '<p class="flavor">' +
+        (entry.nature ? '<b>' + entry.nature + '</b> nature' : '') +
+        (entry.nature && entry.ability ? " &middot; " : "") +
+        (entry.ability ? '<b>' + entry.ability + '</b>' + (entry.ability_description ? ' &mdash; ' + entry.ability_description : '') : '') +
+        '</p>'
+      : '';
     el.innerHTML =
       '<img src="' + imgSrc(entry) + '" alt="' + entry.species + '" width="128" height="128" />' +
       '<div class="meta"><p class="name">' + entry.name + '</p>' +
       '<p class="species">' + entry.species.toLowerCase() + '</p>' +
+      typesHtml(entry.types) +
+      flavor +
+      statsHtml(entry.stats) +
       '<p class="when">' + fmtDate(entry.when) + '</p></div>';
     return el;
   }
