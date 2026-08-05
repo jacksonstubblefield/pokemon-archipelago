@@ -140,9 +140,14 @@
     flex-shrink: 0;
   }
   .card .meta { min-width: 0; }
-  .card .species {
+  .card .name {
     font-weight: 700;
     font-size: 1.05rem;
+    margin: 0 0 0.1rem;
+  }
+  .card .species {
+    color: var(--ink-soft);
+    font-size: 0.9rem;
     text-transform: capitalize;
     margin: 0 0 0.15rem;
   }
@@ -195,7 +200,8 @@
   <p class="sub">See if a pokemon has been named after you!</p>
 
   <form class="search" id="searchForm">
-    <input type="text" id="q" placeholder="Your player name&hellip;" autocomplete="off" autocapitalize="none" />
+    <input type="text" id="q" placeholder="Your player name&hellip;" list="playerNames" autocomplete="off" autocapitalize="none" />
+    <datalist id="playerNames"></datalist>
     <button type="submit">Find me</button>
   </form>
 
@@ -218,6 +224,7 @@
     .then(d => {
       data = d;
       renderRoster();
+      populateAutocomplete();
       const params = new URLSearchParams(location.search);
       const preset = params.get("name");
       if (preset) {
@@ -241,9 +248,24 @@
     el.className = "card";
     el.innerHTML =
       '<img src="' + entry.image + '" alt="' + entry.species + '" width="64" height="64" />' +
-      '<div class="meta"><p class="species">' + entry.species.toLowerCase() + '</p>' +
+      '<div class="meta"><p class="name">' + entry.name + '</p>' +
+      '<p class="species">' + entry.species.toLowerCase() + '</p>' +
       '<p class="when">' + fmtDate(entry.when) + '</p></div>';
     return el;
+  }
+
+  function populateAutocomplete() {
+    const list = document.getElementById("playerNames");
+    const seen = new Set();
+    list.innerHTML = "";
+    data.entries.forEach(e => {
+      const key = e.name.toLowerCase();
+      if (seen.has(key)) return;
+      seen.add(key);
+      const opt = document.createElement("option");
+      opt.value = e.name;
+      list.appendChild(opt);
+    });
   }
 
   function runSearch(query) {
