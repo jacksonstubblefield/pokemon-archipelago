@@ -1,5 +1,5 @@
 {
-  "version": 1785961588,
+  "version": 1785967887,
   "entries": [
     {
       "name": "HaloKazooi",
@@ -1463,6 +1463,330 @@
         "spe": 55
       },
       "nature": "Bashful"
+    },
+    {
+      "name": "arctanh",
+      "species": "LINOONE",
+      "level": 28,
+      "image": "images/289.png",
+      "when": "2026-08-05T21:34:56Z",
+      "types": [
+        "Dark"
+      ],
+      "ability": "Overgrow",
+      "ability_description": "Ups Grass moves in a pinch.",
+      "stats": {
+        "hp": 78,
+        "atk": 70,
+        "def": 61,
+        "spa": 50,
+        "spd": 61,
+        "spe": 100
+      },
+      "nature": "Relaxed"
+    },
+    {
+      "name": "The Minty Menagerie",
+      "species": "GYARADOS",
+      "level": 33,
+      "image": "images/130.png",
+      "when": "2026-08-05T21:51:34Z",
+      "types": [
+        "Water",
+        "Ghost"
+      ],
+      "ability": "Soundproof",
+      "ability_description": "Avoids sound-based moves.",
+      "stats": {
+        "hp": 95,
+        "atk": 125,
+        "def": 79,
+        "spa": 60,
+        "spd": 100,
+        "spe": 81
+      },
+      "nature": "Docile"
+    },
+    {
+      "name": "Ol3ctr0n",
+      "species": "GOLEM",
+      "level": 20,
+      "image": "images/76.png",
+      "when": "2026-08-05T21:51:35Z",
+      "types": [
+        "Bug",
+        "Dragon"
+      ],
+      "ability": "Thick Fat",
+      "ability_description": "Heat-and-cold protection.",
+      "stats": {
+        "hp": 80,
+        "atk": 110,
+        "def": 130,
+        "spa": 55,
+        "spd": 65,
+        "spe": 45
+      },
+      "nature": "Hardy"
+    },
+    {
+      "name": "Tolang",
+      "species": "JIRACHI",
+      "level": 29,
+      "image": "images/409.png",
+      "when": "2026-08-05T21:51:39Z",
+      "types": [
+        "Water",
+        "Dragon"
+      ],
+      "ability": "Stench",
+      "ability_description": "Helps repel wild Pokemon.",
+      "stats": {
+        "hp": 100,
+        "atk": 100,
+        "def": 100,
+        "spa": 100,
+        "spd": 100,
+        "spe": 100
+      },
+      "nature": "Gentle"
+    },
+    {
+      "name": "NatetheGr8",
+      "species": "TREECKO",
+      "level": 10,
+      "image": "images/277.png",
+      "when": "2026-08-05T21:51:41Z",
+      "types": [
+        "Dark"
+      ],
+      "ability": "Cute Charm",
+      "ability_description": "Infatuates on contact.",
+      "stats": {
+        "hp": 40,
+        "atk": 45,
+        "def": 35,
+        "spa": 65,
+        "spd": 55,
+        "spe": 70
+      },
+      "nature": "Hardy"
+    },
+    {
+      "name": "Jolyne",
+      "species": "BLASTOISE",
+      "level": 23,
+      "image": "images/9.png",
+      "when": "2026-08-05T21:51:42Z",
+      "types": [
+        "Steel"
+      ],
+      "ability": "Thick Fat",
+      "ability_description": "Heat-and-cold protection.",
+      "stats": {
+        "hp": 79,
+        "atk": 83,
+        "def": 100,
+        "spa": 85,
+        "spd": 105,
+        "spe": 78
+      },
+      "nature": "Hardy"
+    },
+    {
+      "name": "SekkaiGan",
+      "species": "DRAGONITE",
+      "level": 13,
+      "image": "images/149.png",
+      "when": "2026-08-05T21:53:09Z",
+      "types": [
+        "Water",
+        "Psychic"
+      ],
+      "ability": "Run Away",
+      "ability_description": "Makes escaping easier.",
+      "stats": {
+        "hp": 91,
+        "atk": 134,
+        "def": 95,
+        "spa": 100,
+        "spd": 100,
+        "spe": 80
+      },
+      "nature": "Timid"
+    },
+    {
+      "name": "Baschon",
+      "species": "WOOPER",
+      "level": 12,
+      "image": "images/194.png",
+      "when": "2026-08-05T21:53:19Z",
+      "types": [
+        "Flying",
+        "Ghost"
+      ],
+      "ability": "Vital Spirit",
+      "ability_description": "Prevents sleep.",
+      "stats": {
+        "hp": 55,
+        "atk": 45,
+        "def": 45,
+        "spa": 25,
+        "spd": 25,
+        "spe": 15
+      },
+      "nature": "Serious"
+    },
+    {
+      "name": "Macaroon",
+      "species": "LATIAS",
+      "level": 12,
+      "image": "images/407.png",
+      "when": "2026-08-05T21:53:53Z",
+      "types": [
+        "Ground",
+        "Ghost"
+      ],
+      "ability": "Poison Point",
+      "ability_description": "Poisons foe on contact.",
+      "stats": {
+        "hp": 80,
+        "atk": 80,
+        "def": 90,
+        "spa": 110,
+        "spd": 130,
+        "spe": 110
+      },
+      "nature": "Mild"
+    },
+    {
+      "name": "Beanie",
+      "species": "ROSELIA",
+      "level": 12,
+      "image": "images/363.png",
+      "when": "2026-08-05T21:54:14Z",
+      "types": [
+        "Bug",
+        "Water"
+      ],
+      "ability": "Compound Eyes",
+      "ability_description": "Raises accuracy.",
+      "stats": {
+        "hp": 50,
+        "atk": 60,
+        "def": 45,
+        "spa": 100,
+        "spd": 80,
+        "spe": 65
+      },
+      "nature": "Gentle"
+    },
+    {
+      "name": "heatblayze",
+      "species": "ZIGZAGOON",
+      "level": 28,
+      "image": "images/288.png",
+      "when": "2026-08-05T22:06:37Z",
+      "types": [
+        "Dark"
+      ],
+      "ability": "Overgrow",
+      "ability_description": "Ups Grass moves in a pinch.",
+      "stats": {
+        "hp": 38,
+        "atk": 30,
+        "def": 41,
+        "spa": 30,
+        "spd": 41,
+        "spe": 60
+      },
+      "nature": "Jolly"
+    },
+    {
+      "name": "Irae",
+      "species": "AZURILL",
+      "level": 27,
+      "image": "images/350.png",
+      "when": "2026-08-05T22:10:44Z",
+      "types": [
+        "Poison"
+      ],
+      "ability": "Guts",
+      "ability_description": "Ups Attack if suffering.",
+      "stats": {
+        "hp": 50,
+        "atk": 20,
+        "def": 40,
+        "spa": 20,
+        "spd": 40,
+        "spe": 20
+      },
+      "nature": "Mild"
+    },
+    {
+      "name": "Spalort",
+      "species": "NINJASK",
+      "level": 27,
+      "image": "images/302.png",
+      "when": "2026-08-05T22:10:45Z",
+      "types": [
+        "Steel",
+        "Grass"
+      ],
+      "ability": "Serene Grace",
+      "ability_description": "Promotes added effects.",
+      "stats": {
+        "hp": 61,
+        "atk": 90,
+        "def": 45,
+        "spa": 50,
+        "spd": 50,
+        "spe": 160
+      },
+      "nature": "Serious"
+    },
+    {
+      "name": "jackson tc",
+      "species": "CHINCHOU",
+      "level": 14,
+      "image": "images/170.png",
+      "when": "2026-08-05T22:10:46Z",
+      "types": [
+        "Ghost",
+        "Ground"
+      ],
+      "ability": "Static",
+      "ability_description": "Paralyzes on contact.",
+      "stats": {
+        "hp": 75,
+        "atk": 38,
+        "def": 38,
+        "spa": 56,
+        "spd": 56,
+        "spe": 67
+      },
+      "nature": "Jolly"
+    },
+    {
+      "name": "BlackDespondency",
+      "species": "TANGELA",
+      "level": 29,
+      "image": "images/114.png",
+      "when": "2026-08-05T22:11:02Z",
+      "types": [
+        "Bug"
+      ],
+      "ability": "Synchronize",
+      "ability_description": "Passes on status problems.",
+      "stats": {
+        "hp": 65,
+        "atk": 55,
+        "def": 115,
+        "spa": 100,
+        "spd": 40,
+        "spe": 60
+      },
+      "nature": "Jolly"
     }
   ]
 }
