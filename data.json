@@ -1,5 +1,5 @@
 {
-  "version": 1785959822,
+  "version": 1785961588,
   "entries": [
     {
       "name": "HaloKazooi",
@@ -1293,6 +1293,176 @@
         "spe": 30
       },
       "nature": "Docile"
+    },
+    {
+      "name": "Corgi",
+      "species": "NOSEPASS",
+      "level": 29,
+      "image": "images/320.png",
+      "when": "2026-08-05T20:24:05Z",
+      "types": [
+        "Fighting"
+      ],
+      "ability": "Thick Fat",
+      "ability_description": "Heat-and-cold protection.",
+      "stats": {
+        "hp": 30,
+        "atk": 45,
+        "def": 135,
+        "spa": 45,
+        "spd": 90,
+        "spe": 30
+      },
+      "nature": "Lonely"
+    },
+    {
+      "name": "GangstahBH",
+      "species": "WYNAUT",
+      "level": 31,
+      "image": "images/360.png",
+      "when": "2026-08-05T20:24:17Z",
+      "types": [
+        "Dragon"
+      ],
+      "ability": "Oblivious",
+      "ability_description": "Prevents attraction.",
+      "stats": {
+        "hp": 95,
+        "atk": 23,
+        "def": 48,
+        "spa": 23,
+        "spd": 48,
+        "spe": 23
+      },
+      "nature": "Lax"
+    },
+    {
+      "name": "ZeroRebellion",
+      "species": "HYPNO",
+      "level": 25,
+      "image": "images/97.png",
+      "when": "2026-08-05T20:25:06Z",
+      "types": [
+        "Normal"
+      ],
+      "ability": "Serene Grace",
+      "ability_description": "Promotes added effects.",
+      "stats": {
+        "hp": 85,
+        "atk": 73,
+        "def": 70,
+        "spa": 73,
+        "spd": 115,
+        "spe": 67
+      },
+      "nature": "Naughty"
+    },
+    {
+      "name": "PeMaViDe",
+      "species": "DUGTRIO",
+      "level": 11,
+      "image": "images/51.png",
+      "when": "2026-08-05T20:25:13Z",
+      "types": [
+        "Poison"
+      ],
+      "ability": "Damp",
+      "ability_description": "Prevents self-destruction.",
+      "stats": {
+        "hp": 35,
+        "atk": 80,
+        "def": 50,
+        "spa": 50,
+        "spd": 70,
+        "spe": 120
+      },
+      "nature": "Bashful"
+    },
+    {
+      "name": "DarkVanyali",
+      "species": "PIDGEOTTO",
+      "level": 11,
+      "image": "images/17.png",
+      "when": "2026-08-05T20:25:21Z",
+      "types": [
+        "Dragon",
+        "Rock"
+      ],
+      "ability": "Magnet Pull",
+      "ability_description": "Traps Steel-type Pokemon.",
+      "stats": {
+        "hp": 63,
+        "atk": 60,
+        "def": 55,
+        "spa": 50,
+        "spd": 50,
+        "spe": 71
+      },
+      "nature": "Quirky"
+    },
+    {
+      "name": "Archalian",
+      "species": "CLOYSTER",
+      "level": 29,
+      "image": "images/91.png",
+      "when": "2026-08-05T20:25:46Z",
+      "types": [
+        "Electric",
+        "Fighting"
+      ],
+      "ability": "Sand Stream",
+      "ability_description": "Summons a sandstorm.",
+      "stats": {
+        "hp": 50,
+        "atk": 95,
+        "def": 180,
+        "spa": 85,
+        "spd": 45,
+        "spe": 70
+      },
+      "nature": "Lonely"
+    },
+    {
+      "name": "Kystrea",
+      "species": "ILLUMISE",
+      "level": 11,
+      "image": "images/387.png",
+      "when": "2026-08-05T20:25:56Z",
+      "types": [
+        "Steel"
+      ],
+      "ability": "Shed Skin",
+      "ability_description": "Heals the body by shedding.",
+      "stats": {
+        "hp": 65,
+        "atk": 47,
+        "def": 55,
+        "spa": 73,
+        "spd": 75,
+        "spe": 85
+      },
+      "nature": "Docile"
+    },
+    {
+      "name": "Enekudyahuka",
+      "species": "PSYDUCK",
+      "level": 23,
+      "image": "images/54.png",
+      "when": "2026-08-05T20:26:04Z",
+      "types": [
+        "Dragon"
+      ],
+      "ability": "Stench",
+      "ability_description": "Helps repel wild Pokemon.",
+      "stats": {
+        "hp": 50,
+        "atk": 52,
+        "def": 48,
+        "spa": 65,
+        "spd": 50,
+        "spe": 55
+      },
+      "nature": "Bashful"
     }
   ]
 }
