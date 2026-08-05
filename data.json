@@ -1,3 +1,262 @@
 {
-  "entries": []
+  "entries": [
+    {
+      "name": "HaloKazooi",
+      "species": "MANTINE",
+      "image": "images/226.png",
+      "when": ""
+    },
+    {
+      "name": "Bigas",
+      "species": "SLOWKING",
+      "image": "images/199.png",
+      "when": ""
+    },
+    {
+      "name": "beaten",
+      "species": "JYNX",
+      "image": "images/124.png",
+      "when": ""
+    },
+    {
+      "name": "Dizzy",
+      "species": "MURKROW",
+      "image": "images/198.png",
+      "when": ""
+    },
+    {
+      "name": "fivesnakes",
+      "species": "MAGBY",
+      "image": "images/240.png",
+      "when": ""
+    },
+    {
+      "name": "koenig hag",
+      "species": "COMBUSKEN",
+      "image": "images/281.png",
+      "when": ""
+    },
+    {
+      "name": "Skulltula",
+      "species": "MASQUERAIN",
+      "image": "images/312.png",
+      "when": ""
+    },
+    {
+      "name": "DrPepper",
+      "species": "ENTEI",
+      "image": "images/244.png",
+      "when": ""
+    },
+    {
+      "name": "Supershane",
+      "species": "TAILLOW",
+      "image": "images/304.png",
+      "when": ""
+    },
+    {
+      "name": "Bbrpower",
+      "species": "TENTACOOL",
+      "image": "images/72.png",
+      "when": ""
+    },
+    {
+      "name": "zarainai",
+      "species": "DODRIO",
+      "image": "images/85.png",
+      "when": ""
+    },
+    {
+      "name": "silv3r 54",
+      "species": "PERSIAN",
+      "image": "images/53.png",
+      "when": ""
+    },
+    {
+      "name": "Jackson",
+      "species": "DRATINI",
+      "image": "images/147.png",
+      "when": ""
+    },
+    {
+      "name": "Jay Beeze",
+      "species": "LANTURN",
+      "image": "images/171.png",
+      "when": ""
+    },
+    {
+      "name": "BoxingPand",
+      "species": "UMBREON",
+      "image": "images/197.png",
+      "when": ""
+    },
+    {
+      "name": "Drood",
+      "species": "CORSOLA",
+      "image": "images/222.png",
+      "when": ""
+    },
+    {
+      "name": "Simuhesa",
+      "species": "JUMPLUFF",
+      "image": "images/189.png",
+      "when": ""
+    },
+    {
+      "name": "Alex ",
+      "species": "FORRETRESS",
+      "image": "images/205.png",
+      "when": ""
+    },
+    {
+      "name": "ichfliege",
+      "species": "PARASECT",
+      "image": "images/47.png",
+      "when": ""
+    },
+    {
+      "name": "ferrousfer",
+      "species": "ZUBAT",
+      "image": "images/41.png",
+      "when": ""
+    },
+    {
+      "name": "vergeofapa",
+      "species": "LUVDISC",
+      "image": "images/325.png",
+      "when": ""
+    },
+    {
+      "name": "Sins of a ",
+      "species": "HERACROSS",
+      "image": "images/214.png",
+      "when": ""
+    },
+    {
+      "name": "vemid",
+      "species": "SWINUB",
+      "image": "images/220.png",
+      "when": ""
+    },
+    {
+      "name": "Bronyaur",
+      "species": "CLEFAIRY",
+      "image": "images/35.png",
+      "when": ""
+    },
+    {
+      "name": "Definitely",
+      "species": "SEALEO",
+      "image": "images/342.png",
+      "when": ""
+    },
+    {
+      "name": "Agreedcobr",
+      "species": "SALAMENCE",
+      "image": "images/397.png",
+      "when": ""
+    },
+    {
+      "name": "Evangelina",
+      "species": "BEEDRILL",
+      "image": "images/15.png",
+      "when": ""
+    },
+    {
+      "name": "Acwalan",
+      "species": "PUPITAR",
+      "image": "images/247.png",
+      "when": ""
+    },
+    {
+      "name": "Haley",
+      "species": "RATICATE",
+      "image": "images/20.png",
+      "when": ""
+    },
+    {
+      "name": "Xey2510",
+      "species": "CAMERUPT",
+      "image": "images/340.png",
+      "when": ""
+    },
+    {
+      "name": "Enff",
+      "species": "HARIYAMA",
+      "image": "images/336.png",
+      "when": ""
+    },
+    {
+      "name": "Empio",
+      "species": "LUGIA",
+      "image": "images/249.png",
+      "when": ""
+    },
+    {
+      "name": "elrick",
+      "species": "ELEKID",
+      "image": "images/239.png",
+      "when": ""
+    },
+    {
+      "name": "Joel Nova",
+      "species": "XATU",
+      "image": "images/178.png",
+      "when": ""
+    },
+    {
+      "name": "AlexOvTheA",
+      "species": "LUNATONE",
+      "image": "images/348.png",
+      "when": ""
+    },
+    {
+      "name": "Arratem",
+      "species": "STARYU",
+      "image": "images/120.png",
+      "when": ""
+    },
+    {
+      "name": "Alasaell",
+      "species": "MARSHTOMP",
+      "image": "images/284.png",
+      "when": ""
+    },
+    {
+      "name": "Cigman",
+      "species": "HOPPIP",
+      "image": "images/187.png",
+      "when": ""
+    },
+    {
+      "name": "Phlap",
+      "species": "PLUSLE",
+      "image": "images/353.png",
+      "when": ""
+    },
+    {
+      "name": "Red Panda",
+      "species": "OCTILLERY",
+      "image": "images/224.png",
+      "when": ""
+    },
+    {
+      "name": "TortCarrot",
+      "species": "AZUMARILL",
+      "image": "images/184.png",
+      "when": ""
+    },
+    {
+      "name": "dankjoejo",
+      "species": "RAICHU",
+      "image": "images/26.png",
+      "when": ""
+    },
+    {
+      "name": "Leydryn",
+      "species": "NUZLEAF",
+      "image": "images/299.png",
+      "when": ""
+    }
+  ]
 }
