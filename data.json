@@ -1,5 +1,5 @@
 {
-  "version": 1785955196,
+  "version": 1785959822,
   "entries": [
     {
       "name": "HaloKazooi",
@@ -1272,6 +1272,27 @@
         "spe": 20
       },
       "nature": "Mild"
+    },
+    {
+      "name": "Rai",
+      "species": "SNORLAX",
+      "level": 17,
+      "image": "images/143.png",
+      "when": "2026-08-05T19:50:29Z",
+      "types": [
+        "Dark"
+      ],
+      "ability": "Suction Cups",
+      "ability_description": "Firmly anchors the body.",
+      "stats": {
+        "hp": 160,
+        "atk": 110,
+        "def": 65,
+        "spa": 65,
+        "spd": 110,
+        "spe": 30
+      },
+      "nature": "Docile"
     }
   ]
 }
