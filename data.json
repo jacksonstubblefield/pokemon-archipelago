@@ -1,5 +1,5 @@
 {
-  "version": 1785977464,
+  "version": 1785980541,
   "entries": [
     {
       "name": "HaloKazooi",
@@ -954,7 +954,7 @@
     {
       "name": "AlexOvTheA",
       "species": "LUNATONE",
-      "level": 50,
+      "level": 52,
       "image": "images/348.png",
       "when": "",
       "types": [
@@ -1959,9 +1959,9 @@
     },
     {
       "name": "NatetheGr8",
-      "species": "TREECKO",
-      "level": 10,
-      "image": "images/277.png",
+      "species": "GROVYLE",
+      "level": 19,
+      "image": "images/278.png",
       "when": "2026-08-05T21:51:41Z",
       "types": [
         "Dark"
@@ -1969,18 +1969,19 @@
       "ability": "Cute Charm",
       "ability_description": "Infatuates on contact.",
       "stats": {
-        "hp": 40,
-        "atk": 45,
-        "def": 35,
-        "spa": 65,
-        "spd": 55,
-        "spe": 70
+        "hp": 50,
+        "atk": 65,
+        "def": 45,
+        "spa": 85,
+        "spd": 65,
+        "spe": 95
       },
       "nature": "Hardy",
       "moves": [
-        "TRIPLE KICK",
+        "HYPER BEAM",
         "LICK",
-        "HI JUMP KICK"
+        "HI JUMP KICK",
+        "OVERHEAT"
       ]
     },
     {
@@ -2232,7 +2233,7 @@
     {
       "name": "BlackDespondency",
       "species": "TANGELA",
-      "level": 29,
+      "level": 30,
       "image": "images/114.png",
       "when": "2026-08-05T22:11:02Z",
       "types": [
@@ -2282,6 +2283,115 @@
         "HYPNOSIS",
         "SMELLINGSALT",
         "RAIN DANCE"
+      ]
+    },
+    {
+      "name": "Roxanne",
+      "species": "LOUDRED",
+      "level": 28,
+      "image": "images/371.png",
+      "when": "2026-08-06T01:26:35Z",
+      "types": [
+        "Grass"
+      ],
+      "ability": "Drizzle",
+      "ability_description": "Summons rain in battle.",
+      "stats": {
+        "hp": 84,
+        "atk": 71,
+        "def": 43,
+        "spa": 71,
+        "spd": 43,
+        "spe": 48
+      },
+      "nature": "Quiet",
+      "moves": [
+        "TORMENT",
+        "PRESENT",
+        "SCREECH",
+        "HELPING HAND"
+      ]
+    },
+    {
+      "name": "ParkeShark",
+      "species": "BRELOOM",
+      "level": 21,
+      "image": "images/307.png",
+      "when": "2026-08-06T01:41:46Z",
+      "types": [
+        "Ghost",
+        "Normal"
+      ],
+      "ability": "Sand Stream",
+      "ability_description": "Summons a sandstorm.",
+      "stats": {
+        "hp": 60,
+        "atk": 130,
+        "def": 80,
+        "spa": 60,
+        "spd": 60,
+        "spe": 70
+      },
+      "nature": "Hasty",
+      "moves": [
+        "SOFTBOILED",
+        "REVERSAL",
+        "BITE",
+        "PSYCHIC"
+      ]
+    },
+    {
+      "name": "saca",
+      "species": "BANETTE",
+      "level": 27,
+      "image": "images/378.png",
+      "when": "2026-08-06T01:41:46Z",
+      "types": [
+        "Flying"
+      ],
+      "ability": "Trace",
+      "ability_description": "Copies special ability.",
+      "stats": {
+        "hp": 64,
+        "atk": 115,
+        "def": 65,
+        "spa": 83,
+        "spd": 63,
+        "spe": 65
+      },
+      "nature": "Bashful",
+      "moves": [
+        "HAZE",
+        "RAIN DANCE",
+        "FURY ATTACK",
+        "SAND TOMB"
+      ]
+    },
+    {
+      "name": "Raymuss",
+      "species": "SEEDOT",
+      "level": 28,
+      "image": "images/298.png",
+      "when": "2026-08-06T01:41:46Z",
+      "types": [
+        "Fighting"
+      ],
+      "ability": "Illuminate",
+      "ability_description": "Encounter rate increases.",
+      "stats": {
+        "hp": 40,
+        "atk": 40,
+        "def": 50,
+        "spa": 30,
+        "spd": 30,
+        "spe": 30
+      },
+      "nature": "Jolly",
+      "moves": [
+        "SWORDS DANCE",
+        "STOMP",
+        "ROCK THROW",
+        "POISON TAIL"
       ]
     }
   ]
