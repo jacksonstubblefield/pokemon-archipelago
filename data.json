@@ -1,5 +1,5 @@
 {
-  "version": 1785981201,
+  "version": 1786031662,
   "entries": [
     {
       "name": "HaloKazooi",
@@ -114,7 +114,7 @@
     {
       "name": "fivesnakes",
       "species": "MAGBY",
-      "level": 6,
+      "level": 18,
       "image": "images/240.png",
       "when": "",
       "types": [
@@ -132,7 +132,9 @@
       },
       "nature": "Brave",
       "moves": [
-        "RAPID SPIN"
+        "RAPID SPIN",
+        "DRILL PECK",
+        "BONEMERANG"
       ]
     },
     {
@@ -626,9 +628,9 @@
     },
     {
       "name": "Bronyaur",
-      "species": "CLEFAIRY",
+      "species": "CLEFABLE",
       "level": 9,
-      "image": "images/35.png",
+      "image": "images/36.png",
       "when": "",
       "types": [
         "Ground"
@@ -636,12 +638,12 @@
       "ability": "Clear Body",
       "ability_description": "Prevents ability reduction.",
       "stats": {
-        "hp": 70,
-        "atk": 45,
-        "def": 48,
-        "spa": 60,
-        "spd": 65,
-        "spe": 35
+        "hp": 95,
+        "atk": 70,
+        "def": 73,
+        "spa": 85,
+        "spd": 90,
+        "spe": 60
       },
       "nature": "Naive",
       "moves": [
@@ -954,7 +956,7 @@
     {
       "name": "AlexOvTheA",
       "species": "LUNATONE",
-      "level": 54,
+      "level": 58,
       "image": "images/348.png",
       "when": "",
       "types": [
@@ -973,7 +975,7 @@
       },
       "nature": "Timid",
       "moves": [
-        "MOONLIGHT",
+        "NIGHT SHADE",
         "THUNDERBOLT",
         "DREAM EATER",
         "SLEEP POWDER"
@@ -2233,7 +2235,7 @@
     {
       "name": "BlackDespondency",
       "species": "TANGELA",
-      "level": 31,
+      "level": 33,
       "image": "images/114.png",
       "when": "2026-08-05T22:11:02Z",
       "types": [
@@ -2309,7 +2311,7 @@
         "TORMENT",
         "PRESENT",
         "SCREECH",
-        "HELPING HAND"
+        "FLASH"
       ]
     },
     {
@@ -2392,6 +2394,116 @@
         "STOMP",
         "ROCK THROW",
         "POISON TAIL"
+      ]
+    },
+    {
+      "name": "Shotty",
+      "species": "TRAPINCH",
+      "level": 26,
+      "image": "images/332.png",
+      "when": "2026-08-06T15:23:37Z",
+      "types": [
+        "Dragon"
+      ],
+      "ability": "Magma Armor",
+      "ability_description": "Prevents freezing.",
+      "stats": {
+        "hp": 45,
+        "atk": 100,
+        "def": 45,
+        "spa": 45,
+        "spd": 45,
+        "spe": 10
+      },
+      "nature": "Sassy",
+      "moves": [
+        "CRABHAMMER",
+        "MEGA PUNCH",
+        "TOXIC",
+        "SAND TOMB"
+      ]
+    },
+    {
+      "name": "Blades333",
+      "species": "DUNSPARCE",
+      "level": 25,
+      "image": "images/206.png",
+      "when": "2026-08-06T15:24:17Z",
+      "types": [
+        "Ghost"
+      ],
+      "ability": "Shadow Tag",
+      "ability_description": "Prevents the foe's escape.",
+      "stats": {
+        "hp": 100,
+        "atk": 70,
+        "def": 70,
+        "spa": 65,
+        "spd": 65,
+        "spe": 45
+      },
+      "nature": "Timid",
+      "moves": [
+        "GRASSWHISTLE",
+        "STEEL WING",
+        "FURY CUTTER",
+        "ACID"
+      ]
+    },
+    {
+      "name": "RailValco",
+      "species": "PIDGEY",
+      "level": 13,
+      "image": "images/16.png",
+      "when": "2026-08-06T15:50:41Z",
+      "types": [
+        "Dragon",
+        "Rock"
+      ],
+      "ability": "Magnet Pull",
+      "ability_description": "Traps Steel-type Pokemon.",
+      "stats": {
+        "hp": 40,
+        "atk": 45,
+        "def": 40,
+        "spa": 35,
+        "spd": 35,
+        "spe": 56
+      },
+      "nature": "Sassy",
+      "moves": [
+        "HYPER VOICE",
+        "DISABLE",
+        "BELLY DRUM",
+        "SPLASH"
+      ]
+    },
+    {
+      "name": "Harmonic",
+      "species": "CELEBI",
+      "level": 15,
+      "image": "images/251.png",
+      "when": "2026-08-06T15:50:41Z",
+      "types": [
+        "Normal",
+        "Ground"
+      ],
+      "ability": "Chlorophyll",
+      "ability_description": "Raises Speed in sunshine.",
+      "stats": {
+        "hp": 100,
+        "atk": 100,
+        "def": 100,
+        "spa": 100,
+        "spd": 100,
+        "spe": 100
+      },
+      "nature": "Docile",
+      "moves": [
+        "POISONPOWDER",
+        "FIRE SPIN",
+        "SILVER WIND",
+        "LEECH LIFE"
       ]
     }
   ]
