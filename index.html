@@ -192,6 +192,22 @@
   }
   .card .flavor b { color: var(--ink); font-weight: 600; }
 
+  .moves {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+    margin: 0.3rem 0;
+  }
+  .move-pill {
+    display: inline-block;
+    padding: 0.1rem 0.55rem;
+    border-radius: 999px;
+    font-size: 0.68rem;
+    font-weight: 500;
+    color: var(--ink-soft);
+    background: var(--rule);
+  }
+
   .stat-grid {
     display: grid;
     grid-template-columns: 2.5rem 120px 2.2ch;
@@ -252,7 +268,14 @@
     padding: 0.5rem 0.6rem;
     box-shadow: var(--card-shadow);
     font-size: 0.82rem;
+    cursor: pointer;
+    border: none;
+    text-align: left;
+    font-family: inherit;
+    color: inherit;
+    width: 100%;
   }
+  .roster .chip:hover { box-shadow: 0 1px 0 rgba(35,33,58,0.06), 0 8px 20px -12px var(--accent); }
   .roster .chip img { width: 28px; height: 28px; image-rendering: pixelated; }
   .roster .chip span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 
@@ -339,6 +362,13 @@
     }).join("") + '</div>';
   }
 
+  function movesHtml(moves) {
+    if (!moves || !moves.length) return "";
+    return '<div class="moves">' + moves.map(m =>
+      '<span class="move-pill">' + m + '</span>'
+    ).join("") + '</div>';
+  }
+
   function card(entry) {
     const el = document.createElement("div");
     el.className = "card";
@@ -357,6 +387,7 @@
       typesHtml(entry.types) +
       flavor +
       statsHtml(entry.stats) +
+      movesHtml(entry.moves) +
       '<p class="when">' + fmtDate(entry.when) + '</p></div>';
     return el;
   }
@@ -375,7 +406,7 @@
     });
   }
 
-  function runSearch(query) {
+  function runSearch(query, scrollToResults) {
     const results = document.getElementById("results");
     const status = document.getElementById("status");
     results.innerHTML = "";
@@ -393,6 +424,7 @@
       .slice()
       .reverse()
       .forEach(e => results.appendChild(card(e)));
+    if (scrollToResults) window.scrollTo({ top: 0, behavior: "smooth" });
   }
 
   document.getElementById("searchForm").addEventListener("submit", (ev) => {
@@ -405,11 +437,16 @@
     roster.innerHTML = "";
     data.entries
       .slice()
-      .reverse()
+      .sort((a, b) => a.name.localeCompare(b.name, undefined, { sensitivity: "base" }))
       .forEach(e => {
-        const chip = document.createElement("div");
+        const chip = document.createElement("button");
+        chip.type = "button";
         chip.className = "chip";
         chip.innerHTML = '<img src="' + e.image + '" alt="" /><span>' + e.name + " — " + e.species.toLowerCase() + "</span>";
+        chip.addEventListener("click", () => {
+          document.getElementById("q").value = e.name;
+          runSearch(e.name, true);
+        });
         roster.appendChild(chip);
       });
   }

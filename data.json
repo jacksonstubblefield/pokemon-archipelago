@@ -1,5 +1,5 @@
 {
-  "version": 1785967887,
+  "version": 1785977464,
   "entries": [
     {
       "name": "HaloKazooi",
@@ -21,7 +21,11 @@
         "spd": 140,
         "spe": 70
       },
-      "nature": "Docile"
+      "nature": "Docile",
+      "moves": [
+        "MIRROR MOVE",
+        "ABSORB"
+      ]
     },
     {
       "name": "Bigas",
@@ -43,7 +47,13 @@
         "spd": 110,
         "spe": 30
       },
-      "nature": "Naughty"
+      "nature": "Naughty",
+      "moves": [
+        "SPITE",
+        "SPLASH",
+        "BONE RUSH",
+        "KINESIS"
+      ]
     },
     {
       "name": "beaten",
@@ -65,7 +75,13 @@
         "spd": 95,
         "spe": 95
       },
-      "nature": "Rash"
+      "nature": "Rash",
+      "moves": [
+        "EGG BOMB",
+        "SLEEP POWDER",
+        "TRICK",
+        "NATURE POWER"
+      ]
     },
     {
       "name": "Dizzy",
@@ -87,7 +103,13 @@
         "spd": 42,
         "spe": 91
       },
-      "nature": "Lonely"
+      "nature": "Lonely",
+      "moves": [
+        "STOCKPILE",
+        "BELLY DRUM",
+        "HYPER FANG",
+        "COUNTER"
+      ]
     },
     {
       "name": "fivesnakes",
@@ -108,7 +130,10 @@
         "spd": 55,
         "spe": 83
       },
-      "nature": "Brave"
+      "nature": "Brave",
+      "moves": [
+        "RAPID SPIN"
+      ]
     },
     {
       "name": "koenig hag",
@@ -130,7 +155,13 @@
         "spd": 60,
         "spe": 55
       },
-      "nature": "Lax"
+      "nature": "Lax",
+      "moves": [
+        "THUNDERBOLT",
+        "MEGA DRAIN",
+        "EARTHQUAKE",
+        "OVERHEAT"
+      ]
     },
     {
       "name": "Skulltula",
@@ -152,7 +183,13 @@
         "spd": 82,
         "spe": 60
       },
-      "nature": "Quiet"
+      "nature": "Quiet",
+      "moves": [
+        "FURY SWIPES",
+        "SUPERSONIC",
+        "DRAGON DANCE",
+        "FEATHERDANCE"
+      ]
     },
     {
       "name": "DrPepper",
@@ -173,7 +210,11 @@
         "spd": 75,
         "spe": 100
       },
-      "nature": "Naive"
+      "nature": "Naive",
+      "moves": [
+        "FURY SWIPES",
+        "SCRATCH"
+      ]
     },
     {
       "name": "Supershane",
@@ -195,7 +236,13 @@
         "spd": 30,
         "spe": 85
       },
-      "nature": "Naive"
+      "nature": "Naive",
+      "moves": [
+        "SPARK",
+        "MEGAHORN",
+        "CRABHAMMER",
+        "SOFTBOILED"
+      ]
     },
     {
       "name": "Bbrpower",
@@ -217,7 +264,11 @@
         "spd": 100,
         "spe": 70
       },
-      "nature": "Adamant"
+      "nature": "Adamant",
+      "moves": [
+        "PSYCHO BOOST",
+        "SCREECH"
+      ]
     },
     {
       "name": "zarainai",
@@ -239,7 +290,13 @@
         "spd": 60,
         "spe": 100
       },
-      "nature": "Calm"
+      "nature": "Calm",
+      "moves": [
+        "GRASSWHISTLE",
+        "ROLLING KICK",
+        "REFLECT",
+        "KINESIS"
+      ]
     },
     {
       "name": "silv3r 54",
@@ -260,12 +317,18 @@
         "spd": 65,
         "spe": 115
       },
-      "nature": "Quiet"
+      "nature": "Quiet",
+      "moves": [
+        "HEAT WAVE",
+        "DOOM DESIRE",
+        "THUNDERSHOCK",
+        "DETECT"
+      ]
     },
     {
       "name": "Jackson",
       "species": "DRATINI",
-      "level": 8,
+      "level": 18,
       "image": "images/147.png",
       "when": "",
       "types": [
@@ -281,7 +344,13 @@
         "spd": 50,
         "spe": 50
       },
-      "nature": "Hasty"
+      "nature": "Hasty",
+      "moves": [
+        "RAZOR LEAF",
+        "SUPERPOWER",
+        "FACADE",
+        "SURF"
+      ]
     },
     {
       "name": "Jay Beeze",
@@ -303,7 +372,13 @@
         "spd": 76,
         "spe": 67
       },
-      "nature": "Brave"
+      "nature": "Brave",
+      "moves": [
+        "ROLLING KICK",
+        "TACKLE",
+        "SACRED FIRE",
+        "THUNDERPUNCH"
+      ]
     },
     {
       "name": "BoxingPand",
@@ -324,7 +399,12 @@
         "spd": 130,
         "spe": 65
       },
-      "nature": "Rash"
+      "nature": "Rash",
+      "moves": [
+        "FRENZY PLANT",
+        "MILK DRINK",
+        "DRAGON RAGE"
+      ]
     },
     {
       "name": "Drood",
@@ -346,7 +426,11 @@
         "spd": 85,
         "spe": 35
       },
-      "nature": "Rash"
+      "nature": "Rash",
+      "moves": [
+        "AIR CUTTER",
+        "THIEF"
+      ]
     },
     {
       "name": "Simuhesa",
@@ -368,7 +452,13 @@
         "spd": 85,
         "spe": 110
       },
-      "nature": "Naughty"
+      "nature": "Naughty",
+      "moves": [
+        "BODY SLAM",
+        "ICE BEAM",
+        "IMPRISON",
+        "SAND TOMB"
+      ]
     },
     {
       "name": "Alex ",
@@ -390,7 +480,12 @@
         "spd": 60,
         "spe": 40
       },
-      "nature": "Lonely"
+      "nature": "Lonely",
+      "moves": [
+        "LOW KICK",
+        "NEEDLE ARM",
+        "MUDDY WATER"
+      ]
     },
     {
       "name": "ichfliege",
@@ -412,7 +507,13 @@
         "spd": 80,
         "spe": 30
       },
-      "nature": "Brave"
+      "nature": "Brave",
+      "moves": [
+        "DRAGON DANCE",
+        "HIDDEN POWER",
+        "SKY UPPERCUT",
+        "EGG BOMB"
+      ]
     },
     {
       "name": "ferrousfer",
@@ -434,7 +535,13 @@
         "spd": 40,
         "spe": 55
       },
-      "nature": "Hardy"
+      "nature": "Hardy",
+      "moves": [
+        "TRIPLE KICK",
+        "FOCUS ENERGY",
+        "CAMOUFLAGE",
+        "GUST"
+      ]
     },
     {
       "name": "vergeofapa",
@@ -455,7 +562,11 @@
         "spd": 65,
         "spe": 97
       },
-      "nature": "Mild"
+      "nature": "Mild",
+      "moves": [
+        "HEADBUTT",
+        "STOMP"
+      ]
     },
     {
       "name": "Sins of a ",
@@ -477,7 +588,13 @@
         "spd": 95,
         "spe": 85
       },
-      "nature": "Rash"
+      "nature": "Rash",
+      "moves": [
+        "MUD SHOT",
+        "WRAP",
+        "SIGNAL BEAM",
+        "SYNTHESIS"
+      ]
     },
     {
       "name": "vemid",
@@ -499,7 +616,13 @@
         "spd": 30,
         "spe": 50
       },
-      "nature": "Jolly"
+      "nature": "Jolly",
+      "moves": [
+        "KARATE CHOP",
+        "SHOCK WAVE",
+        "FURY ATTACK",
+        "ERUPTION"
+      ]
     },
     {
       "name": "Bronyaur",
@@ -520,7 +643,13 @@
         "spd": 65,
         "spe": 35
       },
-      "nature": "Naive"
+      "nature": "Naive",
+      "moves": [
+        "CRUSH CLAW",
+        "DRILL PECK",
+        "FIRE PUNCH",
+        "METAL CLAW"
+      ]
     },
     {
       "name": "Definitely",
@@ -542,7 +671,13 @@
         "spd": 70,
         "spe": 45
       },
-      "nature": "Docile"
+      "nature": "Docile",
+      "moves": [
+        "LOW KICK",
+        "EXTREMESPEED",
+        "EXTRASENSORY",
+        "ROCK SLIDE"
+      ]
     },
     {
       "name": "Agreedcobr",
@@ -564,12 +699,18 @@
         "spd": 80,
         "spe": 100
       },
-      "nature": "Bashful"
+      "nature": "Bashful",
+      "moves": [
+        "QUICK ATTACK",
+        "CONFUSION",
+        "RAGE",
+        "HYDRO CANNON"
+      ]
     },
     {
       "name": "Trexx2k",
       "species": "BEAUTIFLY",
-      "level": null,
+      "level": 10,
       "image": "images/292.png",
       "when": "",
       "types": [
@@ -586,7 +727,13 @@
         "spd": 50,
         "spe": 65
       },
-      "nature": "Rash"
+      "nature": "Rash",
+      "moves": [
+        "DEFENSE CURL",
+        "SWIFT",
+        "SHEER COLD",
+        "ARM THRUST"
+      ]
     },
     {
       "name": "Evangelina",
@@ -608,7 +755,13 @@
         "spd": 80,
         "spe": 75
       },
-      "nature": "Naive"
+      "nature": "Naive",
+      "moves": [
+        "HYPNOSIS",
+        "BONE CLUB",
+        "FURY ATTACK",
+        "SLASH"
+      ]
     },
     {
       "name": "Acwalan",
@@ -630,7 +783,13 @@
         "spd": 70,
         "spe": 51
       },
-      "nature": "Quirky"
+      "nature": "Quirky",
+      "moves": [
+        "AERIAL ACE",
+        "CRUNCH",
+        "MEGA KICK",
+        "HYDRO PUMP"
+      ]
     },
     {
       "name": "Haley",
@@ -651,7 +810,12 @@
         "spd": 70,
         "spe": 97
       },
-      "nature": "Adamant"
+      "nature": "Adamant",
+      "moves": [
+        "NIGHTMARE",
+        "SOLARBEAM",
+        "AEROBLAST"
+      ]
     },
     {
       "name": "Xey2510",
@@ -673,7 +837,13 @@
         "spd": 75,
         "spe": 40
       },
-      "nature": "Lonely"
+      "nature": "Lonely",
+      "moves": [
+        "EXTREMESPEED",
+        "METEOR MASH",
+        "KNOCK OFF",
+        "POWDER SNOW"
+      ]
     },
     {
       "name": "Enff",
@@ -694,7 +864,13 @@
         "spd": 60,
         "spe": 50
       },
-      "nature": "Timid"
+      "nature": "Timid",
+      "moves": [
+        "TAIL WHIP",
+        "MEMENTO",
+        "FLAIL",
+        "FIRE PUNCH"
+      ]
     },
     {
       "name": "Empio",
@@ -716,7 +892,12 @@
         "spd": 154,
         "spe": 110
       },
-      "nature": "Bold"
+      "nature": "Bold",
+      "moves": [
+        "MEGA DRAIN",
+        "SCRATCH",
+        "SCREECH"
+      ]
     },
     {
       "name": "elrick",
@@ -737,7 +918,12 @@
         "spd": 55,
         "spe": 95
       },
-      "nature": "Serious"
+      "nature": "Serious",
+      "moves": [
+        "MIRROR MOVE",
+        "FURY SWIPES",
+        "MEGAHORN"
+      ]
     },
     {
       "name": "Joel Nova",
@@ -759,12 +945,16 @@
         "spd": 70,
         "spe": 95
       },
-      "nature": "Modest"
+      "nature": "Modest",
+      "moves": [
+        "ANCIENTPOWER",
+        "RAZOR WIND"
+      ]
     },
     {
       "name": "AlexOvTheA",
       "species": "LUNATONE",
-      "level": 38,
+      "level": 50,
       "image": "images/348.png",
       "when": "",
       "types": [
@@ -781,7 +971,13 @@
         "spd": 85,
         "spe": 70
       },
-      "nature": "Timid"
+      "nature": "Timid",
+      "moves": [
+        "MOONLIGHT",
+        "THUNDERBOLT",
+        "DREAM EATER",
+        "SLEEP POWDER"
+      ]
     },
     {
       "name": "Arratem",
@@ -802,7 +998,13 @@
         "spd": 55,
         "spe": 85
       },
-      "nature": "Quirky"
+      "nature": "Quirky",
+      "moves": [
+        "MAGNITUDE",
+        "CLAMP",
+        "HYDRO PUMP",
+        "MEGA PUNCH"
+      ]
     },
     {
       "name": "Alasaell",
@@ -824,7 +1026,13 @@
         "spd": 70,
         "spe": 50
       },
-      "nature": "Docile"
+      "nature": "Docile",
+      "moves": [
+        "CROSS CHOP",
+        "EXTRASENSORY",
+        "MEGA PUNCH",
+        "SURF"
+      ]
     },
     {
       "name": "Cigman",
@@ -846,7 +1054,13 @@
         "spd": 55,
         "spe": 50
       },
-      "nature": "Impish"
+      "nature": "Impish",
+      "moves": [
+        "LUSTER PURGE",
+        "ANCIENTPOWER",
+        "ERUPTION",
+        "SKY ATTACK"
+      ]
     },
     {
       "name": "Phlap",
@@ -867,7 +1081,13 @@
         "spd": 75,
         "spe": 95
       },
-      "nature": "Calm"
+      "nature": "Calm",
+      "moves": [
+        "GUST",
+        "MAGIC COAT",
+        "VICEGRIP",
+        "BIND"
+      ]
     },
     {
       "name": "Red Panda",
@@ -888,7 +1108,10 @@
         "spd": 75,
         "spe": 45
       },
-      "nature": "Quiet"
+      "nature": "Quiet",
+      "moves": [
+        "STEEL WING"
+      ]
     },
     {
       "name": "TortCarrot",
@@ -909,7 +1132,13 @@
         "spd": 80,
         "spe": 50
       },
-      "nature": "Naughty"
+      "nature": "Naughty",
+      "moves": [
+        "BITE",
+        "METAL CLAW",
+        "SUPERSONIC",
+        "MINIMIZE"
+      ]
     },
     {
       "name": "dankjoejo",
@@ -930,13 +1159,18 @@
         "spd": 80,
         "spe": 100
       },
-      "nature": "Hardy"
+      "nature": "Hardy",
+      "moves": [
+        "RAZOR LEAF",
+        "CRUNCH",
+        "PSYBEAM"
+      ]
     },
     {
       "name": "Leydryn",
-      "species": "NUZLEAF",
+      "species": "SHIFTRY",
       "level": 25,
-      "image": "images/299.png",
+      "image": "images/300.png",
       "when": "",
       "types": [
         "Fighting",
@@ -945,14 +1179,20 @@
       "ability": "Illuminate",
       "ability_description": "Encounter rate increases.",
       "stats": {
-        "hp": 70,
-        "atk": 70,
-        "def": 40,
-        "spa": 60,
-        "spd": 40,
-        "spe": 60
+        "hp": 90,
+        "atk": 100,
+        "def": 60,
+        "spa": 90,
+        "spd": 60,
+        "spe": 80
       },
-      "nature": "Jolly"
+      "nature": "Jolly",
+      "moves": [
+        "HYDRO CANNON",
+        "THUNDERSHOCK",
+        "EXTREMESPEED",
+        "MEMENTO"
+      ]
     },
     {
       "name": "Heinroch",
@@ -973,7 +1213,13 @@
         "spd": 65,
         "spe": 30
       },
-      "nature": "Gentle"
+      "nature": "Gentle",
+      "moves": [
+        "SAND?ATTACK",
+        "SLAM",
+        "PETAL DANCE",
+        "MIST BALL"
+      ]
     },
     {
       "name": "Soy",
@@ -995,7 +1241,13 @@
         "spd": 80,
         "spe": 95
       },
-      "nature": "Relaxed"
+      "nature": "Relaxed",
+      "moves": [
+        "OCTAZOOKA",
+        "SILVER WIND",
+        "HYDRO PUMP",
+        "ROAR"
+      ]
     },
     {
       "name": "KITA",
@@ -1016,7 +1268,13 @@
         "spd": 40,
         "spe": 30
       },
-      "nature": "Naughty"
+      "nature": "Naughty",
+      "moves": [
+        "SHADOW PUNCH",
+        "DESTINY BOND",
+        "ENCORE",
+        "MUDDY WATER"
+      ]
     },
     {
       "name": "LennyBuske",
@@ -1037,7 +1295,12 @@
         "spd": 110,
         "spe": 65
       },
-      "nature": "Serious"
+      "nature": "Serious",
+      "moves": [
+        "SCREECH",
+        "BITE",
+        "DIG"
+      ]
     },
     {
       "name": "DJShamrock",
@@ -1058,7 +1321,13 @@
         "spd": 60,
         "spe": 50
       },
-      "nature": "Bashful"
+      "nature": "Bashful",
+      "moves": [
+        "THUNDERSHOCK",
+        "ICE BEAM",
+        "SMOKESCREEN",
+        "TAUNT"
+      ]
     },
     {
       "name": "UziLoogie",
@@ -1079,7 +1348,13 @@
         "spd": 55,
         "spe": 90
       },
-      "nature": "Naive"
+      "nature": "Naive",
+      "moves": [
+        "SKY UPPERCUT",
+        "HI JUMP KICK",
+        "SUPERPOWER",
+        "SOFTBOILED"
+      ]
     },
     {
       "name": "Palico",
@@ -1100,7 +1375,12 @@
         "spd": 55,
         "spe": 80
       },
-      "nature": "Bold"
+      "nature": "Bold",
+      "moves": [
+        "CRABHAMMER",
+        "PAY DAY",
+        "WATER SPORT"
+      ]
     },
     {
       "name": "Melorum",
@@ -1121,7 +1401,13 @@
         "spd": 25,
         "spe": 60
       },
-      "nature": "Quirky"
+      "nature": "Quirky",
+      "moves": [
+        "FRUSTRATION",
+        "VINE WHIP",
+        "SMELLINGSALT",
+        "SPIT UP"
+      ]
     },
     {
       "name": "Kurohime",
@@ -1142,7 +1428,13 @@
         "spd": 65,
         "spe": 55
       },
-      "nature": "Lax"
+      "nature": "Lax",
+      "moves": [
+        "STOMP",
+        "ENDEAVOR",
+        "TELEPORT",
+        "ACID"
+      ]
     },
     {
       "name": "metroid__crime",
@@ -1164,7 +1456,13 @@
         "spd": 45,
         "spe": 40
       },
-      "nature": "Quiet"
+      "nature": "Quiet",
+      "moves": [
+        "SHADOW BALL",
+        "ENDEAVOR",
+        "SPARK",
+        "STEEL WING"
+      ]
     },
     {
       "name": "Waltersby",
@@ -1185,12 +1483,18 @@
         "spd": 80,
         "spe": 68
       },
-      "nature": "Impish"
+      "nature": "Impish",
+      "moves": [
+        "VOLT TACKLE",
+        "MEMENTO",
+        "DOUBLE TEAM",
+        "SHOCK WAVE"
+      ]
     },
     {
       "name": "bloodyjig1",
       "species": "GULPIN",
-      "level": 14,
+      "level": 15,
       "image": "images/367.png",
       "when": "2026-08-05T18:25:38Z",
       "types": [
@@ -1206,12 +1510,18 @@
         "spd": 53,
         "spe": 40
       },
-      "nature": "Relaxed"
+      "nature": "Relaxed",
+      "moves": [
+        "MEGA DRAIN",
+        "SCRATCH",
+        "BATON PASS",
+        "WATER SPOUT"
+      ]
     },
     {
       "name": "Hexa",
       "species": "STEELIX",
-      "level": 26,
+      "level": 28,
       "image": "images/208.png",
       "when": "2026-08-05T18:25:50Z",
       "types": [
@@ -1228,12 +1538,18 @@
         "spd": 65,
         "spe": 30
       },
-      "nature": "Modest"
+      "nature": "Modest",
+      "moves": [
+        "HARDEN",
+        "MUD SPORT",
+        "BARRAGE",
+        "RECOVER"
+      ]
     },
     {
       "name": "Leole",
       "species": "LATIOS",
-      "level": 18,
+      "level": 19,
       "image": "images/408.png",
       "when": "2026-08-05T18:26:02Z",
       "types": [
@@ -1250,7 +1566,13 @@
         "spd": 110,
         "spe": 110
       },
-      "nature": "Naive"
+      "nature": "Naive",
+      "moves": [
+        "PSYCHIC",
+        "SHARPEN",
+        "COTTON SPORE",
+        "HYDRO CANNON"
+      ]
     },
     {
       "name": "Robit",
@@ -1271,12 +1593,18 @@
         "spd": 70,
         "spe": 20
       },
-      "nature": "Mild"
+      "nature": "Mild",
+      "moves": [
+        "VITAL THROW",
+        "MEAN LOOK",
+        "MIST",
+        "MIND READER"
+      ]
     },
     {
       "name": "Rai",
       "species": "SNORLAX",
-      "level": 17,
+      "level": 20,
       "image": "images/143.png",
       "when": "2026-08-05T19:50:29Z",
       "types": [
@@ -1292,7 +1620,13 @@
         "spd": 110,
         "spe": 30
       },
-      "nature": "Docile"
+      "nature": "Docile",
+      "moves": [
+        "ANCIENTPOWER",
+        "DOUBLE TEAM",
+        "MEGA DRAIN",
+        "TOXIC"
+      ]
     },
     {
       "name": "Corgi",
@@ -1313,7 +1647,13 @@
         "spd": 90,
         "spe": 30
       },
-      "nature": "Lonely"
+      "nature": "Lonely",
+      "moves": [
+        "DESTINY BOND",
+        "GROWL",
+        "SELFDESTRUCT",
+        "PSYCHIC"
+      ]
     },
     {
       "name": "GangstahBH",
@@ -1334,7 +1674,13 @@
         "spd": 48,
         "spe": 23
       },
-      "nature": "Lax"
+      "nature": "Lax",
+      "moves": [
+        "BLOCK",
+        "LEECH LIFE",
+        "DIG",
+        "SUPER FANG"
+      ]
     },
     {
       "name": "ZeroRebellion",
@@ -1355,7 +1701,13 @@
         "spd": 115,
         "spe": 67
       },
-      "nature": "Naughty"
+      "nature": "Naughty",
+      "moves": [
+        "VICEGRIP",
+        "SUPERPOWER",
+        "TWISTER",
+        "ABSORB"
+      ]
     },
     {
       "name": "PeMaViDe",
@@ -1376,7 +1728,13 @@
         "spd": 70,
         "spe": 120
       },
-      "nature": "Bashful"
+      "nature": "Bashful",
+      "moves": [
+        "METEOR MASH",
+        "RETURN",
+        "REFRESH",
+        "ROCK SLIDE"
+      ]
     },
     {
       "name": "DarkVanyali",
@@ -1398,12 +1756,18 @@
         "spd": 50,
         "spe": 71
       },
-      "nature": "Quirky"
+      "nature": "Quirky",
+      "moves": [
+        "MEMENTO",
+        "SMELLINGSALT",
+        "LOCK?ON",
+        "SONICBOOM"
+      ]
     },
     {
       "name": "Archalian",
       "species": "CLOYSTER",
-      "level": 29,
+      "level": 31,
       "image": "images/91.png",
       "when": "2026-08-05T20:25:46Z",
       "types": [
@@ -1420,12 +1784,18 @@
         "spd": 45,
         "spe": 70
       },
-      "nature": "Lonely"
+      "nature": "Lonely",
+      "moves": [
+        "MOONLIGHT",
+        "BATON PASS",
+        "BONEMERANG",
+        "VICEGRIP"
+      ]
     },
     {
       "name": "Kystrea",
       "species": "ILLUMISE",
-      "level": 11,
+      "level": 15,
       "image": "images/387.png",
       "when": "2026-08-05T20:25:56Z",
       "types": [
@@ -1441,12 +1811,18 @@
         "spd": 75,
         "spe": 85
       },
-      "nature": "Docile"
+      "nature": "Docile",
+      "moves": [
+        "FURY SWIPES",
+        "SMELLINGSALT",
+        "ASSIST",
+        "SPIKES"
+      ]
     },
     {
       "name": "Enekudyahuka",
       "species": "PSYDUCK",
-      "level": 23,
+      "level": 24,
       "image": "images/54.png",
       "when": "2026-08-05T20:26:04Z",
       "types": [
@@ -1462,7 +1838,13 @@
         "spd": 50,
         "spe": 55
       },
-      "nature": "Bashful"
+      "nature": "Bashful",
+      "moves": [
+        "BOUNCE",
+        "FAKE OUT",
+        "POUND",
+        "THUNDERSHOCK"
+      ]
     },
     {
       "name": "arctanh",
@@ -1483,7 +1865,13 @@
         "spd": 61,
         "spe": 100
       },
-      "nature": "Relaxed"
+      "nature": "Relaxed",
+      "moves": [
+        "PECK",
+        "THIEF",
+        "CROSS CHOP",
+        "EXTREMESPEED"
+      ]
     },
     {
       "name": "The Minty Menagerie",
@@ -1505,7 +1893,13 @@
         "spd": 100,
         "spe": 81
       },
-      "nature": "Docile"
+      "nature": "Docile",
+      "moves": [
+        "DRAGONBREATH",
+        "FLATTER",
+        "SMELLINGSALT",
+        "ACID"
+      ]
     },
     {
       "name": "Ol3ctr0n",
@@ -1527,7 +1921,13 @@
         "spd": 65,
         "spe": 45
       },
-      "nature": "Hardy"
+      "nature": "Hardy",
+      "moves": [
+        "BULLET SEED",
+        "WATER SPOUT",
+        "EARTHQUAKE",
+        "WHIRLPOOL"
+      ]
     },
     {
       "name": "Tolang",
@@ -1549,7 +1949,13 @@
         "spd": 100,
         "spe": 100
       },
-      "nature": "Gentle"
+      "nature": "Gentle",
+      "moves": [
+        "SMELLINGSALT",
+        "WITHDRAW",
+        "SHADOW PUNCH",
+        "SWORDS DANCE"
+      ]
     },
     {
       "name": "NatetheGr8",
@@ -1570,7 +1976,12 @@
         "spd": 55,
         "spe": 70
       },
-      "nature": "Hardy"
+      "nature": "Hardy",
+      "moves": [
+        "TRIPLE KICK",
+        "LICK",
+        "HI JUMP KICK"
+      ]
     },
     {
       "name": "Jolyne",
@@ -1591,7 +2002,13 @@
         "spd": 105,
         "spe": 78
       },
-      "nature": "Hardy"
+      "nature": "Hardy",
+      "moves": [
+        "RETURN",
+        "TAKE DOWN",
+        "BATON PASS",
+        "TEETER DANCE"
+      ]
     },
     {
       "name": "SekkaiGan",
@@ -1613,7 +2030,13 @@
         "spd": 100,
         "spe": 80
       },
-      "nature": "Timid"
+      "nature": "Timid",
+      "moves": [
+        "POWDER SNOW",
+        "BONE RUSH",
+        "COVET",
+        "ENDEAVOR"
+      ]
     },
     {
       "name": "Baschon",
@@ -1635,7 +2058,12 @@
         "spd": 25,
         "spe": 15
       },
-      "nature": "Serious"
+      "nature": "Serious",
+      "moves": [
+        "POUND",
+        "FLAIL",
+        "REVENGE"
+      ]
     },
     {
       "name": "Macaroon",
@@ -1657,7 +2085,12 @@
         "spd": 130,
         "spe": 110
       },
-      "nature": "Mild"
+      "nature": "Mild",
+      "moves": [
+        "SUPERPOWER",
+        "DIG",
+        "GLARE"
+      ]
     },
     {
       "name": "Beanie",
@@ -1679,7 +2112,12 @@
         "spd": 80,
         "spe": 65
       },
-      "nature": "Gentle"
+      "nature": "Gentle",
+      "moves": [
+        "BOUNCE",
+        "FURY CUTTER",
+        "GROWL"
+      ]
     },
     {
       "name": "heatblayze",
@@ -1700,7 +2138,13 @@
         "spd": 41,
         "spe": 60
       },
-      "nature": "Jolly"
+      "nature": "Jolly",
+      "moves": [
+        "DRAGON CLAW",
+        "SOFTBOILED",
+        "TACKLE",
+        "CONVERSION"
+      ]
     },
     {
       "name": "Irae",
@@ -1721,7 +2165,13 @@
         "spd": 40,
         "spe": 20
       },
-      "nature": "Mild"
+      "nature": "Mild",
+      "moves": [
+        "FACADE",
+        "POISON STING",
+        "ATTRACT",
+        "MIRROR MOVE"
+      ]
     },
     {
       "name": "Spalort",
@@ -1743,7 +2193,13 @@
         "spd": 50,
         "spe": 160
       },
-      "nature": "Serious"
+      "nature": "Serious",
+      "moves": [
+        "MAGIC COAT",
+        "POISON STING",
+        "BLAST BURN",
+        "PSYCH UP"
+      ]
     },
     {
       "name": "jackson tc",
@@ -1765,7 +2221,13 @@
         "spd": 56,
         "spe": 67
       },
-      "nature": "Jolly"
+      "nature": "Jolly",
+      "moves": [
+        "TICKLE",
+        "ROLLOUT",
+        "ERUPTION",
+        "METEOR MASH"
+      ]
     },
     {
       "name": "BlackDespondency",
@@ -1786,7 +2248,41 @@
         "spd": 40,
         "spe": 60
       },
-      "nature": "Jolly"
+      "nature": "Jolly",
+      "moves": [
+        "SELFDESTRUCT",
+        "ICE BEAM",
+        "WING ATTACK",
+        "ENCORE"
+      ]
+    },
+    {
+      "name": "Eri",
+      "species": "RHYHORN",
+      "level": 33,
+      "image": "images/111.png",
+      "when": "2026-08-05T22:23:06Z",
+      "types": [
+        "Rock",
+        "Bug"
+      ],
+      "ability": "Water Absorb",
+      "ability_description": "Changes water into HP.",
+      "stats": {
+        "hp": 80,
+        "atk": 85,
+        "def": 95,
+        "spa": 30,
+        "spd": 30,
+        "spe": 25
+      },
+      "nature": "Quirky",
+      "moves": [
+        "MEGA KICK",
+        "HYPNOSIS",
+        "SMELLINGSALT",
+        "RAIN DANCE"
+      ]
     }
   ]
 }
