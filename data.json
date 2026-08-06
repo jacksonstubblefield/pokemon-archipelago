@@ -1,5 +1,5 @@
 {
-  "version": 1785980541,
+  "version": 1785981201,
   "entries": [
     {
       "name": "HaloKazooi",
@@ -328,7 +328,7 @@
     {
       "name": "Jackson",
       "species": "DRATINI",
-      "level": 18,
+      "level": 20,
       "image": "images/147.png",
       "when": "",
       "types": [
@@ -954,7 +954,7 @@
     {
       "name": "AlexOvTheA",
       "species": "LUNATONE",
-      "level": 52,
+      "level": 54,
       "image": "images/348.png",
       "when": "",
       "types": [
@@ -1960,7 +1960,7 @@
     {
       "name": "NatetheGr8",
       "species": "GROVYLE",
-      "level": 19,
+      "level": 21,
       "image": "images/278.png",
       "when": "2026-08-05T21:51:41Z",
       "types": [
@@ -2233,7 +2233,7 @@
     {
       "name": "BlackDespondency",
       "species": "TANGELA",
-      "level": 30,
+      "level": 31,
       "image": "images/114.png",
       "when": "2026-08-05T22:11:02Z",
       "types": [
