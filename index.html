@@ -292,7 +292,7 @@
   <p class="sub">See if a pokemon has been named after you!</p>
 
   <form class="search" id="searchForm">
-    <input type="text" id="q" placeholder="Your player name&hellip;" list="playerNames" autocomplete="off" autocapitalize="none" />
+    <input type="text" id="q" placeholder="Your player name or a species&hellip;" list="playerNames" autocomplete="off" autocapitalize="none" />
     <datalist id="playerNames"></datalist>
     <button type="submit">Find me</button>
   </form>
@@ -392,18 +392,38 @@
     return el;
   }
 
+  let autocompleteValues = [];
+  const AUTOCOMPLETE_MAX = 7;
+
   function populateAutocomplete() {
-    const list = document.getElementById("playerNames");
     const seen = new Set();
-    list.innerHTML = "";
-    data.entries.forEach(e => {
-      const key = e.name.toLowerCase();
+    autocompleteValues = [];
+    const addValue = (value) => {
+      const key = value.toLowerCase();
       if (seen.has(key)) return;
       seen.add(key);
-      const opt = document.createElement("option");
-      opt.value = e.name;
-      list.appendChild(opt);
+      autocompleteValues.push(value);
+    };
+    data.entries.forEach(e => {
+      addValue(e.name);
+      addValue(e.species);
     });
+    updateAutocompleteOptions("");
+  }
+
+  function updateAutocompleteOptions(query) {
+    const list = document.getElementById("playerNames");
+    list.innerHTML = "";
+    if (!query) return;
+    const q = query.toLowerCase();
+    autocompleteValues
+      .filter(v => v.toLowerCase().includes(q))
+      .slice(0, AUTOCOMPLETE_MAX)
+      .forEach(v => {
+        const opt = document.createElement("option");
+        opt.value = v;
+        list.appendChild(opt);
+      });
   }
 
   function runSearch(query, scrollToResults) {
@@ -412,9 +432,11 @@
     results.innerHTML = "";
     const q = query.toLowerCase();
     if (!q) { status.textContent = ""; return; }
-    const matches = data.entries.filter(e => e.name.toLowerCase() === q);
+    const matches = data.entries.filter(e =>
+      e.name.toLowerCase() === q || e.species.toLowerCase() === q
+    );
     if (matches.length === 0) {
-      status.textContent = "No Pokemon named after “" + query.trim() + "” yet.";
+      status.textContent = "No Pokemon found for “" + query.trim() + "” yet.";
       return;
     }
     status.textContent = matches.length === 1
@@ -430,6 +452,10 @@
   document.getElementById("searchForm").addEventListener("submit", (ev) => {
     ev.preventDefault();
     runSearch(document.getElementById("q").value);
+  });
+
+  document.getElementById("q").addEventListener("input", (ev) => {
+    updateAutocompleteOptions(ev.target.value);
   });
 
   function renderRoster() {
