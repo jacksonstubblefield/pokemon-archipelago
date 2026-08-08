@@ -1,5 +1,5 @@
 {
-  "version": 1786221441,
+  "version": 1786226104,
   "entries": [
     {
       "name": "HaloKazooi",
@@ -114,7 +114,7 @@
     {
       "name": "fivesnakes",
       "species": "MAGMAR",
-      "level": 31,
+      "level": 32,
       "image": "images/126.png",
       "when": "",
       "types": [
@@ -140,9 +140,9 @@
     },
     {
       "name": "koenig hag",
-      "species": "COMBUSKEN",
-      "level": 27,
-      "image": "images/281.png",
+      "species": "BLAZIKEN",
+      "level": 36,
+      "image": "images/282.png",
       "when": "",
       "types": [
         "Bug",
@@ -151,17 +151,17 @@
       "ability": "Trace",
       "ability_description": "Copies special ability.",
       "stats": {
-        "hp": 60,
-        "atk": 85,
-        "def": 60,
-        "spa": 85,
-        "spd": 60,
-        "spe": 55
+        "hp": 80,
+        "atk": 120,
+        "def": 70,
+        "spa": 110,
+        "spd": 70,
+        "spe": 80
       },
       "nature": "Lax",
       "moves": [
         "THUNDERBOLT",
-        "MEGA DRAIN",
+        "EXTREMESPEED",
         "EARTHQUAKE",
         "OVERHEAT"
       ]
@@ -331,7 +331,7 @@
     {
       "name": "Jackson",
       "species": "DRATINI",
-      "level": 21,
+      "level": 22,
       "image": "images/147.png",
       "when": "",
       "types": [
@@ -349,7 +349,7 @@
       },
       "nature": "Hasty",
       "moves": [
-        "RAZOR LEAF",
+        "BLIZZARD",
         "SUPERPOWER",
         "FACADE",
         "SURF"
@@ -438,7 +438,7 @@
     {
       "name": "Simuhesa",
       "species": "JUMPLUFF",
-      "level": 7,
+      "level": 19,
       "image": "images/189.png",
       "when": "",
       "types": [
@@ -457,10 +457,10 @@
       },
       "nature": "Naughty",
       "moves": [
-        "BODY SLAM",
+        "HYDRO CANNON",
         "ICE BEAM",
         "IMPRISON",
-        "SAND TOMB"
+        "SOLARBEAM"
       ]
     },
     {
@@ -657,7 +657,7 @@
     {
       "name": "Definitely",
       "species": "SEALEO",
-      "level": 6,
+      "level": 12,
       "image": "images/342.png",
       "when": "",
       "types": [
@@ -957,7 +957,7 @@
     {
       "name": "AlexOvTheA",
       "species": "LUNATONE",
-      "level": 63,
+      "level": 70,
       "image": "images/348.png",
       "when": "",
       "types": [
@@ -1039,9 +1039,9 @@
     },
     {
       "name": "Cigman",
-      "species": "HOPPIP",
-      "level": 15,
-      "image": "images/187.png",
+      "species": "SKIPLOOM",
+      "level": 18,
+      "image": "images/188.png",
       "when": "",
       "types": [
         "Fighting",
@@ -1050,12 +1050,12 @@
       "ability": "White Smoke",
       "ability_description": "Prevents ability reduction.",
       "stats": {
-        "hp": 35,
-        "atk": 35,
-        "def": 40,
-        "spa": 35,
-        "spd": 55,
-        "spe": 50
+        "hp": 55,
+        "atk": 45,
+        "def": 50,
+        "spa": 45,
+        "spd": 65,
+        "spe": 80
       },
       "nature": "Impish",
       "moves": [
@@ -1962,9 +1962,9 @@
     },
     {
       "name": "NatetheGr8",
-      "species": "GROVYLE",
-      "level": 22,
-      "image": "images/278.png",
+      "species": "SCEPTILE",
+      "level": 36,
+      "image": "images/279.png",
       "when": "2026-08-05T21:51:41Z",
       "types": [
         "Dark"
@@ -1972,17 +1972,17 @@
       "ability": "Cute Charm",
       "ability_description": "Infatuates on contact.",
       "stats": {
-        "hp": 50,
-        "atk": 65,
-        "def": 45,
-        "spa": 85,
-        "spd": 65,
-        "spe": 95
+        "hp": 70,
+        "atk": 85,
+        "def": 65,
+        "spa": 105,
+        "spd": 85,
+        "spe": 120
       },
       "nature": "Hardy",
       "moves": [
         "HYPER BEAM",
-        "LICK",
+        "DRAGONBREATH",
         "HI JUMP KICK",
         "OVERHEAT"
       ]
@@ -2309,9 +2309,9 @@
       },
       "nature": "Quiet",
       "moves": [
-        "TORMENT",
-        "PRESENT",
-        "SCREECH",
+        "FLY",
+        "SURF",
+        "WATERFALL",
         "FLASH"
       ]
     },
@@ -2399,9 +2399,9 @@
     },
     {
       "name": "Shotty",
-      "species": "VIBRAVA",
-      "level": 39,
-      "image": "images/333.png",
+      "species": "FLYGON",
+      "level": 45,
+      "image": "images/334.png",
       "when": "2026-08-06T15:23:37Z",
       "types": [
         "Dragon",
@@ -2410,19 +2410,19 @@
       "ability": "Overgrow",
       "ability_description": "Ups Grass moves in a pinch.",
       "stats": {
-        "hp": 50,
-        "atk": 70,
-        "def": 50,
-        "spa": 50,
-        "spd": 50,
-        "spe": 70
+        "hp": 80,
+        "atk": 100,
+        "def": 80,
+        "spa": 80,
+        "spd": 80,
+        "spe": 100
       },
       "nature": "Sassy",
       "moves": [
         "CRABHAMMER",
         "MEGA PUNCH",
         "TOXIC",
-        "SAND TOMB"
+        "SWORDS DANCE"
       ]
     },
     {
@@ -2454,9 +2454,9 @@
     },
     {
       "name": "RailValco",
-      "species": "PIDGEY",
-      "level": 13,
-      "image": "images/16.png",
+      "species": "PIDGEOTTO",
+      "level": 26,
+      "image": "images/17.png",
       "when": "2026-08-06T15:50:41Z",
       "types": [
         "Dragon",
@@ -2465,19 +2465,19 @@
       "ability": "Magnet Pull",
       "ability_description": "Traps Steel-type Pokemon.",
       "stats": {
-        "hp": 40,
-        "atk": 45,
-        "def": 40,
-        "spa": 35,
-        "spd": 35,
-        "spe": 56
+        "hp": 63,
+        "atk": 60,
+        "def": 55,
+        "spa": 50,
+        "spd": 50,
+        "spe": 71
       },
       "nature": "Sassy",
       "moves": [
         "HYPER VOICE",
         "DISABLE",
         "BELLY DRUM",
-        "SPLASH"
+        "DYNAMICPUNCH"
       ]
     },
     {
@@ -2781,9 +2781,9 @@
     },
     {
       "name": "Xarrant",
-      "species": "BULBASAUR",
-      "level": 19,
-      "image": "images/1.png",
+      "species": "VENUSAUR",
+      "level": 32,
+      "image": "images/3.png",
       "when": "2026-08-08T20:25:59Z",
       "types": [
         "Electric",
@@ -2792,19 +2792,19 @@
       "ability": "Insomnia",
       "ability_description": "Prevents sleep.",
       "stats": {
-        "hp": 45,
-        "atk": 49,
-        "def": 49,
-        "spa": 65,
-        "spd": 65,
-        "spe": 45
+        "hp": 80,
+        "atk": 82,
+        "def": 83,
+        "spa": 100,
+        "spd": 100,
+        "spe": 80
       },
       "nature": "Quiet",
       "moves": [
         "ICE PUNCH",
         "TWISTER",
         "LOVELY KISS",
-        "MUD SPORT"
+        "BITE"
       ]
     },
     {
@@ -2913,6 +2913,278 @@
         "MAGNITUDE",
         "EXTREMESPEED",
         "SLAM"
+      ]
+    },
+    {
+      "name": "FailingMarcel",
+      "species": "HITMONCHAN",
+      "level": 25,
+      "image": "images/107.png",
+      "when": "2026-08-08T20:46:26Z",
+      "types": [
+        "Electric"
+      ],
+      "ability": "Poison Point",
+      "ability_description": "Poisons foe on contact.",
+      "stats": {
+        "hp": 50,
+        "atk": 105,
+        "def": 79,
+        "spa": 35,
+        "spd": 110,
+        "spe": 76
+      },
+      "nature": "Hardy",
+      "moves": [
+        "WEATHER BALL",
+        "ROCK THROW",
+        "HORN ATTACK",
+        "METEOR MASH"
+      ]
+    },
+    {
+      "name": "Airyn",
+      "species": "NIDORAN?",
+      "level": 26,
+      "image": "images/29.png",
+      "when": "2026-08-08T20:49:48Z",
+      "types": [
+        "Ground"
+      ],
+      "ability": "Cute Charm",
+      "ability_description": "Infatuates on contact.",
+      "stats": {
+        "hp": 55,
+        "atk": 47,
+        "def": 52,
+        "spa": 40,
+        "spd": 40,
+        "spe": 41
+      },
+      "nature": "Lonely",
+      "moves": [
+        "SKY ATTACK",
+        "SAND?ATTACK",
+        "TEETER DANCE",
+        "CRABHAMMER"
+      ]
+    },
+    {
+      "name": "Obsidian",
+      "species": "RAIKOU",
+      "level": 27,
+      "image": "images/243.png",
+      "when": "2026-08-08T21:03:11Z",
+      "types": [
+        "Psychic"
+      ],
+      "ability": "Plus",
+      "ability_description": "Powers up with Minus.",
+      "stats": {
+        "hp": 90,
+        "atk": 85,
+        "def": 75,
+        "spa": 115,
+        "spd": 100,
+        "spe": 115
+      },
+      "nature": "Hardy",
+      "moves": [
+        "AEROBLAST",
+        "PSYCHO BOOST",
+        "WILL?O?WISP",
+        "ABSORB"
+      ]
+    },
+    {
+      "name": "StellarMaterial",
+      "species": "NATU",
+      "level": 25,
+      "image": "images/177.png",
+      "when": "2026-08-08T21:09:27Z",
+      "types": [
+        "Dragon",
+        "Grass"
+      ],
+      "ability": "Stench",
+      "ability_description": "Helps repel wild Pokemon.",
+      "stats": {
+        "hp": 40,
+        "atk": 50,
+        "def": 45,
+        "spa": 70,
+        "spd": 45,
+        "spe": 70
+      },
+      "nature": "Careful",
+      "moves": [
+        "POISONPOWDER",
+        "ROLLOUT",
+        "DISABLE",
+        "SECRET POWER"
+      ]
+    },
+    {
+      "name": "ThaezV",
+      "species": "SPINARAK",
+      "level": 30,
+      "image": "images/167.png",
+      "when": "2026-08-08T21:28:34Z",
+      "types": [
+        "Normal",
+        "Steel"
+      ],
+      "ability": "Clear Body",
+      "ability_description": "Prevents ability reduction.",
+      "stats": {
+        "hp": 40,
+        "atk": 60,
+        "def": 40,
+        "spa": 40,
+        "spd": 40,
+        "spe": 30
+      },
+      "nature": "Bashful",
+      "moves": [
+        "RAGE",
+        "MORNING SUN",
+        "ABSORB",
+        "MEGA PUNCH"
+      ]
+    },
+    {
+      "name": "Talonjay",
+      "species": "ELECTRIKE",
+      "level": 25,
+      "image": "images/337.png",
+      "when": "2026-08-08T21:30:26Z",
+      "types": [
+        "Ice"
+      ],
+      "ability": "Truant",
+      "ability_description": "Moves only every two turns.",
+      "stats": {
+        "hp": 40,
+        "atk": 45,
+        "def": 40,
+        "spa": 65,
+        "spd": 40,
+        "spe": 65
+      },
+      "nature": "Mild",
+      "moves": [
+        "FUTURE SIGHT",
+        "SAND TOMB",
+        "WATER SPOUT",
+        "FIRE PUNCH"
+      ]
+    },
+    {
+      "name": "Berg",
+      "species": "WAILMER",
+      "level": 22,
+      "image": "images/313.png",
+      "when": "2026-08-08T21:30:26Z",
+      "types": [
+        "Rock"
+      ],
+      "ability": "Shed Skin",
+      "ability_description": "Heals the body by shedding.",
+      "stats": {
+        "hp": 130,
+        "atk": 70,
+        "def": 35,
+        "spa": 70,
+        "spd": 35,
+        "spe": 60
+      },
+      "nature": "Modest",
+      "moves": [
+        "CRUNCH",
+        "HEADBUTT",
+        "HYDRO PUMP",
+        "FURY ATTACK"
+      ]
+    },
+    {
+      "name": "Venvetta",
+      "species": "PHANPY",
+      "level": 30,
+      "image": "images/231.png",
+      "when": "2026-08-08T21:40:59Z",
+      "types": [
+        "Psychic"
+      ],
+      "ability": "Drizzle",
+      "ability_description": "Summons rain in battle.",
+      "stats": {
+        "hp": 90,
+        "atk": 60,
+        "def": 60,
+        "spa": 40,
+        "spd": 40,
+        "spe": 40
+      },
+      "nature": "Mild",
+      "moves": [
+        "BONE RUSH",
+        "SANDSTORM",
+        "GROWTH",
+        "ICE BALL"
+      ]
+    },
+    {
+      "name": "Natsafan",
+      "species": "KANGASKHAN",
+      "level": 25,
+      "image": "images/115.png",
+      "when": "2026-08-08T21:43:01Z",
+      "types": [
+        "Electric"
+      ],
+      "ability": "Volt Absorb",
+      "ability_description": "Turns electricity into HP.",
+      "stats": {
+        "hp": 105,
+        "atk": 95,
+        "def": 80,
+        "spa": 40,
+        "spd": 80,
+        "spe": 90
+      },
+      "nature": "Gentle",
+      "moves": [
+        "ABSORB",
+        "POISON GAS",
+        "SPIKES",
+        "IRON DEFENSE"
+      ]
+    },
+    {
+      "name": "Rdom_",
+      "species": "ABSOL",
+      "level": 26,
+      "image": "images/376.png",
+      "when": "2026-08-08T21:43:01Z",
+      "types": [
+        "Flying"
+      ],
+      "ability": "Natural Cure",
+      "ability_description": "Heals upon switching out.",
+      "stats": {
+        "hp": 65,
+        "atk": 130,
+        "def": 60,
+        "spa": 75,
+        "spd": 60,
+        "spe": 75
+      },
+      "nature": "Sassy",
+      "moves": [
+        "FACADE",
+        "SLUDGE BOMB",
+        "AROMATHERAPY",
+        "ERUPTION"
       ]
     }
   ]
