@@ -1,5 +1,5 @@
 {
-  "version": 1786031662,
+  "version": 1786221441,
   "entries": [
     {
       "name": "HaloKazooi",
@@ -113,9 +113,9 @@
     },
     {
       "name": "fivesnakes",
-      "species": "MAGBY",
-      "level": 18,
-      "image": "images/240.png",
+      "species": "MAGMAR",
+      "level": 31,
+      "image": "images/126.png",
       "when": "",
       "types": [
         "Rock"
@@ -123,18 +123,19 @@
       "ability": "Thick Fat",
       "ability_description": "Heat-and-cold protection.",
       "stats": {
-        "hp": 45,
-        "atk": 75,
-        "def": 37,
-        "spa": 70,
-        "spd": 55,
-        "spe": 83
+        "hp": 65,
+        "atk": 95,
+        "def": 57,
+        "spa": 100,
+        "spd": 85,
+        "spe": 93
       },
       "nature": "Brave",
       "moves": [
         "RAPID SPIN",
         "DRILL PECK",
-        "BONEMERANG"
+        "BONEMERANG",
+        "CONFUSION"
       ]
     },
     {
@@ -330,7 +331,7 @@
     {
       "name": "Jackson",
       "species": "DRATINI",
-      "level": 20,
+      "level": 21,
       "image": "images/147.png",
       "when": "",
       "types": [
@@ -822,7 +823,7 @@
     {
       "name": "Xey2510",
       "species": "CAMERUPT",
-      "level": 35,
+      "level": 36,
       "image": "images/340.png",
       "when": "",
       "types": [
@@ -843,7 +844,7 @@
       "moves": [
         "EXTREMESPEED",
         "METEOR MASH",
-        "KNOCK OFF",
+        "FLY",
         "POWDER SNOW"
       ]
     },
@@ -956,7 +957,7 @@
     {
       "name": "AlexOvTheA",
       "species": "LUNATONE",
-      "level": 58,
+      "level": 63,
       "image": "images/348.png",
       "when": "",
       "types": [
@@ -1962,7 +1963,7 @@
     {
       "name": "NatetheGr8",
       "species": "GROVYLE",
-      "level": 21,
+      "level": 22,
       "image": "images/278.png",
       "when": "2026-08-05T21:51:41Z",
       "types": [
@@ -2398,22 +2399,23 @@
     },
     {
       "name": "Shotty",
-      "species": "TRAPINCH",
-      "level": 26,
-      "image": "images/332.png",
+      "species": "VIBRAVA",
+      "level": 39,
+      "image": "images/333.png",
       "when": "2026-08-06T15:23:37Z",
       "types": [
-        "Dragon"
+        "Dragon",
+        "Water"
       ],
-      "ability": "Magma Armor",
-      "ability_description": "Prevents freezing.",
+      "ability": "Overgrow",
+      "ability_description": "Ups Grass moves in a pinch.",
       "stats": {
-        "hp": 45,
-        "atk": 100,
-        "def": 45,
-        "spa": 45,
-        "spd": 45,
-        "spe": 10
+        "hp": 50,
+        "atk": 70,
+        "def": 50,
+        "spa": 50,
+        "spd": 50,
+        "spe": 70
       },
       "nature": "Sassy",
       "moves": [
@@ -2504,6 +2506,413 @@
         "FIRE SPIN",
         "SILVER WIND",
         "LEECH LIFE"
+      ]
+    },
+    {
+      "name": "Bali",
+      "species": "HOUNDOUR",
+      "level": 12,
+      "image": "images/228.png",
+      "when": "2026-08-08T19:37:52Z",
+      "types": [
+        "Ghost",
+        "Grass"
+      ],
+      "ability": "Truant",
+      "ability_description": "Moves only every two turns.",
+      "stats": {
+        "hp": 45,
+        "atk": 60,
+        "def": 30,
+        "spa": 80,
+        "spd": 50,
+        "spe": 65
+      },
+      "nature": "Serious",
+      "moves": [
+        "TAKE DOWN",
+        "SCRATCH",
+        "EARTHQUAKE"
+      ]
+    },
+    {
+      "name": "wolfrat49",
+      "species": "AMPHAROS",
+      "level": 30,
+      "image": "images/181.png",
+      "when": "2026-08-08T19:37:52Z",
+      "types": [
+        "Normal"
+      ],
+      "ability": "Run Away",
+      "ability_description": "Makes escaping easier.",
+      "stats": {
+        "hp": 90,
+        "atk": 75,
+        "def": 75,
+        "spa": 115,
+        "spd": 90,
+        "spe": 55
+      },
+      "nature": "Adamant",
+      "moves": [
+        "DOUBLE?EDGE",
+        "HYPER VOICE",
+        "DRILL PECK",
+        "ARM THRUST"
+      ]
+    },
+    {
+      "name": "Hallala",
+      "species": "MEDITITE",
+      "level": 28,
+      "image": "images/356.png",
+      "when": "2026-08-08T19:43:19Z",
+      "types": [
+        "Grass",
+        "Poison"
+      ],
+      "ability": "Overgrow",
+      "ability_description": "Ups Grass moves in a pinch.",
+      "stats": {
+        "hp": 30,
+        "atk": 40,
+        "def": 55,
+        "spa": 40,
+        "spd": 55,
+        "spe": 60
+      },
+      "nature": "Quiet",
+      "moves": [
+        "MINIMIZE",
+        "ICY WIND",
+        "FOLLOW ME",
+        "PAIN SPLIT"
+      ]
+    },
+    {
+      "name": "Koinman25",
+      "species": "VOLTORB",
+      "level": 26,
+      "image": "images/100.png",
+      "when": "2026-08-08T19:43:19Z",
+      "types": [
+        "Dark"
+      ],
+      "ability": "Sturdy",
+      "ability_description": "Negates 1-hit KO attacks.",
+      "stats": {
+        "hp": 40,
+        "atk": 30,
+        "def": 50,
+        "spa": 55,
+        "spd": 55,
+        "spe": 100
+      },
+      "nature": "Naughty",
+      "moves": [
+        "PRESENT",
+        "SEISMIC TOSS",
+        "LIGHT SCREEN",
+        "ANCIENTPOWER"
+      ]
+    },
+    {
+      "name": "Lallol",
+      "species": "MINUN",
+      "level": 28,
+      "image": "images/354.png",
+      "when": "2026-08-08T19:43:19Z",
+      "types": [
+        "Normal"
+      ],
+      "ability": "Insomnia",
+      "ability_description": "Prevents sleep.",
+      "stats": {
+        "hp": 60,
+        "atk": 40,
+        "def": 50,
+        "spa": 75,
+        "spd": 85,
+        "spe": 95
+      },
+      "nature": "Bashful",
+      "moves": [
+        "TACKLE",
+        "HYDRO CANNON",
+        "EMBER",
+        "VITAL THROW"
+      ]
+    },
+    {
+      "name": "Mogjt",
+      "species": "SMEARGLE",
+      "level": 26,
+      "image": "images/235.png",
+      "when": "2026-08-08T20:04:49Z",
+      "types": [
+        "Fire"
+      ],
+      "ability": "Trace",
+      "ability_description": "Copies special ability.",
+      "stats": {
+        "hp": 55,
+        "atk": 20,
+        "def": 35,
+        "spa": 20,
+        "spd": 45,
+        "spe": 75
+      },
+      "nature": "Jolly",
+      "moves": [
+        "HORN ATTACK",
+        "AERIAL ACE",
+        "MOONLIGHT"
+      ]
+    },
+    {
+      "name": "Kiki's Moon",
+      "species": "VAPOREON",
+      "level": 31,
+      "image": "images/134.png",
+      "when": "2026-08-08T20:04:49Z",
+      "types": [
+        "Dark"
+      ],
+      "ability": "White Smoke",
+      "ability_description": "Prevents ability reduction.",
+      "stats": {
+        "hp": 130,
+        "atk": 65,
+        "def": 60,
+        "spa": 110,
+        "spd": 95,
+        "spe": 65
+      },
+      "nature": "Lax",
+      "moves": [
+        "LOW KICK",
+        "HORN DRILL",
+        "LIGHT SCREEN",
+        "SHEER COLD"
+      ]
+    },
+    {
+      "name": "Moleculos",
+      "species": "CORPHISH",
+      "level": 26,
+      "image": "images/326.png",
+      "when": "2026-08-08T20:07:43Z",
+      "types": [
+        "Ground"
+      ],
+      "ability": "Soundproof",
+      "ability_description": "Avoids sound-based moves.",
+      "stats": {
+        "hp": 43,
+        "atk": 80,
+        "def": 65,
+        "spa": 50,
+        "spd": 35,
+        "spe": 35
+      },
+      "nature": "Docile",
+      "moves": [
+        "HYPER VOICE",
+        "SCREECH",
+        "SMOG",
+        "ROCK TOMB"
+      ]
+    },
+    {
+      "name": "tensatensho",
+      "species": "ANORITH",
+      "level": 28,
+      "image": "images/390.png",
+      "when": "2026-08-08T20:22:09Z",
+      "types": [
+        "Grass",
+        "Ghost"
+      ],
+      "ability": "Natural Cure",
+      "ability_description": "Heals upon switching out.",
+      "stats": {
+        "hp": 45,
+        "atk": 95,
+        "def": 50,
+        "spa": 40,
+        "spd": 50,
+        "spe": 75
+      },
+      "nature": "Bashful",
+      "moves": [
+        "POISON FANG",
+        "SUNNY DAY",
+        "SUPERPOWER",
+        "HEADBUTT"
+      ]
+    },
+    {
+      "name": "ACB",
+      "species": "MANKEY",
+      "level": 32,
+      "image": "images/56.png",
+      "when": "2026-08-08T20:25:59Z",
+      "types": [
+        "Normal"
+      ],
+      "ability": "Illuminate",
+      "ability_description": "Encounter rate increases.",
+      "stats": {
+        "hp": 40,
+        "atk": 80,
+        "def": 35,
+        "spa": 35,
+        "spd": 45,
+        "spe": 70
+      },
+      "nature": "Timid",
+      "moves": [
+        "ENDURE",
+        "SKETCH",
+        "DRAGON CLAW",
+        "STUN SPORE"
+      ]
+    },
+    {
+      "name": "Xarrant",
+      "species": "BULBASAUR",
+      "level": 19,
+      "image": "images/1.png",
+      "when": "2026-08-08T20:25:59Z",
+      "types": [
+        "Electric",
+        "Ground"
+      ],
+      "ability": "Insomnia",
+      "ability_description": "Prevents sleep.",
+      "stats": {
+        "hp": 45,
+        "atk": 49,
+        "def": 49,
+        "spa": 65,
+        "spd": 65,
+        "spe": 45
+      },
+      "nature": "Quiet",
+      "moves": [
+        "ICE PUNCH",
+        "TWISTER",
+        "LOVELY KISS",
+        "MUD SPORT"
+      ]
+    },
+    {
+      "name": "Duncan",
+      "species": "YANMA",
+      "level": 30,
+      "image": "images/193.png",
+      "when": "2026-08-08T20:28:19Z",
+      "types": [
+        "Dragon",
+        "Normal"
+      ],
+      "ability": "Intimidate",
+      "ability_description": "Lowers the foe's Attack.",
+      "stats": {
+        "hp": 65,
+        "atk": 65,
+        "def": 45,
+        "spa": 75,
+        "spd": 45,
+        "spe": 95
+      },
+      "nature": "Calm",
+      "moves": [
+        "BARRIER",
+        "SMELLINGSALT",
+        "METRONOME",
+        "SEISMIC TOSS"
+      ]
+    },
+    {
+      "name": "Seramind",
+      "species": "STANTLER",
+      "level": 12,
+      "image": "images/234.png",
+      "when": "2026-08-08T20:28:19Z",
+      "types": [
+        "Electric"
+      ],
+      "ability": "Thick Fat",
+      "ability_description": "Heat-and-cold protection.",
+      "stats": {
+        "hp": 73,
+        "atk": 95,
+        "def": 62,
+        "spa": 85,
+        "spd": 65,
+        "spe": 85
+      },
+      "nature": "Careful",
+      "moves": [
+        "FRUSTRATION",
+        "HOWL"
+      ]
+    },
+    {
+      "name": "Spagheet",
+      "species": "RALTS",
+      "level": 26,
+      "image": "images/392.png",
+      "when": "2026-08-08T20:31:11Z",
+      "types": [
+        "Grass"
+      ],
+      "ability": "Trace",
+      "ability_description": "Copies special ability.",
+      "stats": {
+        "hp": 28,
+        "atk": 25,
+        "def": 25,
+        "spa": 45,
+        "spd": 35,
+        "spe": 40
+      },
+      "nature": "Bashful",
+      "moves": [
+        "HAZE",
+        "HI JUMP KICK",
+        "SING",
+        "CLAMP"
+      ]
+    },
+    {
+      "name": "Lobos",
+      "species": "SABLEYE",
+      "level": 25,
+      "image": "images/322.png",
+      "when": "2026-08-08T20:35:35Z",
+      "types": [
+        "Fighting",
+        "Rock"
+      ],
+      "ability": "Compound Eyes",
+      "ability_description": "Raises accuracy.",
+      "stats": {
+        "hp": 50,
+        "atk": 75,
+        "def": 75,
+        "spa": 65,
+        "spd": 65,
+        "spe": 50
+      },
+      "nature": "Naive",
+      "moves": [
+        "SIGNAL BEAM",
+        "MAGNITUDE",
+        "EXTREMESPEED",
+        "SLAM"
       ]
     }
   ]
