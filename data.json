@@ -1,5 +1,5 @@
 {
-  "version": 1786226104,
+  "version": 1786239749,
   "entries": [
     {
       "name": "HaloKazooi",
@@ -657,7 +657,7 @@
     {
       "name": "Definitely",
       "species": "SEALEO",
-      "level": 12,
+      "level": 18,
       "image": "images/342.png",
       "when": "",
       "types": [
@@ -957,7 +957,7 @@
     {
       "name": "AlexOvTheA",
       "species": "LUNATONE",
-      "level": 70,
+      "level": 75,
       "image": "images/348.png",
       "when": "",
       "types": [
@@ -985,7 +985,7 @@
     {
       "name": "Arratem",
       "species": "STARYU",
-      "level": 14,
+      "level": 26,
       "image": "images/120.png",
       "when": "",
       "types": [
@@ -2454,9 +2454,9 @@
     },
     {
       "name": "RailValco",
-      "species": "PIDGEOTTO",
-      "level": 26,
-      "image": "images/17.png",
+      "species": "PIDGEOT",
+      "level": 37,
+      "image": "images/18.png",
       "when": "2026-08-06T15:50:41Z",
       "types": [
         "Dragon",
@@ -2465,17 +2465,17 @@
       "ability": "Magnet Pull",
       "ability_description": "Traps Steel-type Pokemon.",
       "stats": {
-        "hp": 63,
-        "atk": 60,
-        "def": 55,
-        "spa": 50,
-        "spd": 50,
-        "spe": 71
+        "hp": 83,
+        "atk": 80,
+        "def": 75,
+        "spa": 70,
+        "spd": 70,
+        "spe": 91
       },
       "nature": "Sassy",
       "moves": [
         "HYPER VOICE",
-        "DISABLE",
+        "CROSS CHOP",
         "BELLY DRUM",
         "DYNAMICPUNCH"
       ]
@@ -3185,6 +3185,407 @@
         "SLUDGE BOMB",
         "AROMATHERAPY",
         "ERUPTION"
+      ]
+    },
+    {
+      "name": "pizza",
+      "species": "SANDSHREW",
+      "level": 10,
+      "image": "images/27.png",
+      "when": "2026-08-09T00:53:52Z",
+      "types": [
+        "Psychic"
+      ],
+      "ability": "Minus",
+      "ability_description": "Powers up with Plus.",
+      "stats": {
+        "hp": 50,
+        "atk": 75,
+        "def": 85,
+        "spa": 20,
+        "spd": 30,
+        "spe": 40
+      },
+      "nature": "Hardy",
+      "moves": [
+        "DRILL PECK",
+        "VINE WHIP"
+      ]
+    },
+    {
+      "name": "DudeDidgeridoo",
+      "species": "BELDUM",
+      "level": 8,
+      "image": "images/398.png",
+      "when": "2026-08-09T00:53:52Z",
+      "types": [
+        "Fire",
+        "Rock"
+      ],
+      "ability": "Vital Spirit",
+      "ability_description": "Prevents sleep.",
+      "stats": {
+        "hp": 40,
+        "atk": 55,
+        "def": 80,
+        "spa": 35,
+        "spd": 60,
+        "spe": 30
+      },
+      "nature": "Naughty",
+      "moves": [
+        "LICK"
+      ]
+    },
+    {
+      "name": "Piratian",
+      "species": "PONYTA",
+      "level": 6,
+      "image": "images/77.png",
+      "when": "2026-08-09T00:53:52Z",
+      "types": [
+        "Grass"
+      ],
+      "ability": "Early Bird",
+      "ability_description": "Awakens quickly from sleep.",
+      "stats": {
+        "hp": 50,
+        "atk": 85,
+        "def": 55,
+        "spa": 65,
+        "spd": 65,
+        "spe": 90
+      },
+      "nature": "Bold",
+      "moves": [
+        "BARRAGE",
+        "DOOM DESIRE"
+      ]
+    },
+    {
+      "name": "Pogarithmic",
+      "species": "DUSKULL",
+      "level": 7,
+      "image": "images/361.png",
+      "when": "2026-08-09T00:53:52Z",
+      "types": [
+        "Flying"
+      ],
+      "ability": "Thick Fat",
+      "ability_description": "Heat-and-cold protection.",
+      "stats": {
+        "hp": 20,
+        "atk": 40,
+        "def": 90,
+        "spa": 30,
+        "spd": 90,
+        "spe": 25
+      },
+      "nature": "Rash",
+      "moves": [
+        "THUNDER",
+        "ABSORB",
+        "STUN SPORE"
+      ]
+    },
+    {
+      "name": "Kamylian",
+      "species": "SWABLU",
+      "level": 17,
+      "image": "images/358.png",
+      "when": "2026-08-09T01:01:26Z",
+      "types": [
+        "Flying",
+        "Dragon"
+      ],
+      "ability": "Rough Skin",
+      "ability_description": "Hurts to touch.",
+      "stats": {
+        "hp": 45,
+        "atk": 40,
+        "def": 60,
+        "spa": 40,
+        "spd": 75,
+        "spe": 50
+      },
+      "nature": "Hasty",
+      "moves": [
+        "LOCK?ON",
+        "ICY WIND",
+        "TRIPLE KICK",
+        "WATER PULSE"
+      ]
+    },
+    {
+      "name": "SpacemanSpiff",
+      "species": "GIRAFARIG",
+      "level": 33,
+      "image": "images/203.png",
+      "when": "2026-08-09T01:02:41Z",
+      "types": [
+        "Dark",
+        "Poison"
+      ],
+      "ability": "Vital Spirit",
+      "ability_description": "Prevents sleep.",
+      "stats": {
+        "hp": 70,
+        "atk": 80,
+        "def": 65,
+        "spa": 90,
+        "spd": 65,
+        "spe": 85
+      },
+      "nature": "Quiet",
+      "moves": [
+        "PSYWAVE",
+        "HYPER BEAM",
+        "MIST",
+        "WATER GUN"
+      ]
+    },
+    {
+      "name": "DharcNova",
+      "species": "MEWTWO",
+      "level": 33,
+      "image": "images/150.png",
+      "when": "2026-08-09T01:03:57Z",
+      "types": [
+        "Steel"
+      ],
+      "ability": "Water Veil",
+      "ability_description": "Prevents burns.",
+      "stats": {
+        "hp": 106,
+        "atk": 110,
+        "def": 90,
+        "spa": 154,
+        "spd": 90,
+        "spe": 130
+      },
+      "nature": "Docile",
+      "moves": [
+        "MUD?SLAP",
+        "TAKE DOWN",
+        "SLAM",
+        "MEGA KICK"
+      ]
+    },
+    {
+      "name": "carsydtonney",
+      "species": "DODUO",
+      "level": 30,
+      "image": "images/84.png",
+      "when": "2026-08-09T01:06:28Z",
+      "types": [
+        "Water",
+        "Dragon"
+      ],
+      "ability": "Sticky Hold",
+      "ability_description": "Prevents item theft.",
+      "stats": {
+        "hp": 35,
+        "atk": 85,
+        "def": 45,
+        "spa": 35,
+        "spd": 35,
+        "spe": 75
+      },
+      "nature": "Jolly",
+      "moves": [
+        "THIEF",
+        "SPITE",
+        "HARDEN",
+        "AURORA BEAM"
+      ]
+    },
+    {
+      "name": "Nox7M",
+      "species": "AIPOM",
+      "level": 34,
+      "image": "images/190.png",
+      "when": "2026-08-09T01:06:28Z",
+      "types": [
+        "Dark"
+      ],
+      "ability": "Rock Head",
+      "ability_description": "Prevents recoil damage.",
+      "stats": {
+        "hp": 55,
+        "atk": 70,
+        "def": 55,
+        "spa": 40,
+        "spd": 55,
+        "spe": 85
+      },
+      "nature": "Brave",
+      "moves": [
+        "SMELLINGSALT",
+        "DOUBLE KICK",
+        "GIGA DRAIN",
+        "HEADBUTT"
+      ]
+    },
+    {
+      "name": "Borsti",
+      "species": "SHROOMISH",
+      "level": 31,
+      "image": "images/306.png",
+      "when": "2026-08-09T01:07:44Z",
+      "types": [
+        "Ghost"
+      ],
+      "ability": "Sand Stream",
+      "ability_description": "Summons a sandstorm.",
+      "stats": {
+        "hp": 60,
+        "atk": 40,
+        "def": 60,
+        "spa": 40,
+        "spd": 60,
+        "spe": 35
+      },
+      "nature": "Adamant",
+      "moves": [
+        "SKULL BASH",
+        "PRESENT",
+        "WATER SPOUT",
+        "MEGAHORN"
+      ]
+    },
+    {
+      "name": "thedarklord000",
+      "species": "WHISMUR",
+      "level": 30,
+      "image": "images/370.png",
+      "when": "2026-08-09T01:11:31Z",
+      "types": [
+        "Grass"
+      ],
+      "ability": "Drizzle",
+      "ability_description": "Summons rain in battle.",
+      "stats": {
+        "hp": 64,
+        "atk": 51,
+        "def": 23,
+        "spa": 51,
+        "spd": 23,
+        "spe": 28
+      },
+      "nature": "Bashful",
+      "moves": [
+        "CONFUSE RAY",
+        "ICE BEAM",
+        "LEAF BLADE",
+        "GROWL"
+      ]
+    },
+    {
+      "name": "Ulgahut",
+      "species": "ABRA",
+      "level": 28,
+      "image": "images/63.png",
+      "when": "2026-08-09T01:11:31Z",
+      "types": [
+        "Steel"
+      ],
+      "ability": "Shed Skin",
+      "ability_description": "Heals the body by shedding.",
+      "stats": {
+        "hp": 25,
+        "atk": 20,
+        "def": 15,
+        "spa": 105,
+        "spd": 55,
+        "spe": 90
+      },
+      "nature": "Jolly",
+      "moves": [
+        "WHIRLWIND",
+        "PSYCHO BOOST"
+      ]
+    },
+    {
+      "name": "mftwelve",
+      "species": "ZAPDOS",
+      "level": 28,
+      "image": "images/145.png",
+      "when": "2026-08-09T01:27:51Z",
+      "types": [
+        "Fighting",
+        "Ground"
+      ],
+      "ability": "Wonder Guard",
+      "ability_description": "\u201cSuper effective\u201d hits.",
+      "stats": {
+        "hp": 90,
+        "atk": 90,
+        "def": 85,
+        "spa": 125,
+        "spd": 90,
+        "spe": 100
+      },
+      "nature": "Rash",
+      "moves": [
+        "DIG",
+        "THUNDERBOLT",
+        "WHIRLPOOL",
+        "MIST BALL"
+      ]
+    },
+    {
+      "name": "Fossy_J",
+      "species": "GEODUDE",
+      "level": 12,
+      "image": "images/74.png",
+      "when": "2026-08-09T01:29:06Z",
+      "types": [
+        "Bug",
+        "Dragon"
+      ],
+      "ability": "Pure Power",
+      "ability_description": "Raises Attack.",
+      "stats": {
+        "hp": 40,
+        "atk": 80,
+        "def": 100,
+        "spa": 30,
+        "spd": 30,
+        "spe": 20
+      },
+      "nature": "Bold",
+      "moves": [
+        "ROLE PLAY",
+        "SUBMISSION",
+        "SHEER COLD",
+        "BLOCK"
+      ]
+    },
+    {
+      "name": "GlassBird",
+      "species": "HITMONTOP",
+      "level": 16,
+      "image": "images/237.png",
+      "when": "2026-08-09T01:32:53Z",
+      "types": [
+        "Electric"
+      ],
+      "ability": "Forecast",
+      "ability_description": "Changes with the weather.",
+      "stats": {
+        "hp": 50,
+        "atk": 95,
+        "def": 95,
+        "spa": 35,
+        "spd": 110,
+        "spe": 70
+      },
+      "nature": "Relaxed",
+      "moves": [
+        "SMOKESCREEN",
+        "FLAME WHEEL",
+        "SAFEGUARD",
+        "SWAGGER"
       ]
     }
   ]
