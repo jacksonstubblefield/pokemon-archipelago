@@ -1,5 +1,5 @@
 {
-  "version": 1786316418,
+  "version": 1786375342,
   "entries": [
     {
       "name": "HaloKazooi",
@@ -602,7 +602,7 @@
     {
       "name": "vemid",
       "species": "SWINUB",
-      "level": 12,
+      "level": 28,
       "image": "images/220.png",
       "when": "",
       "types": [
@@ -657,7 +657,7 @@
     {
       "name": "Definitely",
       "species": "SEALEO",
-      "level": 18,
+      "level": 37,
       "image": "images/342.png",
       "when": "",
       "types": [
@@ -823,7 +823,7 @@
     {
       "name": "Xey2510",
       "species": "CAMERUPT",
-      "level": 36,
+      "level": 38,
       "image": "images/340.png",
       "when": "",
       "types": [
@@ -844,8 +844,8 @@
       "moves": [
         "EXTREMESPEED",
         "METEOR MASH",
-        "FLY",
-        "POWDER SNOW"
+        "CUT",
+        "ROCK SMASH"
       ]
     },
     {
@@ -957,7 +957,7 @@
     {
       "name": "AlexOvTheA",
       "species": "LUNATONE",
-      "level": 75,
+      "level": 83,
       "image": "images/348.png",
       "when": "",
       "types": [
@@ -984,22 +984,23 @@
     },
     {
       "name": "Arratem",
-      "species": "STARYU",
-      "level": 26,
-      "image": "images/120.png",
+      "species": "STARMIE",
+      "level": 31,
+      "image": "images/121.png",
       "when": "",
       "types": [
-        "Bug"
+        "Bug",
+        "Flying"
       ],
       "ability": "Keen Eye",
       "ability_description": "Prevents loss of accuracy.",
       "stats": {
-        "hp": 30,
-        "atk": 45,
-        "def": 55,
-        "spa": 70,
-        "spd": 55,
-        "spe": 85
+        "hp": 60,
+        "atk": 75,
+        "def": 85,
+        "spa": 100,
+        "spd": 85,
+        "spe": 115
       },
       "nature": "Quirky",
       "moves": [
@@ -2455,7 +2456,7 @@
     {
       "name": "RailValco",
       "species": "PIDGEOT",
-      "level": 37,
+      "level": 38,
       "image": "images/18.png",
       "when": "2026-08-06T15:50:41Z",
       "types": [
@@ -3586,6 +3587,116 @@
         "FLAME WHEEL",
         "SAFEGUARD",
         "SWAGGER"
+      ]
+    },
+    {
+      "name": "stellarumMatrix",
+      "species": "PORYGON2",
+      "level": 26,
+      "image": "images/233.png",
+      "when": "2026-08-10T15:00:32Z",
+      "types": [
+        "Dragon"
+      ],
+      "ability": "Cloud Nine",
+      "ability_description": "Negates weather effects.",
+      "stats": {
+        "hp": 85,
+        "atk": 80,
+        "def": 90,
+        "spa": 105,
+        "spd": 95,
+        "spe": 60
+      },
+      "nature": "Quiet",
+      "moves": [
+        "BUBBLEBEAM",
+        "SACRED FIRE",
+        "HELPING HAND",
+        "THUNDERSHOCK"
+      ]
+    },
+    {
+      "name": "Eiche",
+      "species": "NUMEL",
+      "level": 28,
+      "image": "images/339.png",
+      "when": "2026-08-10T15:03:03Z",
+      "types": [
+        "Ice",
+        "Flying"
+      ],
+      "ability": "Truant",
+      "ability_description": "Moves only every two turns.",
+      "stats": {
+        "hp": 60,
+        "atk": 60,
+        "def": 40,
+        "spa": 65,
+        "spd": 45,
+        "spe": 35
+      },
+      "nature": "Calm",
+      "moves": [
+        "METAL CLAW",
+        "POISON GAS",
+        "DOUBLE KICK",
+        "PRESENT"
+      ]
+    },
+    {
+      "name": "DUMJ01",
+      "species": "TOGEPI",
+      "level": 28,
+      "image": "images/175.png",
+      "when": "2026-08-10T15:04:18Z",
+      "types": [
+        "Poison"
+      ],
+      "ability": "Vital Spirit",
+      "ability_description": "Prevents sleep.",
+      "stats": {
+        "hp": 35,
+        "atk": 20,
+        "def": 65,
+        "spa": 40,
+        "spd": 65,
+        "spe": 20
+      },
+      "nature": "Bold",
+      "moves": [
+        "SCARY FACE",
+        "SEISMIC TOSS",
+        "THUNDERBOLT",
+        "SYNTHESIS"
+      ]
+    },
+    {
+      "name": "Venilor",
+      "species": "QWILFISH",
+      "level": 29,
+      "image": "images/211.png",
+      "when": "2026-08-10T15:09:21Z",
+      "types": [
+        "Psychic",
+        "Ghost"
+      ],
+      "ability": "Flash Fire",
+      "ability_description": "Powers up if hit by fire.",
+      "stats": {
+        "hp": 65,
+        "atk": 95,
+        "def": 75,
+        "spa": 55,
+        "spd": 55,
+        "spe": 85
+      },
+      "nature": "Serious",
+      "moves": [
+        "FURY ATTACK",
+        "MIST BALL",
+        "SPORE",
+        "POISONPOWDER"
       ]
     }
   ]
