@@ -1,10 +1,10 @@
 {
-  "version": 1788270720,
+  "version": 1788271862,
   "entries": [
     {
       "name": "Natsafan",
       "species": "REGISTEEL",
-      "level": 5,
+      "level": 10,
       "image": "images/403.png",
       "when": "2026-09-01T13:48:37Z",
       "types": [
@@ -23,7 +23,109 @@
       "nature": "Jolly",
       "moves": [
         "LEECH LIFE",
-        "CRABHAMMER"
+        "CRABHAMMER",
+        "VITAL THROW"
+      ]
+    },
+    {
+      "name": "Raymuss",
+      "species": "SPOINK",
+      "level": 5,
+      "image": "images/351.png",
+      "when": "2026-09-01T14:04:33Z",
+      "types": [
+        "Rock"
+      ],
+      "ability": "Chlorophyll",
+      "ability_description": "Raises Speed in sunshine.",
+      "stats": {
+        "hp": 60,
+        "atk": 25,
+        "def": 35,
+        "spa": 70,
+        "spd": 80,
+        "spe": 60
+      },
+      "nature": "Impish",
+      "moves": [
+        "ROCK THROW",
+        "SECRET POWER"
+      ]
+    },
+    {
+      "name": "vergeofapathy",
+      "species": "ONIX",
+      "level": 3,
+      "image": "images/95.png",
+      "when": "2026-09-01T14:06:04Z",
+      "types": [
+        "Rock",
+        "Bug"
+      ],
+      "ability": "Forecast",
+      "ability_description": "Changes with the weather.",
+      "stats": {
+        "hp": 35,
+        "atk": 45,
+        "def": 160,
+        "spa": 30,
+        "spd": 45,
+        "spe": 70
+      },
+      "nature": "Jolly",
+      "moves": [
+        "NATURE POWER",
+        "ROCK THROW"
+      ]
+    },
+    {
+      "name": "sylenz",
+      "species": "SMEARGLE",
+      "level": 9,
+      "image": "images/235.png",
+      "when": "2026-09-01T14:07:00Z",
+      "types": [
+        "Poison"
+      ],
+      "ability": "Rock Head",
+      "ability_description": "Prevents recoil damage.",
+      "stats": {
+        "hp": 55,
+        "atk": 20,
+        "def": 35,
+        "spa": 20,
+        "spd": 45,
+        "spe": 75
+      },
+      "nature": "Timid",
+      "moves": [
+        "POISON FANG"
+      ]
+    },
+    {
+      "name": "Enff",
+      "species": "WAILMER",
+      "level": 7,
+      "image": "images/313.png",
+      "when": "2026-09-01T14:09:29Z",
+      "types": [
+        "Psychic"
+      ],
+      "ability": "Cloud Nine",
+      "ability_description": "Negates weather effects.",
+      "stats": {
+        "hp": 130,
+        "atk": 70,
+        "def": 35,
+        "spa": 70,
+        "spd": 35,
+        "spe": 60
+      },
+      "nature": "Naughty",
+      "moves": [
+        "WILL?O?WISP",
+        "MEGA DRAIN",
+        "TELEPORT"
       ]
     }
   ]
