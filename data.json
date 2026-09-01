@@ -1,4 +1,30 @@
 {
-  "version": 1788269786,
-  "entries": []
+  "version": 1788270720,
+  "entries": [
+    {
+      "name": "Natsafan",
+      "species": "REGISTEEL",
+      "level": 5,
+      "image": "images/403.png",
+      "when": "2026-09-01T13:48:37Z",
+      "types": [
+        "Dragon"
+      ],
+      "ability": "Drizzle",
+      "ability_description": "Summons rain in battle.",
+      "stats": {
+        "hp": 80,
+        "atk": 75,
+        "def": 150,
+        "spa": 75,
+        "spd": 150,
+        "spe": 50
+      },
+      "nature": "Jolly",
+      "moves": [
+        "LEECH LIFE",
+        "CRABHAMMER"
+      ]
+    }
+  ]
 }
