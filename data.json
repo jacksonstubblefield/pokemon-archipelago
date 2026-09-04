@@ -1,10 +1,10 @@
 {
-  "version": 1788273888,
+  "version": 1788549810,
   "entries": [
     {
       "name": "Natsafan",
       "species": "REGISTEEL",
-      "level": 18,
+      "level": 22,
       "image": "images/403.png",
       "when": "2026-09-01T13:48:37Z",
       "types": [
@@ -30,9 +30,9 @@
     },
     {
       "name": "Raymuss",
-      "species": "SPOINK",
-      "level": 17,
-      "image": "images/351.png",
+      "species": "GRUMPIG",
+      "level": 32,
+      "image": "images/352.png",
       "when": "2026-09-01T14:04:33Z",
       "types": [
         "Rock"
@@ -40,19 +40,19 @@
       "ability": "Chlorophyll",
       "ability_description": "Raises Speed in sunshine.",
       "stats": {
-        "hp": 60,
-        "atk": 25,
-        "def": 35,
-        "spa": 70,
-        "spd": 80,
-        "spe": 60
+        "hp": 80,
+        "atk": 45,
+        "def": 65,
+        "spa": 90,
+        "spd": 110,
+        "spe": 80
       },
       "nature": "Impish",
       "moves": [
-        "ROCK THROW",
+        "SANDSTORM",
         "SECRET POWER",
         "ROLLOUT",
-        "ROCK BLAST"
+        "ROCK TOMB"
       ]
     },
     {
@@ -85,7 +85,7 @@
     {
       "name": "sylenz",
       "species": "SMEARGLE",
-      "level": 18,
+      "level": 22,
       "image": "images/235.png",
       "when": "2026-09-01T14:07:00Z",
       "types": [
@@ -104,7 +104,8 @@
       "nature": "Timid",
       "moves": [
         "POISON FANG",
-        "DOUBLE?EDGE"
+        "DOUBLE?EDGE",
+        "AMNESIA"
       ]
     },
     {
@@ -162,9 +163,9 @@
     },
     {
       "name": "Hallala",
-      "species": "CHANSEY",
-      "level": 19,
-      "image": "images/113.png",
+      "species": "BLISSEY",
+      "level": 24,
+      "image": "images/242.png",
       "when": "2026-09-01T14:21:49Z",
       "types": [
         "Ground"
@@ -172,12 +173,12 @@
       "ability": "Poison Point",
       "ability_description": "Poisons foe on contact.",
       "stats": {
-        "hp": 250,
-        "atk": 5,
-        "def": 5,
-        "spa": 35,
-        "spd": 105,
-        "spe": 50
+        "hp": 255,
+        "atk": 10,
+        "def": 10,
+        "spa": 75,
+        "spd": 135,
+        "spe": 55
       },
       "nature": "Brave",
       "moves": [
@@ -190,7 +191,7 @@
     {
       "name": "Hexa :3",
       "species": "SNORUNT",
-      "level": 11,
+      "level": 26,
       "image": "images/346.png",
       "when": "2026-09-01T14:21:49Z",
       "types": [
@@ -208,7 +209,7 @@
       },
       "nature": "Sassy",
       "moves": [
-        "POISON GAS",
+        "TOXIC",
         "TRIPLE KICK",
         "POISON STING",
         "ERUPTION"
@@ -319,7 +320,7 @@
     {
       "name": "Simuhesa",
       "species": "KANGASKHAN",
-      "level": 6,
+      "level": 18,
       "image": "images/115.png",
       "when": "2026-09-01T14:44:27Z",
       "types": [
@@ -338,7 +339,115 @@
       "nature": "Naive",
       "moves": [
         "CLAMP",
-        "EARTHQUAKE"
+        "EARTHQUAKE",
+        "SURF",
+        "FOCUS PUNCH"
+      ]
+    },
+    {
+      "name": "Bbrpower",
+      "species": "JUMPLUFF",
+      "level": 27,
+      "image": "images/189.png",
+      "when": "2026-09-02T03:07:38Z",
+      "types": [
+        "Rock",
+        "Dark"
+      ],
+      "ability": "Trace",
+      "ability_description": "Copies special ability.",
+      "stats": {
+        "hp": 75,
+        "atk": 55,
+        "def": 70,
+        "spa": 55,
+        "spd": 85,
+        "spe": 110
+      },
+      "nature": "Hardy",
+      "moves": [
+        "SNATCH",
+        "FIRE SPIN",
+        "FAINT ATTACK",
+        "AURORA BEAM"
+      ]
+    },
+    {
+      "name": "KnusperBKN",
+      "species": "SNORLAX",
+      "level": 8,
+      "image": "images/143.png",
+      "when": "2026-09-02T03:09:27Z",
+      "types": [
+        "Rock"
+      ],
+      "ability": "Serene Grace",
+      "ability_description": "Promotes added effects.",
+      "stats": {
+        "hp": 160,
+        "atk": 110,
+        "def": 65,
+        "spa": 65,
+        "spd": 110,
+        "spe": 30
+      },
+      "nature": "Timid",
+      "moves": [
+        "METAL CLAW",
+        "ROCK TOMB"
+      ]
+    },
+    {
+      "name": "SinsOfAWindmill",
+      "species": "MR? MIME",
+      "level": 6,
+      "image": "images/122.png",
+      "when": "2026-09-03T01:16:34Z",
+      "types": [
+        "Electric"
+      ],
+      "ability": "Shield Dust",
+      "ability_description": "Prevents added effects.",
+      "stats": {
+        "hp": 40,
+        "atk": 45,
+        "def": 65,
+        "spa": 100,
+        "spd": 120,
+        "spe": 90
+      },
+      "nature": "Modest",
+      "moves": [
+        "SLAM",
+        "MEGA KICK"
+      ]
+    },
+    {
+      "name": "Phlap",
+      "species": "PUPITAR",
+      "level": 31,
+      "image": "images/247.png",
+      "when": "2026-09-03T01:24:08Z",
+      "types": [
+        "Rock",
+        "Psychic"
+      ],
+      "ability": "Swift Swim",
+      "ability_description": "Raises Speed in rain.",
+      "stats": {
+        "hp": 70,
+        "atk": 84,
+        "def": 70,
+        "spa": 65,
+        "spd": 70,
+        "spe": 51
+      },
+      "nature": "Lax",
+      "moves": [
+        "COSMIC POWER",
+        "PIN MISSILE",
+        "SING",
+        "ROCK THROW"
       ]
     }
   ]
