@@ -1,10 +1,10 @@
 {
-  "version": 1788549810,
+  "version": 1789059260,
   "entries": [
     {
       "name": "Natsafan",
       "species": "REGISTEEL",
-      "level": 22,
+      "level": 26,
       "image": "images/403.png",
       "when": "2026-09-01T13:48:37Z",
       "types": [
@@ -31,7 +31,7 @@
     {
       "name": "Raymuss",
       "species": "GRUMPIG",
-      "level": 32,
+      "level": 34,
       "image": "images/352.png",
       "when": "2026-09-01T14:04:33Z",
       "types": [
@@ -110,9 +110,9 @@
     },
     {
       "name": "Enff",
-      "species": "WAILMER",
-      "level": 28,
-      "image": "images/313.png",
+      "species": "WAILORD",
+      "level": 54,
+      "image": "images/314.png",
       "when": "2026-09-01T14:09:29Z",
       "types": [
         "Psychic"
@@ -120,17 +120,17 @@
       "ability": "Cloud Nine",
       "ability_description": "Negates weather effects.",
       "stats": {
-        "hp": 130,
-        "atk": 70,
-        "def": 35,
-        "spa": 70,
-        "spd": 35,
+        "hp": 170,
+        "atk": 90,
+        "def": 45,
+        "spa": 90,
+        "spd": 45,
         "spe": 60
       },
       "nature": "Naughty",
       "moves": [
-        "WILL?O?WISP",
-        "MEGA DRAIN",
+        "CALM MIND",
+        "ICE BEAM",
         "AERIAL ACE",
         "LUSTER PURGE"
       ]
@@ -191,7 +191,7 @@
     {
       "name": "Hexa :3",
       "species": "SNORUNT",
-      "level": 26,
+      "level": 39,
       "image": "images/346.png",
       "when": "2026-09-01T14:21:49Z",
       "types": [
@@ -209,9 +209,9 @@
       },
       "nature": "Sassy",
       "moves": [
-        "TOXIC",
+        "BULLET SEED",
         "TRIPLE KICK",
-        "POISON STING",
+        "TRI ATTACK",
         "ERUPTION"
       ]
     },
@@ -425,7 +425,7 @@
     {
       "name": "Phlap",
       "species": "PUPITAR",
-      "level": 31,
+      "level": 41,
       "image": "images/247.png",
       "when": "2026-09-03T01:24:08Z",
       "types": [
@@ -446,8 +446,608 @@
       "moves": [
         "COSMIC POWER",
         "PIN MISSILE",
-        "SING",
+        "FLASH",
         "ROCK THROW"
+      ]
+    },
+    {
+      "name": "GlassBird",
+      "species": "LUGIA",
+      "level": 18,
+      "image": "images/249.png",
+      "when": "2026-09-06T00:48:43Z",
+      "types": [
+        "Ghost",
+        "Flying"
+      ],
+      "ability": "Rock Head",
+      "ability_description": "Prevents recoil damage.",
+      "stats": {
+        "hp": 106,
+        "atk": 90,
+        "def": 130,
+        "spa": 90,
+        "spd": 154,
+        "spe": 110
+      },
+      "nature": "Docile",
+      "moves": [
+        "SPITE",
+        "JUMP KICK",
+        "SUPERPOWER"
+      ]
+    },
+    {
+      "name": "saca",
+      "species": "EXEGGUTOR",
+      "level": 10,
+      "image": "images/103.png",
+      "when": "2026-09-06T00:50:00Z",
+      "types": [
+        "Water",
+        "Flying"
+      ],
+      "ability": "Lightning Rod",
+      "ability_description": "Draws electrical moves.",
+      "stats": {
+        "hp": 95,
+        "atk": 95,
+        "def": 85,
+        "spa": 125,
+        "spd": 65,
+        "spe": 55
+      },
+      "nature": "Quiet",
+      "moves": [
+        "BEAT UP",
+        "BODY SLAM",
+        "ROLLING KICK",
+        "RAPID SPIN"
+      ]
+    },
+    {
+      "name": "Dango",
+      "species": "VICTREEBEL",
+      "level": 28,
+      "image": "images/71.png",
+      "when": "2026-09-08T21:05:17Z",
+      "types": [
+        "Ground",
+        "Rock"
+      ],
+      "ability": "Natural Cure",
+      "ability_description": "Heals upon switching out.",
+      "stats": {
+        "hp": 80,
+        "atk": 105,
+        "def": 65,
+        "spa": 100,
+        "spd": 60,
+        "spe": 70
+      },
+      "nature": "Modest",
+      "moves": [
+        "DIG",
+        "SLASH",
+        "ROCK SLIDE",
+        "POISONPOWDER"
+      ]
+    },
+    {
+      "name": "ichfliege",
+      "species": "SHEDINJA",
+      "level": 26,
+      "image": "images/303.png",
+      "when": "2026-09-08T21:05:30Z",
+      "types": [
+        "Poison",
+        "Rock"
+      ],
+      "ability": "Truant",
+      "ability_description": "Moves only every two turns.",
+      "stats": {
+        "hp": 1,
+        "atk": 90,
+        "def": 45,
+        "spa": 30,
+        "spd": 30,
+        "spe": 40
+      },
+      "nature": "Impish",
+      "moves": [
+        "SPORE",
+        "EGG BOMB",
+        "LEECH LIFE",
+        "PETAL DANCE"
+      ]
+    },
+    {
+      "name": "Haley",
+      "species": "PORYGON",
+      "level": 31,
+      "image": "images/137.png",
+      "when": "2026-09-08T21:09:25Z",
+      "types": [
+        "Dragon"
+      ],
+      "ability": "Shadow Tag",
+      "ability_description": "Prevents the foe's escape.",
+      "stats": {
+        "hp": 65,
+        "atk": 60,
+        "def": 70,
+        "spa": 85,
+        "spd": 75,
+        "spe": 40
+      },
+      "nature": "Hardy",
+      "moves": [
+        "HYDRO CANNON",
+        "OUTRAGE",
+        "EXPLOSION",
+        "TWISTER"
+      ]
+    },
+    {
+      "name": "Lallol",
+      "species": "DRAGONITE",
+      "level": 56,
+      "image": "images/149.png",
+      "when": "2026-09-08T21:11:52Z",
+      "types": [
+        "Water",
+        "Fighting"
+      ],
+      "ability": "Magma Armor",
+      "ability_description": "Prevents freezing.",
+      "stats": {
+        "hp": 91,
+        "atk": 134,
+        "def": 95,
+        "spa": 100,
+        "spd": 100,
+        "spe": 80
+      },
+      "nature": "Naughty",
+      "moves": [
+        "ICE BEAM",
+        "VITAL THROW",
+        "EARTHQUAKE",
+        "DRAGON DANCE"
+      ]
+    },
+    {
+      "name": "Roxanne",
+      "species": "PLUSLE",
+      "level": 25,
+      "image": "images/353.png",
+      "when": "2026-09-08T21:12:41Z",
+      "types": [
+        "Bug"
+      ],
+      "ability": "Magnet Pull",
+      "ability_description": "Traps Steel-type Pokemon.",
+      "stats": {
+        "hp": 60,
+        "atk": 50,
+        "def": 40,
+        "spa": 85,
+        "spd": 75,
+        "spe": 95
+      },
+      "nature": "Gentle",
+      "moves": [
+        "SIGNAL BEAM",
+        "LOCK?ON",
+        "FRUSTRATION",
+        "GUST"
+      ]
+    },
+    {
+      "name": "StellarMaterial",
+      "species": "CASTFORM",
+      "level": 35,
+      "image": "images/385.png",
+      "when": "2026-09-08T21:16:55Z",
+      "types": [
+        "Psychic"
+      ],
+      "ability": "Drought",
+      "ability_description": "Summons sunlight in battle.",
+      "stats": {
+        "hp": 70,
+        "atk": 70,
+        "def": 70,
+        "spa": 70,
+        "spd": 70,
+        "spe": 70
+      },
+      "nature": "Lax",
+      "moves": [
+        "GIGA DRAIN",
+        "BONE RUSH",
+        "ASTONISH",
+        "WATER SPOUT"
+      ]
+    },
+    {
+      "name": "silv3r_54",
+      "species": "PIDGEOTTO",
+      "level": 34,
+      "image": "images/17.png",
+      "when": "2026-09-10T15:43:39Z",
+      "types": [
+        "Steel",
+        "Normal"
+      ],
+      "ability": "Intimidate",
+      "ability_description": "Lowers the foe's Attack.",
+      "stats": {
+        "hp": 63,
+        "atk": 60,
+        "def": 55,
+        "spa": 50,
+        "spd": 50,
+        "spe": 71
+      },
+      "nature": "Lax",
+      "moves": [
+        "CLAMP",
+        "DRAGONBREATH",
+        "MIND READER",
+        "RAZOR WIND"
+      ]
+    },
+    {
+      "name": "pizza",
+      "species": "FEEBAS",
+      "level": 9,
+      "image": "images/328.png",
+      "when": "2026-09-10T15:43:39Z",
+      "types": [
+        "Fire"
+      ],
+      "ability": "Swift Swim",
+      "ability_description": "Raises Speed in rain.",
+      "stats": {
+        "hp": 20,
+        "atk": 15,
+        "def": 20,
+        "spa": 10,
+        "spd": 55,
+        "spe": 80
+      },
+      "nature": "Serious",
+      "moves": [
+        "FIRE BLAST",
+        "EARTHQUAKE"
+      ]
+    },
+    {
+      "name": "Heinroch",
+      "species": "CELEBI",
+      "level": 10,
+      "image": "images/251.png",
+      "when": "2026-09-10T15:45:50Z",
+      "types": [
+        "Fire",
+        "Flying"
+      ],
+      "ability": "Sticky Hold",
+      "ability_description": "Prevents item theft.",
+      "stats": {
+        "hp": 100,
+        "atk": 100,
+        "def": 100,
+        "spa": 100,
+        "spd": 100,
+        "spe": 100
+      },
+      "nature": "Hasty",
+      "moves": [
+        "PECK",
+        "MIRROR COAT",
+        "ROCK TOMB",
+        "CALM MIND"
+      ]
+    },
+    {
+      "name": "DUMJ01",
+      "species": "JOLTEON",
+      "level": 10,
+      "image": "images/135.png",
+      "when": "2026-09-10T15:47:57Z",
+      "types": [
+        "Steel"
+      ],
+      "ability": "Damp",
+      "ability_description": "Prevents self-destruction.",
+      "stats": {
+        "hp": 65,
+        "atk": 65,
+        "def": 60,
+        "spa": 110,
+        "spd": 95,
+        "spe": 130
+      },
+      "nature": "Bashful",
+      "moves": [
+        "IRON DEFENSE",
+        "DOOM DESIRE",
+        "ASTONISH",
+        "METEOR MASH"
+      ]
+    },
+    {
+      "name": "FailingMarcel",
+      "species": "HITMONTOP",
+      "level": 24,
+      "image": "images/237.png",
+      "when": "2026-09-10T15:49:12Z",
+      "types": [
+        "Rock"
+      ],
+      "ability": "Shed Skin",
+      "ability_description": "Heals the body by shedding.",
+      "stats": {
+        "hp": 50,
+        "atk": 95,
+        "def": 95,
+        "spa": 35,
+        "spd": 110,
+        "spe": 70
+      },
+      "nature": "Brave",
+      "moves": [
+        "TACKLE",
+        "ANCIENTPOWER"
+      ]
+    },
+    {
+      "name": "Xey2510",
+      "species": "ELEKID",
+      "level": 27,
+      "image": "images/239.png",
+      "when": "2026-09-10T16:00:34Z",
+      "types": [
+        "Rock"
+      ],
+      "ability": "Inner Focus",
+      "ability_description": "Prevents flinching.",
+      "stats": {
+        "hp": 45,
+        "atk": 63,
+        "def": 37,
+        "spa": 65,
+        "spd": 55,
+        "spe": 95
+      },
+      "nature": "Bashful",
+      "moves": [
+        "POISON TAIL",
+        "MAGNITUDE",
+        "FIRE PUNCH",
+        "DRAGON CLAW"
+      ]
+    },
+    {
+      "name": "Robit",
+      "species": "ROSELIA",
+      "level": 13,
+      "image": "images/363.png",
+      "when": "2026-09-10T16:03:06Z",
+      "types": [
+        "Poison",
+        "Psychic"
+      ],
+      "ability": "Sticky Hold",
+      "ability_description": "Prevents item theft.",
+      "stats": {
+        "hp": 50,
+        "atk": 60,
+        "def": 45,
+        "spa": 100,
+        "spd": 80,
+        "spe": 65
+      },
+      "nature": "Rash",
+      "moves": [
+        "EARTHQUAKE",
+        "FUTURE SIGHT",
+        "REST",
+        "EXTRASENSORY"
+      ]
+    },
+    {
+      "name": "Melorum",
+      "species": "HAUNTER",
+      "level": 30,
+      "image": "images/93.png",
+      "when": "2026-09-10T16:04:22Z",
+      "types": [
+        "Fighting",
+        "Electric"
+      ],
+      "ability": "Soundproof",
+      "ability_description": "Avoids sound-based moves.",
+      "stats": {
+        "hp": 45,
+        "atk": 50,
+        "def": 45,
+        "spa": 115,
+        "spd": 55,
+        "spe": 95
+      },
+      "nature": "Brave",
+      "moves": [
+        "SEISMIC TOSS",
+        "MUD SHOT",
+        "SHADOW BALL",
+        "THUNDERPUNCH"
+      ]
+    },
+    {
+      "name": "Pogarithmic",
+      "species": "MURKROW",
+      "level": 17,
+      "image": "images/198.png",
+      "when": "2026-09-10T16:04:22Z",
+      "types": [
+        "Water",
+        "Normal"
+      ],
+      "ability": "Battle Armor",
+      "ability_description": "Blocks critical hits.",
+      "stats": {
+        "hp": 60,
+        "atk": 85,
+        "def": 42,
+        "spa": 85,
+        "spd": 42,
+        "spe": 91
+      },
+      "nature": "Impish",
+      "moves": [
+        "MACH PUNCH",
+        "SPLASH",
+        "LEAF BLADE"
+      ]
+    },
+    {
+      "name": "Mother_Of_Floofs",
+      "species": "CARVANHA",
+      "level": 13,
+      "image": "images/330.png",
+      "when": "2026-09-10T16:30:52Z",
+      "types": [
+        "Rock",
+        "Fighting"
+      ],
+      "ability": "Shield Dust",
+      "ability_description": "Prevents added effects.",
+      "stats": {
+        "hp": 45,
+        "atk": 90,
+        "def": 20,
+        "spa": 65,
+        "spd": 20,
+        "spe": 65
+      },
+      "nature": "Lonely",
+      "moves": [
+        "BULK UP",
+        "AIR CUTTER",
+        "SELFDESTRUCT",
+        "VOLT TACKLE"
+      ]
+    },
+    {
+      "name": "Airyn",
+      "species": "NINCADA",
+      "level": 13,
+      "image": "images/301.png",
+      "when": "2026-09-10T16:39:48Z",
+      "types": [
+        "Poison",
+        "Dragon"
+      ],
+      "ability": "Suction Cups",
+      "ability_description": "Firmly anchors the body.",
+      "stats": {
+        "hp": 31,
+        "atk": 45,
+        "def": 90,
+        "spa": 30,
+        "spd": 30,
+        "spe": 40
+      },
+      "nature": "Sassy",
+      "moves": [
+        "POISON TAIL",
+        "CONSTRICT",
+        "SPIDER WEB",
+        "OUTRAGE"
+      ]
+    },
+    {
+      "name": "Seatta",
+      "species": "STANTLER",
+      "level": 31,
+      "image": "images/234.png",
+      "when": "2026-09-10T16:44:50Z",
+      "types": [
+        "Dark"
+      ],
+      "ability": "Cute Charm",
+      "ability_description": "Infatuates on contact.",
+      "stats": {
+        "hp": 73,
+        "atk": 95,
+        "def": 62,
+        "spa": 85,
+        "spd": 65,
+        "spe": 85
+      },
+      "nature": "Rash",
+      "moves": [
+        "THIEF",
+        "CRUNCH",
+        "KARATE CHOP",
+        "TAUNT"
+      ]
+    },
+    {
+      "name": "Irae",
+      "species": "CLEFFA",
+      "level": 33,
+      "image": "images/173.png",
+      "when": "2026-09-10T16:46:06Z",
+      "types": [
+        "Ghost"
+      ],
+      "ability": "Cloud Nine",
+      "ability_description": "Negates weather effects.",
+      "stats": {
+        "hp": 50,
+        "atk": 25,
+        "def": 28,
+        "spa": 45,
+        "spd": 55,
+        "spe": 15
+      },
+      "nature": "Brave",
+      "moves": [
+        "BARRAGE",
+        "BLAST BURN",
+        "NIGHTMARE",
+        "SPITE"
+      ]
+    },
+    {
+      "name": "LennyBusker",
+      "species": "TRAPINCH",
+      "level": 28,
+      "image": "images/332.png",
+      "when": "2026-09-10T16:53:40Z",
+      "types": [
+        "Rock"
+      ],
+      "ability": "Inner Focus",
+      "ability_description": "Prevents flinching.",
+      "stats": {
+        "hp": 45,
+        "atk": 100,
+        "def": 45,
+        "spa": 45,
+        "spd": 45,
+        "spe": 10
+      },
+      "nature": "Hardy",
+      "moves": [
+        "ROLLOUT",
+        "BULLET SEED",
+        "ROCK THROW",
+        "ROCK BLAST"
       ]
     }
   ]
