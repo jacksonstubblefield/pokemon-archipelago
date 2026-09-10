@@ -1,5 +1,5 @@
 {
-  "version": 1789060312,
+  "version": 1789060377,
   "entries": [
     {
       "name": "Natsafan",
@@ -13,12 +13,12 @@
       "ability": "Drizzle",
       "ability_description": "Summons rain in battle.",
       "stats": {
-        "hp": 80,
-        "atk": 75,
-        "def": 150,
-        "spa": 75,
-        "spd": 150,
-        "spe": 50
+        "hp": 85,
+        "atk": 46,
+        "def": 84,
+        "spa": 45,
+        "spd": 88,
+        "spe": 39
       },
       "nature": "Jolly",
       "nature_boost": "spe",
@@ -66,12 +66,12 @@
       "ability": "Chlorophyll",
       "ability_description": "Raises Speed in sunshine.",
       "stats": {
-        "hp": 80,
-        "atk": 45,
-        "def": 65,
-        "spa": 90,
-        "spd": 110,
-        "spe": 80
+        "hp": 105,
+        "atk": 36,
+        "def": 57,
+        "spa": 61,
+        "spd": 90,
+        "spe": 70
       },
       "nature": "Impish",
       "nature_boost": "def",
@@ -120,12 +120,12 @@
       "ability": "Forecast",
       "ability_description": "Changes with the weather.",
       "stats": {
-        "hp": 35,
-        "atk": 45,
-        "def": 160,
-        "spa": 30,
-        "spd": 45,
-        "spe": 70
+        "hp": 25,
+        "atk": 14,
+        "def": 34,
+        "spa": 10,
+        "spd": 14,
+        "spe": 18
       },
       "nature": "Jolly",
       "nature_boost": "spe",
@@ -166,12 +166,12 @@
       "ability": "Rock Head",
       "ability_description": "Prevents recoil damage.",
       "stats": {
-        "hp": 55,
-        "atk": 20,
-        "def": 35,
-        "spa": 20,
-        "spd": 45,
-        "spe": 75
+        "hp": 62,
+        "atk": 18,
+        "def": 23,
+        "spa": 14,
+        "spd": 26,
+        "spe": 44
       },
       "nature": "Timid",
       "nature_boost": "spe",
@@ -212,12 +212,12 @@
       "ability": "Cloud Nine",
       "ability_description": "Negates weather effects.",
       "stats": {
-        "hp": 170,
-        "atk": 90,
-        "def": 45,
-        "spa": 90,
-        "spd": 45,
-        "spe": 60
+        "hp": 264,
+        "atk": 121,
+        "def": 70,
+        "spa": 115,
+        "spd": 65,
+        "spe": 86
       },
       "nature": "Naughty",
       "nature_boost": "atk",
@@ -265,12 +265,12 @@
       "ability": "Poison Point",
       "ability_description": "Poisons foe on contact.",
       "stats": {
-        "hp": 130,
-        "atk": 65,
-        "def": 60,
-        "spa": 110,
-        "spd": 95,
-        "spe": 65
+        "hp": 36,
+        "atk": 15,
+        "def": 12,
+        "spa": 23,
+        "spd": 18,
+        "spe": 15
       },
       "nature": "Mild",
       "nature_boost": "spa",
@@ -311,12 +311,12 @@
       "ability": "Poison Point",
       "ability_description": "Poisons foe on contact.",
       "stats": {
-        "hp": 255,
-        "atk": 10,
-        "def": 10,
-        "spa": 75,
-        "spd": 135,
-        "spe": 55
+        "hp": 159,
+        "atk": 15,
+        "def": 16,
+        "spa": 45,
+        "spd": 73,
+        "spe": 34
       },
       "nature": "Brave",
       "nature_boost": "atk",
@@ -364,12 +364,12 @@
       "ability": "Inner Focus",
       "ability_description": "Prevents flinching.",
       "stats": {
-        "hp": 50,
-        "atk": 50,
-        "def": 50,
-        "spa": 50,
-        "spd": 50,
-        "spe": 50
+        "hp": 103,
+        "atk": 56,
+        "def": 49,
+        "spa": 55,
+        "spd": 62,
+        "spe": 48
       },
       "nature": "Sassy",
       "nature_boost": "spd",
@@ -417,12 +417,12 @@
       "ability": "Compound Eyes",
       "ability_description": "Raises accuracy.",
       "stats": {
-        "hp": 65,
-        "atk": 125,
-        "def": 100,
-        "spa": 55,
-        "spd": 70,
-        "spe": 85
+        "hp": 21,
+        "atk": 18,
+        "def": 16,
+        "spa": 9,
+        "spd": 13,
+        "spe": 14
       },
       "nature": "Impish",
       "nature_boost": "def",
@@ -457,12 +457,12 @@
       "ability": "Levitate",
       "ability_description": "Not hit by Ground attacks.",
       "stats": {
-        "hp": 70,
-        "atk": 110,
-        "def": 80,
-        "spa": 55,
-        "spd": 80,
-        "spe": 105
+        "hp": 20,
+        "atk": 14,
+        "def": 11,
+        "spa": 10,
+        "spd": 12,
+        "spe": 14
       },
       "nature": "Serious",
       "nature_boost": null,
@@ -496,12 +496,12 @@
       "ability": "Thick Fat",
       "ability_description": "Heat-and-cold protection.",
       "stats": {
-        "hp": 35,
-        "atk": 20,
-        "def": 65,
-        "spa": 40,
-        "spd": 65,
-        "spe": 20
+        "hp": 19,
+        "atk": 7,
+        "def": 10,
+        "spa": 10,
+        "spd": 13,
+        "spe": 7
       },
       "nature": "Gentle",
       "nature_boost": "spd",
@@ -542,12 +542,12 @@
       "ability": "Truant",
       "ability_description": "Moves only every two turns.",
       "stats": {
-        "hp": 65,
-        "atk": 73,
-        "def": 55,
-        "spa": 47,
-        "spd": 75,
-        "spe": 85
+        "hp": 21,
+        "atk": 14,
+        "def": 11,
+        "spa": 9,
+        "spd": 13,
+        "spe": 13
       },
       "nature": "Adamant",
       "nature_boost": "atk",
@@ -581,12 +581,12 @@
       "ability": "Static",
       "ability_description": "Paralyzes on contact.",
       "stats": {
-        "hp": 105,
-        "atk": 95,
-        "def": 80,
-        "spa": 40,
-        "spd": 80,
-        "spe": 90
+        "hp": 69,
+        "atk": 42,
+        "def": 39,
+        "spa": 21,
+        "spd": 33,
+        "spe": 42
       },
       "nature": "Naive",
       "nature_boost": "spe",
@@ -635,12 +635,12 @@
       "ability": "Trace",
       "ability_description": "Copies special ability.",
       "stats": {
-        "hp": 75,
-        "atk": 55,
-        "def": 70,
-        "spa": 55,
-        "spd": 85,
-        "spe": 110
+        "hp": 82,
+        "atk": 36,
+        "def": 46,
+        "spa": 42,
+        "spd": 52,
+        "spe": 66
       },
       "nature": "Hardy",
       "nature_boost": null,
@@ -688,12 +688,12 @@
       "ability": "Serene Grace",
       "ability_description": "Promotes added effects.",
       "stats": {
-        "hp": 160,
-        "atk": 110,
-        "def": 65,
-        "spa": 65,
-        "spd": 110,
-        "spe": 30
+        "hp": 44,
+        "atk": 20,
+        "def": 16,
+        "spa": 16,
+        "spd": 22,
+        "spe": 13
       },
       "nature": "Timid",
       "nature_boost": "spe",
@@ -727,12 +727,12 @@
       "ability": "Shield Dust",
       "ability_description": "Prevents added effects.",
       "stats": {
-        "hp": 40,
-        "atk": 45,
-        "def": 65,
-        "spa": 100,
-        "spd": 120,
-        "spe": 90
+        "hp": 21,
+        "atk": 9,
+        "def": 13,
+        "spa": 18,
+        "spd": 20,
+        "spe": 16
       },
       "nature": "Modest",
       "nature_boost": "spa",
@@ -767,12 +767,12 @@
       "ability": "Swift Swim",
       "ability_description": "Raises Speed in rain.",
       "stats": {
-        "hp": 70,
-        "atk": 84,
-        "def": 70,
-        "spa": 65,
-        "spd": 70,
-        "spe": 51
+        "hp": 129,
+        "atk": 87,
+        "def": 83,
+        "spa": 63,
+        "spd": 61,
+        "spe": 56
       },
       "nature": "Lax",
       "nature_boost": "def",
@@ -821,12 +821,12 @@
       "ability": "Rock Head",
       "ability_description": "Prevents recoil damage.",
       "stats": {
-        "hp": 106,
-        "atk": 90,
-        "def": 130,
-        "spa": 90,
-        "spd": 154,
-        "spe": 110
+        "hp": 67,
+        "atk": 38,
+        "def": 52,
+        "spa": 41,
+        "spd": 61,
+        "spe": 44
       },
       "nature": "Docile",
       "nature_boost": null,
@@ -868,12 +868,12 @@
       "ability": "Lightning Rod",
       "ability_description": "Draws electrical moves.",
       "stats": {
-        "hp": 95,
-        "atk": 95,
-        "def": 85,
-        "spa": 125,
-        "spd": 65,
-        "spe": 55
+        "hp": 41,
+        "atk": 25,
+        "def": 23,
+        "spa": 35,
+        "spd": 20,
+        "spe": 14
       },
       "nature": "Quiet",
       "nature_boost": "spa",
@@ -922,12 +922,12 @@
       "ability": "Natural Cure",
       "ability_description": "Heals upon switching out.",
       "stats": {
-        "hp": 80,
-        "atk": 105,
-        "def": 65,
-        "spa": 100,
-        "spd": 60,
-        "spe": 70
+        "hp": 87,
+        "atk": 62,
+        "def": 43,
+        "spa": 74,
+        "spd": 38,
+        "spe": 44
       },
       "nature": "Modest",
       "nature_boost": "spa",
@@ -976,12 +976,12 @@
       "ability": "Truant",
       "ability_description": "Moves only every two turns.",
       "stats": {
-        "hp": 1,
-        "atk": 90,
-        "def": 45,
-        "spa": 30,
-        "spd": 30,
-        "spe": 40
+        "hp": 42,
+        "atk": 52,
+        "def": 37,
+        "spa": 19,
+        "spd": 25,
+        "spe": 32
       },
       "nature": "Impish",
       "nature_boost": "def",
@@ -1029,12 +1029,12 @@
       "ability": "Shadow Tag",
       "ability_description": "Prevents the foe's escape.",
       "stats": {
-        "hp": 65,
-        "atk": 60,
-        "def": 70,
-        "spa": 85,
-        "spd": 75,
-        "spe": 40
+        "hp": 81,
+        "atk": 49,
+        "def": 56,
+        "spa": 64,
+        "spd": 57,
+        "spe": 33
       },
       "nature": "Hardy",
       "nature_boost": null,
@@ -1083,12 +1083,12 @@
       "ability": "Magma Armor",
       "ability_description": "Prevents freezing.",
       "stats": {
-        "hp": 91,
-        "atk": 134,
-        "def": 95,
-        "spa": 100,
-        "spd": 100,
-        "spe": 80
+        "hp": 183,
+        "atk": 182,
+        "def": 123,
+        "spa": 128,
+        "spd": 120,
+        "spe": 109
       },
       "nature": "Naughty",
       "nature_boost": "atk",
@@ -1136,12 +1136,12 @@
       "ability": "Magnet Pull",
       "ability_description": "Traps Steel-type Pokemon.",
       "stats": {
-        "hp": 60,
-        "atk": 50,
-        "def": 40,
-        "spa": 85,
-        "spd": 75,
-        "spe": 95
+        "hp": 66,
+        "atk": 32,
+        "def": 22,
+        "spa": 51,
+        "spd": 53,
+        "spe": 56
       },
       "nature": "Gentle",
       "nature_boost": "spd",
@@ -1189,12 +1189,12 @@
       "ability": "Drought",
       "ability_description": "Summons sunlight in battle.",
       "stats": {
-        "hp": 70,
-        "atk": 70,
-        "def": 70,
-        "spa": 70,
-        "spd": 70,
-        "spe": 70
+        "hp": 97,
+        "atk": 60,
+        "def": 68,
+        "spa": 59,
+        "spd": 50,
+        "spe": 61
       },
       "nature": "Lax",
       "nature_boost": "def",
@@ -1243,12 +1243,12 @@
       "ability": "Intimidate",
       "ability_description": "Lowers the foe's Attack.",
       "stats": {
-        "hp": 63,
-        "atk": 60,
-        "def": 55,
-        "spa": 50,
-        "spd": 50,
-        "spe": 71
+        "hp": 94,
+        "atk": 51,
+        "def": 57,
+        "spa": 47,
+        "spd": 45,
+        "spe": 66
       },
       "nature": "Lax",
       "nature_boost": "def",
@@ -1296,12 +1296,12 @@
       "ability": "Swift Swim",
       "ability_description": "Raises Speed in rain.",
       "stats": {
-        "hp": 20,
-        "atk": 15,
-        "def": 20,
-        "spa": 10,
-        "spd": 55,
-        "spe": 80
+        "hp": 24,
+        "atk": 10,
+        "def": 10,
+        "spa": 7,
+        "spd": 17,
+        "spe": 20
       },
       "nature": "Serious",
       "nature_boost": null,
@@ -1336,12 +1336,12 @@
       "ability": "Sticky Hold",
       "ability_description": "Prevents item theft.",
       "stats": {
-        "hp": 100,
-        "atk": 100,
-        "def": 100,
-        "spa": 100,
-        "spd": 100,
-        "spe": 100
+        "hp": 40,
+        "atk": 26,
+        "def": 23,
+        "spa": 25,
+        "spd": 25,
+        "spe": 27
       },
       "nature": "Hasty",
       "nature_boost": "spe",
@@ -1389,12 +1389,12 @@
       "ability": "Damp",
       "ability_description": "Prevents self-destruction.",
       "stats": {
-        "hp": 65,
-        "atk": 65,
-        "def": 60,
-        "spa": 110,
-        "spd": 95,
-        "spe": 130
+        "hp": 34,
+        "atk": 20,
+        "def": 19,
+        "spa": 28,
+        "spd": 25,
+        "spe": 33
       },
       "nature": "Bashful",
       "nature_boost": null,
@@ -1442,12 +1442,12 @@
       "ability": "Shed Skin",
       "ability_description": "Heals the body by shedding.",
       "stats": {
-        "hp": 50,
-        "atk": 95,
-        "def": 95,
-        "spa": 35,
-        "spd": 110,
-        "spe": 70
+        "hp": 60,
+        "atk": 58,
+        "def": 55,
+        "spa": 28,
+        "spd": 59,
+        "spe": 41
       },
       "nature": "Brave",
       "nature_boost": "atk",
@@ -1481,12 +1481,12 @@
       "ability": "Inner Focus",
       "ability_description": "Prevents flinching.",
       "stats": {
-        "hp": 45,
-        "atk": 63,
-        "def": 37,
-        "spa": 65,
-        "spd": 55,
-        "spe": 95
+        "hp": 64,
+        "atk": 47,
+        "def": 27,
+        "spa": 46,
+        "spd": 42,
+        "spe": 64
       },
       "nature": "Bashful",
       "nature_boost": null,
@@ -1535,12 +1535,12 @@
       "ability": "Sticky Hold",
       "ability_description": "Prevents item theft.",
       "stats": {
-        "hp": 50,
-        "atk": 60,
-        "def": 45,
-        "spa": 100,
-        "spd": 80,
-        "spe": 65
+        "hp": 36,
+        "atk": 24,
+        "def": 20,
+        "spa": 37,
+        "spd": 23,
+        "spe": 25
       },
       "nature": "Rash",
       "nature_boost": "spa",
@@ -1589,12 +1589,12 @@
       "ability": "Soundproof",
       "ability_description": "Avoids sound-based moves.",
       "stats": {
-        "hp": 45,
-        "atk": 50,
-        "def": 45,
-        "spa": 115,
-        "spd": 55,
-        "spe": 95
+        "hp": 70,
+        "atk": 48,
+        "def": 36,
+        "spa": 79,
+        "spd": 39,
+        "spe": 56
       },
       "nature": "Brave",
       "nature_boost": "atk",
@@ -1643,12 +1643,12 @@
       "ability": "Battle Armor",
       "ability_description": "Blocks critical hits.",
       "stats": {
-        "hp": 60,
-        "atk": 85,
-        "def": 42,
-        "spa": 85,
-        "spd": 42,
-        "spe": 91
+        "hp": 52,
+        "atk": 36,
+        "def": 23,
+        "spa": 30,
+        "spd": 23,
+        "spe": 35
       },
       "nature": "Impish",
       "nature_boost": "def",
@@ -1690,12 +1690,12 @@
       "ability": "Shield Dust",
       "ability_description": "Prevents added effects.",
       "stats": {
-        "hp": 45,
-        "atk": 90,
-        "def": 20,
-        "spa": 65,
-        "spd": 20,
-        "spe": 65
+        "hp": 36,
+        "atk": 30,
+        "def": 9,
+        "spa": 22,
+        "spd": 10,
+        "spe": 22
       },
       "nature": "Lonely",
       "nature_boost": "atk",
@@ -1744,12 +1744,12 @@
       "ability": "Suction Cups",
       "ability_description": "Firmly anchors the body.",
       "stats": {
-        "hp": 31,
-        "atk": 45,
-        "def": 90,
-        "spa": 30,
-        "spd": 30,
-        "spe": 40
+        "hp": 33,
+        "atk": 17,
+        "def": 29,
+        "spa": 13,
+        "spd": 16,
+        "spe": 16
       },
       "nature": "Sassy",
       "nature_boost": "spd",
@@ -1797,12 +1797,12 @@
       "ability": "Cute Charm",
       "ability_description": "Infatuates on contact.",
       "stats": {
-        "hp": 73,
-        "atk": 95,
-        "def": 62,
-        "spa": 85,
-        "spd": 65,
-        "spe": 85
+        "hp": 89,
+        "atk": 72,
+        "def": 45,
+        "spa": 64,
+        "spd": 45,
+        "spe": 58
       },
       "nature": "Rash",
       "nature_boost": "spa",
@@ -1850,12 +1850,12 @@
       "ability": "Cloud Nine",
       "ability_description": "Negates weather effects.",
       "stats": {
-        "hp": 50,
-        "atk": 25,
-        "def": 28,
-        "spa": 45,
-        "spd": 55,
-        "spe": 15
+        "hp": 84,
+        "atk": 27,
+        "def": 30,
+        "spa": 44,
+        "spd": 49,
+        "spe": 17
       },
       "nature": "Brave",
       "nature_boost": "atk",
@@ -1903,12 +1903,12 @@
       "ability": "Inner Focus",
       "ability_description": "Prevents flinching.",
       "stats": {
-        "hp": 45,
-        "atk": 100,
-        "def": 45,
-        "spa": 45,
-        "spd": 45,
-        "spe": 10
+        "hp": 69,
+        "atk": 66,
+        "def": 33,
+        "spa": 31,
+        "spd": 38,
+        "spe": 16
       },
       "nature": "Hardy",
       "nature_boost": null,
