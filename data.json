@@ -1,5 +1,5 @@
 {
-  "version": 1789069371,
+  "version": 1789070186,
   "entries": [
     {
       "name": "Natsafan",
@@ -185,7 +185,7 @@
           "type": "Poison"
         },
         {
-          "name": "DOUBLE?EDGE",
+          "name": "DOUBLE-EDGE",
           "power": 120,
           "accuracy": 100,
           "pp": 15,
@@ -1155,7 +1155,7 @@
           "type": "Bug"
         },
         {
-          "name": "LOCK?ON",
+          "name": "LOCK-ON",
           "power": null,
           "accuracy": 100,
           "pp": 5,
@@ -2692,7 +2692,7 @@
     },
     {
       "name": "ludeum",
-      "species": "HO?OH",
+      "species": "HO-OH",
       "level": 36,
       "image": "images/250.png",
       "when": "2026-09-10T18:42:43Z",
