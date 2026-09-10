@@ -192,25 +192,38 @@
   }
   .card .flavor b { color: var(--ink); font-weight: 600; }
 
-  .moves {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.3rem;
-    margin: 0.3rem 0;
+  .moves-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0.4rem 0 0.5rem;
+    font-size: 0.74rem;
   }
-  .move-pill {
-    display: inline-block;
-    padding: 0.1rem 0.55rem;
-    border-radius: 999px;
-    font-size: 0.68rem;
+  .moves-table th {
+    text-align: right;
     font-weight: 500;
     color: var(--ink-soft);
-    background: var(--rule);
+    font-size: 0.64rem;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    padding: 0 0 0.2rem 0.5rem;
+  }
+  .moves-table th:first-child { text-align: left; padding-left: 0; }
+  .moves-table td {
+    padding: 0.15rem 0 0.15rem 0.5rem;
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+    color: var(--ink-soft);
+    border-top: 1px solid var(--rule);
+  }
+  .moves-table td.move-name {
+    text-align: left;
+    padding-left: 0;
+    font-weight: 600;
   }
 
   .stat-grid {
     display: grid;
-    grid-template-columns: 2.5rem 120px 2.2ch;
+    grid-template-columns: 2.5rem 120px 2.2ch 1.1rem;
     align-items: center;
     gap: 0.18rem 0.5rem;
     font-size: 0.7rem;
@@ -222,6 +235,12 @@
     text-transform: uppercase;
     letter-spacing: 0.03em;
   }
+  .stat-grid .stat-nature {
+    font-weight: 700;
+    font-size: 0.85rem;
+  }
+  .stat-grid .stat-nature.boost { color: #3fa34d; }
+  .stat-grid .stat-nature.drop { color: var(--accent); }
   .stat-grid .stat-track {
     display: block;
     width: 120px;
@@ -340,7 +359,11 @@
   }
 
   const STAT_LABELS = [["hp", "HP"], ["atk", "Atk"], ["def", "Def"], ["spa", "SpA"], ["spd", "SpD"], ["spe", "Spe"]];
-  const STAT_MAX = 200;
+  // Real per-Pokemon stats (not base stats) can run well past a base
+  // stat's 0-255 range at higher levels -- e.g. a level-54 Wailord's real
+  // HP is 264 -- so this is a generous display ceiling for the bar fill,
+  // not the game's actual stat cap. Bars just clip past it, same as before.
+  const STAT_MAX = 400;
 
   function typesHtml(types) {
     if (!types) return "";
@@ -351,22 +374,35 @@
 
   const STAT_TRACK_PX = 120;
 
-  function statsHtml(stats) {
+  function statsHtml(stats, natureBoost, natureDrop) {
     if (!stats) return "";
     return '<div class="stat-grid">' + STAT_LABELS.map(([key, label]) => {
       const v = stats[key];
       const px = Math.min(STAT_TRACK_PX, Math.round((v / STAT_MAX) * STAT_TRACK_PX));
+      let arrow = "";
+      if (key === natureBoost) arrow = '<span class="stat-nature boost" title="Raised by nature">&#9650;</span>';
+      else if (key === natureDrop) arrow = '<span class="stat-nature drop" title="Lowered by nature">&#9660;</span>';
       return '<span class="stat-label">' + label + '</span>' +
         '<span class="stat-track"><span class="stat-fill" style="width:' + px + 'px"></span></span>' +
-        '<span class="stat-value">' + v + '</span>';
+        '<span class="stat-value">' + v + '</span>' +
+        '<span>' + arrow + '</span>';
     }).join("") + '</div>';
   }
 
   function movesHtml(moves) {
     if (!moves || !moves.length) return "";
-    return '<div class="moves">' + moves.map(m =>
-      '<span class="move-pill">' + m + '</span>'
-    ).join("") + '</div>';
+    const rows = moves.map(m => {
+      const color = m.type ? 'style="color:var(--type-' + m.type.toLowerCase() + ')"' : "";
+      return '<tr>' +
+        '<td class="move-name" ' + color + '>' + m.name + '</td>' +
+        '<td>' + m.pp + '</td>' +
+        '<td>' + (m.power != null ? m.power : "&mdash;") + '</td>' +
+        '<td>' + (m.accuracy != null ? m.accuracy : "&mdash;") + '</td>' +
+        '</tr>';
+    }).join("");
+    return '<table class="moves-table"><thead><tr>' +
+      '<th>Move</th><th>PP</th><th>Pow</th><th>Acc</th>' +
+      '</tr></thead><tbody>' + rows + '</tbody></table>';
   }
 
   function card(entry) {
@@ -386,7 +422,7 @@
       '<p class="species">' + speciesLine + '</p>' +
       typesHtml(entry.types) +
       flavor +
-      statsHtml(entry.stats) +
+      statsHtml(entry.stats, entry.nature_boost, entry.nature_drop) +
       movesHtml(entry.moves) +
       '<p class="when">' + fmtDate(entry.when) + '</p></div>';
     return el;

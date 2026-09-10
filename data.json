@@ -1,5 +1,5 @@
 {
-  "version": 1789059643,
+  "version": 1789060312,
   "entries": [
     {
       "name": "Natsafan",
@@ -21,11 +21,37 @@
         "spe": 50
       },
       "nature": "Jolly",
+      "nature_boost": "spe",
+      "nature_drop": "spa",
       "moves": [
-        "LEECH LIFE",
-        "CRABHAMMER",
-        "VITAL THROW",
-        "KARATE CHOP"
+        {
+          "name": "LEECH LIFE",
+          "power": 20,
+          "accuracy": 100,
+          "pp": 15,
+          "type": "Bug"
+        },
+        {
+          "name": "CRABHAMMER",
+          "power": 90,
+          "accuracy": 85,
+          "pp": 10,
+          "type": "Water"
+        },
+        {
+          "name": "VITAL THROW",
+          "power": 70,
+          "accuracy": 100,
+          "pp": 10,
+          "type": "Fighting"
+        },
+        {
+          "name": "KARATE CHOP",
+          "power": 50,
+          "accuracy": 100,
+          "pp": 25,
+          "type": "Fighting"
+        }
       ]
     },
     {
@@ -48,11 +74,37 @@
         "spe": 80
       },
       "nature": "Impish",
+      "nature_boost": "def",
+      "nature_drop": "spa",
       "moves": [
-        "SANDSTORM",
-        "SECRET POWER",
-        "ROLLOUT",
-        "ROCK TOMB"
+        {
+          "name": "SANDSTORM",
+          "power": null,
+          "accuracy": null,
+          "pp": 10,
+          "type": "Rock"
+        },
+        {
+          "name": "SECRET POWER",
+          "power": 70,
+          "accuracy": 100,
+          "pp": 20,
+          "type": "Normal"
+        },
+        {
+          "name": "ROLLOUT",
+          "power": 30,
+          "accuracy": 90,
+          "pp": 20,
+          "type": "Rock"
+        },
+        {
+          "name": "ROCK TOMB",
+          "power": 50,
+          "accuracy": 80,
+          "pp": 10,
+          "type": "Rock"
+        }
       ]
     },
     {
@@ -76,10 +128,30 @@
         "spe": 70
       },
       "nature": "Jolly",
+      "nature_boost": "spe",
+      "nature_drop": "spa",
       "moves": [
-        "NATURE POWER",
-        "ROCK THROW",
-        "TAIL GLOW"
+        {
+          "name": "NATURE POWER",
+          "power": null,
+          "accuracy": 95,
+          "pp": 20,
+          "type": "Normal"
+        },
+        {
+          "name": "ROCK THROW",
+          "power": 50,
+          "accuracy": 90,
+          "pp": 15,
+          "type": "Rock"
+        },
+        {
+          "name": "TAIL GLOW",
+          "power": null,
+          "accuracy": 100,
+          "pp": 20,
+          "type": "Bug"
+        }
       ]
     },
     {
@@ -102,10 +174,30 @@
         "spe": 75
       },
       "nature": "Timid",
+      "nature_boost": "spe",
+      "nature_drop": "atk",
       "moves": [
-        "POISON FANG",
-        "DOUBLE?EDGE",
-        "AMNESIA"
+        {
+          "name": "POISON FANG",
+          "power": 50,
+          "accuracy": 100,
+          "pp": 15,
+          "type": "Poison"
+        },
+        {
+          "name": "DOUBLE?EDGE",
+          "power": 120,
+          "accuracy": 100,
+          "pp": 15,
+          "type": "Normal"
+        },
+        {
+          "name": "AMNESIA",
+          "power": null,
+          "accuracy": null,
+          "pp": 20,
+          "type": "Psychic"
+        }
       ]
     },
     {
@@ -128,11 +220,37 @@
         "spe": 60
       },
       "nature": "Naughty",
+      "nature_boost": "atk",
+      "nature_drop": "spd",
       "moves": [
-        "CALM MIND",
-        "ICE BEAM",
-        "AERIAL ACE",
-        "LUSTER PURGE"
+        {
+          "name": "CALM MIND",
+          "power": null,
+          "accuracy": null,
+          "pp": 20,
+          "type": "Psychic"
+        },
+        {
+          "name": "ICE BEAM",
+          "power": 95,
+          "accuracy": 100,
+          "pp": 10,
+          "type": "Ice"
+        },
+        {
+          "name": "AERIAL ACE",
+          "power": 60,
+          "accuracy": null,
+          "pp": 20,
+          "type": "Flying"
+        },
+        {
+          "name": "LUSTER PURGE",
+          "power": 70,
+          "accuracy": 100,
+          "pp": 5,
+          "type": "Psychic"
+        }
       ]
     },
     {
@@ -155,10 +273,30 @@
         "spe": 65
       },
       "nature": "Mild",
+      "nature_boost": "spa",
+      "nature_drop": "def",
       "moves": [
-        "POUND",
-        "DRAGON DANCE",
-        "RETURN"
+        {
+          "name": "POUND",
+          "power": 40,
+          "accuracy": 100,
+          "pp": 35,
+          "type": "Normal"
+        },
+        {
+          "name": "DRAGON DANCE",
+          "power": null,
+          "accuracy": null,
+          "pp": 20,
+          "type": "Dragon"
+        },
+        {
+          "name": "RETURN",
+          "power": 1,
+          "accuracy": 100,
+          "pp": 20,
+          "type": "Normal"
+        }
       ]
     },
     {
@@ -181,11 +319,37 @@
         "spe": 55
       },
       "nature": "Brave",
+      "nature_boost": "atk",
+      "nature_drop": "spe",
       "moves": [
-        "SPIKES",
-        "WATER PULSE",
-        "BONE RUSH",
-        "HEAL BELL"
+        {
+          "name": "SPIKES",
+          "power": null,
+          "accuracy": null,
+          "pp": 20,
+          "type": "Ground"
+        },
+        {
+          "name": "WATER PULSE",
+          "power": 60,
+          "accuracy": 100,
+          "pp": 20,
+          "type": "Water"
+        },
+        {
+          "name": "BONE RUSH",
+          "power": 25,
+          "accuracy": 80,
+          "pp": 10,
+          "type": "Ground"
+        },
+        {
+          "name": "HEAL BELL",
+          "power": null,
+          "accuracy": null,
+          "pp": 5,
+          "type": "Normal"
+        }
       ]
     },
     {
@@ -208,11 +372,37 @@
         "spe": 50
       },
       "nature": "Sassy",
+      "nature_boost": "spd",
+      "nature_drop": "spe",
       "moves": [
-        "BULLET SEED",
-        "TRIPLE KICK",
-        "TRI ATTACK",
-        "ERUPTION"
+        {
+          "name": "BULLET SEED",
+          "power": 10,
+          "accuracy": 100,
+          "pp": 30,
+          "type": "Grass"
+        },
+        {
+          "name": "TRIPLE KICK",
+          "power": 10,
+          "accuracy": 90,
+          "pp": 10,
+          "type": "Fighting"
+        },
+        {
+          "name": "TRI ATTACK",
+          "power": 80,
+          "accuracy": 100,
+          "pp": 10,
+          "type": "Normal"
+        },
+        {
+          "name": "ERUPTION",
+          "power": 150,
+          "accuracy": 100,
+          "pp": 5,
+          "type": "Fire"
+        }
       ]
     },
     {
@@ -235,9 +425,23 @@
         "spe": 85
       },
       "nature": "Impish",
+      "nature_boost": "def",
+      "nature_drop": "spa",
       "moves": [
-        "SKILL SWAP",
-        "NEEDLE ARM"
+        {
+          "name": "SKILL SWAP",
+          "power": null,
+          "accuracy": 100,
+          "pp": 10,
+          "type": "Psychic"
+        },
+        {
+          "name": "NEEDLE ARM",
+          "power": 60,
+          "accuracy": 100,
+          "pp": 15,
+          "type": "Grass"
+        }
       ]
     },
     {
@@ -261,9 +465,23 @@
         "spe": 105
       },
       "nature": "Serious",
+      "nature_boost": null,
+      "nature_drop": null,
       "moves": [
-        "POISON GAS",
-        "DRILL PECK"
+        {
+          "name": "POISON GAS",
+          "power": null,
+          "accuracy": 55,
+          "pp": 40,
+          "type": "Poison"
+        },
+        {
+          "name": "DRILL PECK",
+          "power": 80,
+          "accuracy": 100,
+          "pp": 20,
+          "type": "Flying"
+        }
       ]
     },
     {
@@ -286,10 +504,30 @@
         "spe": 20
       },
       "nature": "Gentle",
+      "nature_boost": "spd",
+      "nature_drop": "def",
       "moves": [
-        "ENDEAVOR",
-        "COTTON SPORE",
-        "AERIAL ACE"
+        {
+          "name": "ENDEAVOR",
+          "power": 1,
+          "accuracy": 100,
+          "pp": 5,
+          "type": "Normal"
+        },
+        {
+          "name": "COTTON SPORE",
+          "power": null,
+          "accuracy": 85,
+          "pp": 40,
+          "type": "Grass"
+        },
+        {
+          "name": "AERIAL ACE",
+          "power": 60,
+          "accuracy": null,
+          "pp": 20,
+          "type": "Flying"
+        }
       ]
     },
     {
@@ -312,9 +550,23 @@
         "spe": 85
       },
       "nature": "Adamant",
+      "nature_boost": "atk",
+      "nature_drop": "spa",
       "moves": [
-        "SUBMISSION",
-        "SNATCH"
+        {
+          "name": "SUBMISSION",
+          "power": 80,
+          "accuracy": 80,
+          "pp": 25,
+          "type": "Fighting"
+        },
+        {
+          "name": "SNATCH",
+          "power": null,
+          "accuracy": 100,
+          "pp": 10,
+          "type": "Dark"
+        }
       ]
     },
     {
@@ -337,11 +589,37 @@
         "spe": 90
       },
       "nature": "Naive",
+      "nature_boost": "spe",
+      "nature_drop": "spd",
       "moves": [
-        "CLAMP",
-        "EARTHQUAKE",
-        "SURF",
-        "FOCUS PUNCH"
+        {
+          "name": "CLAMP",
+          "power": 35,
+          "accuracy": 75,
+          "pp": 10,
+          "type": "Water"
+        },
+        {
+          "name": "EARTHQUAKE",
+          "power": 100,
+          "accuracy": 100,
+          "pp": 10,
+          "type": "Ground"
+        },
+        {
+          "name": "SURF",
+          "power": 95,
+          "accuracy": 100,
+          "pp": 15,
+          "type": "Water"
+        },
+        {
+          "name": "FOCUS PUNCH",
+          "power": 150,
+          "accuracy": 100,
+          "pp": 20,
+          "type": "Fighting"
+        }
       ]
     },
     {
@@ -365,11 +643,37 @@
         "spe": 110
       },
       "nature": "Hardy",
+      "nature_boost": null,
+      "nature_drop": null,
       "moves": [
-        "SNATCH",
-        "FIRE SPIN",
-        "FAINT ATTACK",
-        "AURORA BEAM"
+        {
+          "name": "SNATCH",
+          "power": null,
+          "accuracy": 100,
+          "pp": 10,
+          "type": "Dark"
+        },
+        {
+          "name": "FIRE SPIN",
+          "power": 15,
+          "accuracy": 70,
+          "pp": 15,
+          "type": "Fire"
+        },
+        {
+          "name": "FAINT ATTACK",
+          "power": 60,
+          "accuracy": null,
+          "pp": 20,
+          "type": "Dark"
+        },
+        {
+          "name": "AURORA BEAM",
+          "power": 65,
+          "accuracy": 100,
+          "pp": 20,
+          "type": "Ice"
+        }
       ]
     },
     {
@@ -392,9 +696,23 @@
         "spe": 30
       },
       "nature": "Timid",
+      "nature_boost": "spe",
+      "nature_drop": "atk",
       "moves": [
-        "METAL CLAW",
-        "ROCK TOMB"
+        {
+          "name": "METAL CLAW",
+          "power": 50,
+          "accuracy": 95,
+          "pp": 35,
+          "type": "Steel"
+        },
+        {
+          "name": "ROCK TOMB",
+          "power": 50,
+          "accuracy": 80,
+          "pp": 10,
+          "type": "Rock"
+        }
       ]
     },
     {
@@ -417,9 +735,23 @@
         "spe": 90
       },
       "nature": "Modest",
+      "nature_boost": "spa",
+      "nature_drop": "atk",
       "moves": [
-        "SLAM",
-        "MEGA KICK"
+        {
+          "name": "SLAM",
+          "power": 80,
+          "accuracy": 75,
+          "pp": 20,
+          "type": "Normal"
+        },
+        {
+          "name": "MEGA KICK",
+          "power": 120,
+          "accuracy": 75,
+          "pp": 5,
+          "type": "Normal"
+        }
       ]
     },
     {
@@ -443,11 +775,37 @@
         "spe": 51
       },
       "nature": "Lax",
+      "nature_boost": "def",
+      "nature_drop": "spd",
       "moves": [
-        "COSMIC POWER",
-        "PIN MISSILE",
-        "FLASH",
-        "ROCK THROW"
+        {
+          "name": "COSMIC POWER",
+          "power": null,
+          "accuracy": null,
+          "pp": 20,
+          "type": "Psychic"
+        },
+        {
+          "name": "PIN MISSILE",
+          "power": 14,
+          "accuracy": 85,
+          "pp": 20,
+          "type": "Bug"
+        },
+        {
+          "name": "FLASH",
+          "power": null,
+          "accuracy": 70,
+          "pp": 20,
+          "type": "Normal"
+        },
+        {
+          "name": "ROCK THROW",
+          "power": 50,
+          "accuracy": 90,
+          "pp": 15,
+          "type": "Rock"
+        }
       ]
     },
     {
@@ -471,10 +829,30 @@
         "spe": 110
       },
       "nature": "Docile",
+      "nature_boost": null,
+      "nature_drop": null,
       "moves": [
-        "SPITE",
-        "JUMP KICK",
-        "SUPERPOWER"
+        {
+          "name": "SPITE",
+          "power": null,
+          "accuracy": 100,
+          "pp": 10,
+          "type": "Ghost"
+        },
+        {
+          "name": "JUMP KICK",
+          "power": 70,
+          "accuracy": 95,
+          "pp": 25,
+          "type": "Fighting"
+        },
+        {
+          "name": "SUPERPOWER",
+          "power": 120,
+          "accuracy": 100,
+          "pp": 5,
+          "type": "Fighting"
+        }
       ]
     },
     {
@@ -498,11 +876,37 @@
         "spe": 55
       },
       "nature": "Quiet",
+      "nature_boost": "spa",
+      "nature_drop": "spe",
       "moves": [
-        "BEAT UP",
-        "BODY SLAM",
-        "ROLLING KICK",
-        "RAPID SPIN"
+        {
+          "name": "BEAT UP",
+          "power": 10,
+          "accuracy": 100,
+          "pp": 10,
+          "type": "Dark"
+        },
+        {
+          "name": "BODY SLAM",
+          "power": 85,
+          "accuracy": 100,
+          "pp": 15,
+          "type": "Normal"
+        },
+        {
+          "name": "ROLLING KICK",
+          "power": 60,
+          "accuracy": 85,
+          "pp": 15,
+          "type": "Fighting"
+        },
+        {
+          "name": "RAPID SPIN",
+          "power": 20,
+          "accuracy": 100,
+          "pp": 40,
+          "type": "Normal"
+        }
       ]
     },
     {
@@ -526,11 +930,37 @@
         "spe": 70
       },
       "nature": "Modest",
+      "nature_boost": "spa",
+      "nature_drop": "atk",
       "moves": [
-        "DIG",
-        "SLASH",
-        "ROCK SLIDE",
-        "POISONPOWDER"
+        {
+          "name": "DIG",
+          "power": 60,
+          "accuracy": 100,
+          "pp": 10,
+          "type": "Ground"
+        },
+        {
+          "name": "SLASH",
+          "power": 70,
+          "accuracy": 100,
+          "pp": 20,
+          "type": "Normal"
+        },
+        {
+          "name": "ROCK SLIDE",
+          "power": 75,
+          "accuracy": 90,
+          "pp": 10,
+          "type": "Rock"
+        },
+        {
+          "name": "POISONPOWDER",
+          "power": null,
+          "accuracy": 75,
+          "pp": 35,
+          "type": "Poison"
+        }
       ]
     },
     {
@@ -554,11 +984,37 @@
         "spe": 40
       },
       "nature": "Impish",
+      "nature_boost": "def",
+      "nature_drop": "spa",
       "moves": [
-        "SPORE",
-        "EGG BOMB",
-        "LEECH LIFE",
-        "PETAL DANCE"
+        {
+          "name": "SPORE",
+          "power": null,
+          "accuracy": 100,
+          "pp": 15,
+          "type": "Grass"
+        },
+        {
+          "name": "EGG BOMB",
+          "power": 100,
+          "accuracy": 75,
+          "pp": 10,
+          "type": "Normal"
+        },
+        {
+          "name": "LEECH LIFE",
+          "power": 20,
+          "accuracy": 100,
+          "pp": 15,
+          "type": "Bug"
+        },
+        {
+          "name": "PETAL DANCE",
+          "power": 70,
+          "accuracy": 100,
+          "pp": 20,
+          "type": "Grass"
+        }
       ]
     },
     {
@@ -581,11 +1037,37 @@
         "spe": 40
       },
       "nature": "Hardy",
+      "nature_boost": null,
+      "nature_drop": null,
       "moves": [
-        "HYDRO CANNON",
-        "OUTRAGE",
-        "EXPLOSION",
-        "TWISTER"
+        {
+          "name": "HYDRO CANNON",
+          "power": 150,
+          "accuracy": 90,
+          "pp": 5,
+          "type": "Water"
+        },
+        {
+          "name": "OUTRAGE",
+          "power": 90,
+          "accuracy": 100,
+          "pp": 15,
+          "type": "Dragon"
+        },
+        {
+          "name": "EXPLOSION",
+          "power": 250,
+          "accuracy": 100,
+          "pp": 5,
+          "type": "Normal"
+        },
+        {
+          "name": "TWISTER",
+          "power": 40,
+          "accuracy": 100,
+          "pp": 20,
+          "type": "Dragon"
+        }
       ]
     },
     {
@@ -609,11 +1091,37 @@
         "spe": 80
       },
       "nature": "Naughty",
+      "nature_boost": "atk",
+      "nature_drop": "spd",
       "moves": [
-        "ICE BEAM",
-        "VITAL THROW",
-        "EARTHQUAKE",
-        "DRAGON DANCE"
+        {
+          "name": "ICE BEAM",
+          "power": 95,
+          "accuracy": 100,
+          "pp": 10,
+          "type": "Ice"
+        },
+        {
+          "name": "VITAL THROW",
+          "power": 70,
+          "accuracy": 100,
+          "pp": 10,
+          "type": "Fighting"
+        },
+        {
+          "name": "EARTHQUAKE",
+          "power": 100,
+          "accuracy": 100,
+          "pp": 10,
+          "type": "Ground"
+        },
+        {
+          "name": "DRAGON DANCE",
+          "power": null,
+          "accuracy": null,
+          "pp": 20,
+          "type": "Dragon"
+        }
       ]
     },
     {
@@ -636,11 +1144,37 @@
         "spe": 95
       },
       "nature": "Gentle",
+      "nature_boost": "spd",
+      "nature_drop": "def",
       "moves": [
-        "SIGNAL BEAM",
-        "LOCK?ON",
-        "FRUSTRATION",
-        "GUST"
+        {
+          "name": "SIGNAL BEAM",
+          "power": 75,
+          "accuracy": 100,
+          "pp": 15,
+          "type": "Bug"
+        },
+        {
+          "name": "LOCK?ON",
+          "power": null,
+          "accuracy": 100,
+          "pp": 5,
+          "type": "Normal"
+        },
+        {
+          "name": "FRUSTRATION",
+          "power": 1,
+          "accuracy": 100,
+          "pp": 20,
+          "type": "Normal"
+        },
+        {
+          "name": "GUST",
+          "power": 40,
+          "accuracy": 100,
+          "pp": 35,
+          "type": "Flying"
+        }
       ]
     },
     {
@@ -663,11 +1197,37 @@
         "spe": 70
       },
       "nature": "Lax",
+      "nature_boost": "def",
+      "nature_drop": "spd",
       "moves": [
-        "GIGA DRAIN",
-        "BONE RUSH",
-        "ASTONISH",
-        "WATER SPOUT"
+        {
+          "name": "GIGA DRAIN",
+          "power": 60,
+          "accuracy": 100,
+          "pp": 5,
+          "type": "Grass"
+        },
+        {
+          "name": "BONE RUSH",
+          "power": 25,
+          "accuracy": 80,
+          "pp": 10,
+          "type": "Ground"
+        },
+        {
+          "name": "ASTONISH",
+          "power": 30,
+          "accuracy": 100,
+          "pp": 15,
+          "type": "Ghost"
+        },
+        {
+          "name": "WATER SPOUT",
+          "power": 150,
+          "accuracy": 100,
+          "pp": 5,
+          "type": "Water"
+        }
       ]
     },
     {
@@ -691,11 +1251,37 @@
         "spe": 71
       },
       "nature": "Lax",
+      "nature_boost": "def",
+      "nature_drop": "spd",
       "moves": [
-        "CLAMP",
-        "DRAGONBREATH",
-        "MIND READER",
-        "RAZOR WIND"
+        {
+          "name": "CLAMP",
+          "power": 35,
+          "accuracy": 75,
+          "pp": 10,
+          "type": "Water"
+        },
+        {
+          "name": "DRAGONBREATH",
+          "power": 60,
+          "accuracy": 100,
+          "pp": 20,
+          "type": "Dragon"
+        },
+        {
+          "name": "MIND READER",
+          "power": null,
+          "accuracy": 100,
+          "pp": 5,
+          "type": "Normal"
+        },
+        {
+          "name": "RAZOR WIND",
+          "power": 80,
+          "accuracy": 100,
+          "pp": 10,
+          "type": "Normal"
+        }
       ]
     },
     {
@@ -718,9 +1304,23 @@
         "spe": 80
       },
       "nature": "Serious",
+      "nature_boost": null,
+      "nature_drop": null,
       "moves": [
-        "FIRE BLAST",
-        "EARTHQUAKE"
+        {
+          "name": "FIRE BLAST",
+          "power": 120,
+          "accuracy": 85,
+          "pp": 5,
+          "type": "Fire"
+        },
+        {
+          "name": "EARTHQUAKE",
+          "power": 100,
+          "accuracy": 100,
+          "pp": 10,
+          "type": "Ground"
+        }
       ]
     },
     {
@@ -744,11 +1344,37 @@
         "spe": 100
       },
       "nature": "Hasty",
+      "nature_boost": "spe",
+      "nature_drop": "def",
       "moves": [
-        "PECK",
-        "MIRROR COAT",
-        "ROCK TOMB",
-        "CALM MIND"
+        {
+          "name": "PECK",
+          "power": 35,
+          "accuracy": 100,
+          "pp": 35,
+          "type": "Flying"
+        },
+        {
+          "name": "MIRROR COAT",
+          "power": 1,
+          "accuracy": 100,
+          "pp": 20,
+          "type": "Psychic"
+        },
+        {
+          "name": "ROCK TOMB",
+          "power": 50,
+          "accuracy": 80,
+          "pp": 10,
+          "type": "Rock"
+        },
+        {
+          "name": "CALM MIND",
+          "power": null,
+          "accuracy": null,
+          "pp": 20,
+          "type": "Psychic"
+        }
       ]
     },
     {
@@ -771,11 +1397,37 @@
         "spe": 130
       },
       "nature": "Bashful",
+      "nature_boost": null,
+      "nature_drop": null,
       "moves": [
-        "IRON DEFENSE",
-        "DOOM DESIRE",
-        "ASTONISH",
-        "METEOR MASH"
+        {
+          "name": "IRON DEFENSE",
+          "power": null,
+          "accuracy": null,
+          "pp": 15,
+          "type": "Steel"
+        },
+        {
+          "name": "DOOM DESIRE",
+          "power": 120,
+          "accuracy": 85,
+          "pp": 5,
+          "type": "Steel"
+        },
+        {
+          "name": "ASTONISH",
+          "power": 30,
+          "accuracy": 100,
+          "pp": 15,
+          "type": "Ghost"
+        },
+        {
+          "name": "METEOR MASH",
+          "power": 100,
+          "accuracy": 85,
+          "pp": 10,
+          "type": "Steel"
+        }
       ]
     },
     {
@@ -798,9 +1450,23 @@
         "spe": 70
       },
       "nature": "Brave",
+      "nature_boost": "atk",
+      "nature_drop": "spe",
       "moves": [
-        "TACKLE",
-        "ANCIENTPOWER"
+        {
+          "name": "TACKLE",
+          "power": 35,
+          "accuracy": 95,
+          "pp": 35,
+          "type": "Normal"
+        },
+        {
+          "name": "ANCIENTPOWER",
+          "power": 60,
+          "accuracy": 100,
+          "pp": 5,
+          "type": "Rock"
+        }
       ]
     },
     {
@@ -823,11 +1489,37 @@
         "spe": 95
       },
       "nature": "Bashful",
+      "nature_boost": null,
+      "nature_drop": null,
       "moves": [
-        "POISON TAIL",
-        "MAGNITUDE",
-        "FIRE PUNCH",
-        "DRAGON CLAW"
+        {
+          "name": "POISON TAIL",
+          "power": 50,
+          "accuracy": 100,
+          "pp": 25,
+          "type": "Poison"
+        },
+        {
+          "name": "MAGNITUDE",
+          "power": 1,
+          "accuracy": 100,
+          "pp": 30,
+          "type": "Ground"
+        },
+        {
+          "name": "FIRE PUNCH",
+          "power": 75,
+          "accuracy": 100,
+          "pp": 15,
+          "type": "Fire"
+        },
+        {
+          "name": "DRAGON CLAW",
+          "power": 80,
+          "accuracy": 100,
+          "pp": 15,
+          "type": "Dragon"
+        }
       ]
     },
     {
@@ -851,11 +1543,37 @@
         "spe": 65
       },
       "nature": "Rash",
+      "nature_boost": "spa",
+      "nature_drop": "spd",
       "moves": [
-        "EARTHQUAKE",
-        "FUTURE SIGHT",
-        "REST",
-        "EXTRASENSORY"
+        {
+          "name": "EARTHQUAKE",
+          "power": 100,
+          "accuracy": 100,
+          "pp": 10,
+          "type": "Ground"
+        },
+        {
+          "name": "FUTURE SIGHT",
+          "power": 80,
+          "accuracy": 90,
+          "pp": 15,
+          "type": "Psychic"
+        },
+        {
+          "name": "REST",
+          "power": null,
+          "accuracy": null,
+          "pp": 10,
+          "type": "Psychic"
+        },
+        {
+          "name": "EXTRASENSORY",
+          "power": 80,
+          "accuracy": 100,
+          "pp": 30,
+          "type": "Psychic"
+        }
       ]
     },
     {
@@ -879,11 +1597,37 @@
         "spe": 95
       },
       "nature": "Brave",
+      "nature_boost": "atk",
+      "nature_drop": "spe",
       "moves": [
-        "SEISMIC TOSS",
-        "MUD SHOT",
-        "SHADOW BALL",
-        "THUNDERPUNCH"
+        {
+          "name": "SEISMIC TOSS",
+          "power": 1,
+          "accuracy": 100,
+          "pp": 20,
+          "type": "Fighting"
+        },
+        {
+          "name": "MUD SHOT",
+          "power": 55,
+          "accuracy": 95,
+          "pp": 15,
+          "type": "Ground"
+        },
+        {
+          "name": "SHADOW BALL",
+          "power": 80,
+          "accuracy": 100,
+          "pp": 15,
+          "type": "Ghost"
+        },
+        {
+          "name": "THUNDERPUNCH",
+          "power": 75,
+          "accuracy": 100,
+          "pp": 15,
+          "type": "Electric"
+        }
       ]
     },
     {
@@ -907,10 +1651,30 @@
         "spe": 91
       },
       "nature": "Impish",
+      "nature_boost": "def",
+      "nature_drop": "spa",
       "moves": [
-        "MACH PUNCH",
-        "SPLASH",
-        "LEAF BLADE"
+        {
+          "name": "MACH PUNCH",
+          "power": 40,
+          "accuracy": 100,
+          "pp": 30,
+          "type": "Fighting"
+        },
+        {
+          "name": "SPLASH",
+          "power": null,
+          "accuracy": null,
+          "pp": 40,
+          "type": "Normal"
+        },
+        {
+          "name": "LEAF BLADE",
+          "power": 70,
+          "accuracy": 100,
+          "pp": 15,
+          "type": "Grass"
+        }
       ]
     },
     {
@@ -934,11 +1698,37 @@
         "spe": 65
       },
       "nature": "Lonely",
+      "nature_boost": "atk",
+      "nature_drop": "def",
       "moves": [
-        "BULK UP",
-        "AIR CUTTER",
-        "SELFDESTRUCT",
-        "VOLT TACKLE"
+        {
+          "name": "BULK UP",
+          "power": null,
+          "accuracy": null,
+          "pp": 20,
+          "type": "Fighting"
+        },
+        {
+          "name": "AIR CUTTER",
+          "power": 55,
+          "accuracy": 95,
+          "pp": 25,
+          "type": "Flying"
+        },
+        {
+          "name": "SELFDESTRUCT",
+          "power": 200,
+          "accuracy": 100,
+          "pp": 5,
+          "type": "Normal"
+        },
+        {
+          "name": "VOLT TACKLE",
+          "power": 120,
+          "accuracy": 100,
+          "pp": 15,
+          "type": "Electric"
+        }
       ]
     },
     {
@@ -962,11 +1752,37 @@
         "spe": 40
       },
       "nature": "Sassy",
+      "nature_boost": "spd",
+      "nature_drop": "spe",
       "moves": [
-        "POISON TAIL",
-        "CONSTRICT",
-        "SPIDER WEB",
-        "OUTRAGE"
+        {
+          "name": "POISON TAIL",
+          "power": 50,
+          "accuracy": 100,
+          "pp": 25,
+          "type": "Poison"
+        },
+        {
+          "name": "CONSTRICT",
+          "power": 10,
+          "accuracy": 100,
+          "pp": 35,
+          "type": "Normal"
+        },
+        {
+          "name": "SPIDER WEB",
+          "power": null,
+          "accuracy": 100,
+          "pp": 10,
+          "type": "Bug"
+        },
+        {
+          "name": "OUTRAGE",
+          "power": 90,
+          "accuracy": 100,
+          "pp": 15,
+          "type": "Dragon"
+        }
       ]
     },
     {
@@ -989,11 +1805,37 @@
         "spe": 85
       },
       "nature": "Rash",
+      "nature_boost": "spa",
+      "nature_drop": "spd",
       "moves": [
-        "THIEF",
-        "CRUNCH",
-        "KARATE CHOP",
-        "TAUNT"
+        {
+          "name": "THIEF",
+          "power": 40,
+          "accuracy": 100,
+          "pp": 10,
+          "type": "Dark"
+        },
+        {
+          "name": "CRUNCH",
+          "power": 80,
+          "accuracy": 100,
+          "pp": 15,
+          "type": "Dark"
+        },
+        {
+          "name": "KARATE CHOP",
+          "power": 50,
+          "accuracy": 100,
+          "pp": 25,
+          "type": "Fighting"
+        },
+        {
+          "name": "TAUNT",
+          "power": null,
+          "accuracy": 100,
+          "pp": 20,
+          "type": "Dark"
+        }
       ]
     },
     {
@@ -1016,11 +1858,37 @@
         "spe": 15
       },
       "nature": "Brave",
+      "nature_boost": "atk",
+      "nature_drop": "spe",
       "moves": [
-        "BARRAGE",
-        "BLAST BURN",
-        "NIGHTMARE",
-        "SPITE"
+        {
+          "name": "BARRAGE",
+          "power": 15,
+          "accuracy": 85,
+          "pp": 20,
+          "type": "Normal"
+        },
+        {
+          "name": "BLAST BURN",
+          "power": 150,
+          "accuracy": 90,
+          "pp": 5,
+          "type": "Fire"
+        },
+        {
+          "name": "NIGHTMARE",
+          "power": null,
+          "accuracy": 100,
+          "pp": 15,
+          "type": "Ghost"
+        },
+        {
+          "name": "SPITE",
+          "power": null,
+          "accuracy": 100,
+          "pp": 10,
+          "type": "Ghost"
+        }
       ]
     },
     {
@@ -1043,11 +1911,37 @@
         "spe": 10
       },
       "nature": "Hardy",
+      "nature_boost": null,
+      "nature_drop": null,
       "moves": [
-        "ROLLOUT",
-        "BULLET SEED",
-        "ROCK THROW",
-        "ROCK BLAST"
+        {
+          "name": "ROLLOUT",
+          "power": 30,
+          "accuracy": 90,
+          "pp": 20,
+          "type": "Rock"
+        },
+        {
+          "name": "BULLET SEED",
+          "power": 10,
+          "accuracy": 100,
+          "pp": 30,
+          "type": "Grass"
+        },
+        {
+          "name": "ROCK THROW",
+          "power": 50,
+          "accuracy": 90,
+          "pp": 15,
+          "type": "Rock"
+        },
+        {
+          "name": "ROCK BLAST",
+          "power": 25,
+          "accuracy": 80,
+          "pp": 10,
+          "type": "Rock"
+        }
       ]
     }
   ]
