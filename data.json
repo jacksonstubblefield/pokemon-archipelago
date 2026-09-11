@@ -1,5 +1,5 @@
 {
-  "version": 1789135444,
+  "version": 1789138626,
   "entries": [
     {
       "name": "Natsafan",
@@ -109,23 +109,23 @@
     },
     {
       "name": "vergeofapathy",
-      "species": "ONIX",
-      "level": 9,
-      "image": "images/95.png",
+      "species": "STEELIX",
+      "level": 32,
+      "image": "images/208.png",
       "when": "2026-09-01T14:06:04Z",
       "types": [
-        "Rock",
+        "Flying",
         "Bug"
       ],
       "ability": "Forecast",
       "ability_description": "Changes with the weather.",
       "stats": {
-        "hp": 25,
-        "atk": 14,
-        "def": 34,
-        "spa": 10,
-        "spd": 14,
-        "spe": 18
+        "hp": 91,
+        "atk": 67,
+        "def": 134,
+        "spa": 44,
+        "spd": 50,
+        "spe": 30
       },
       "nature": "Jolly",
       "nature_boost": "spe",
@@ -151,6 +151,13 @@
           "accuracy": 100,
           "pp": 20,
           "type": "Bug"
+        },
+        {
+          "name": "REST",
+          "power": null,
+          "accuracy": null,
+          "pp": 10,
+          "type": "Psychic"
         }
       ]
     },
@@ -203,7 +210,7 @@
     {
       "name": "Enff",
       "species": "WAILORD",
-      "level": 57,
+      "level": 75,
       "image": "images/314.png",
       "when": "2026-09-01T14:09:29Z",
       "types": [
@@ -212,12 +219,12 @@
       "ability": "Cloud Nine",
       "ability_description": "Negates weather effects.",
       "stats": {
-        "hp": 280,
-        "atk": 128,
-        "def": 75,
-        "spa": 121,
-        "spd": 69,
-        "spe": 91
+        "hp": 366,
+        "atk": 178,
+        "def": 98,
+        "spa": 168,
+        "spd": 90,
+        "spe": 127
       },
       "nature": "Naughty",
       "nature_boost": "atk",
@@ -354,9 +361,9 @@
     },
     {
       "name": "Hexa :3",
-      "species": "SNORUNT",
-      "level": 40,
-      "image": "images/346.png",
+      "species": "GLALIE",
+      "level": 42,
+      "image": "images/347.png",
       "when": "2026-09-01T14:21:49Z",
       "types": [
         "Poison"
@@ -364,12 +371,12 @@
       "ability": "Inner Focus",
       "ability_description": "Prevents flinching.",
       "stats": {
-        "hp": 107,
-        "atk": 58,
-        "def": 51,
-        "spa": 57,
-        "spd": 64,
-        "spe": 49
+        "hp": 137,
+        "atk": 87,
+        "def": 79,
+        "spa": 86,
+        "spd": 95,
+        "spe": 75
       },
       "nature": "Sassy",
       "nature_boost": "spd",
@@ -383,11 +390,11 @@
           "type": "Grass"
         },
         {
-          "name": "TRIPLE KICK",
-          "power": 10,
-          "accuracy": 90,
+          "name": "MUDDY WATER",
+          "power": 95,
+          "accuracy": 85,
           "pp": 10,
-          "type": "Fighting"
+          "type": "Water"
         },
         {
           "name": "TRI ATTACK",
@@ -757,7 +764,7 @@
     {
       "name": "Phlap",
       "species": "PUPITAR",
-      "level": 42,
+      "level": 51,
       "image": "images/247.png",
       "when": "2026-09-03T01:24:08Z",
       "types": [
@@ -767,12 +774,12 @@
       "ability": "Swift Swim",
       "ability_description": "Raises Speed in rain.",
       "stats": {
-        "hp": 133,
-        "atk": 89,
-        "def": 85,
-        "spa": 64,
-        "spd": 62,
-        "spe": 58
+        "hp": 159,
+        "atk": 113,
+        "def": 104,
+        "spa": 83,
+        "spd": 74,
+        "spe": 74
       },
       "nature": "Lax",
       "nature_boost": "def",
@@ -1471,9 +1478,9 @@
     },
     {
       "name": "Xey2510",
-      "species": "ELEKID",
-      "level": 29,
-      "image": "images/239.png",
+      "species": "ELECTABUZZ",
+      "level": 30,
+      "image": "images/125.png",
       "when": "2026-09-10T16:00:34Z",
       "types": [
         "Rock"
@@ -1481,12 +1488,12 @@
       "ability": "Inner Focus",
       "ability_description": "Prevents flinching.",
       "stats": {
-        "hp": 68,
-        "atk": 50,
-        "def": 29,
-        "spa": 49,
-        "spd": 45,
-        "spe": 68
+        "hp": 82,
+        "atk": 64,
+        "def": 42,
+        "spa": 69,
+        "spd": 65,
+        "spe": 77
       },
       "nature": "Bashful",
       "nature_boost": null,
@@ -1578,9 +1585,9 @@
     },
     {
       "name": "Melorum",
-      "species": "HAUNTER",
-      "level": 31,
-      "image": "images/93.png",
+      "species": "GENGAR",
+      "level": 37,
+      "image": "images/94.png",
       "when": "2026-09-10T16:04:22Z",
       "types": [
         "Fighting",
@@ -1589,12 +1596,12 @@
       "ability": "Soundproof",
       "ability_description": "Avoids sound-based moves.",
       "stats": {
-        "hp": 72,
-        "atk": 50,
-        "def": 37,
-        "spa": 82,
-        "spd": 41,
-        "spe": 58
+        "hp": 96,
+        "atk": 73,
+        "def": 55,
+        "spa": 111,
+        "spd": 63,
+        "spe": 81
       },
       "nature": "Brave",
       "nature_boost": "atk",
@@ -1733,23 +1740,23 @@
     },
     {
       "name": "Airyn",
-      "species": "NINCADA",
-      "level": 13,
-      "image": "images/301.png",
+      "species": "NINJASK",
+      "level": 20,
+      "image": "images/302.png",
       "when": "2026-09-10T16:39:48Z",
       "types": [
         "Poison",
-        "Dragon"
+        "Ice"
       ],
-      "ability": "Suction Cups",
-      "ability_description": "Firmly anchors the body.",
+      "ability": "Limber",
+      "ability_description": "Prevents paralysis.",
       "stats": {
-        "hp": 33,
-        "atk": 17,
-        "def": 29,
-        "spa": 13,
-        "spd": 16,
-        "spe": 16
+        "hp": 58,
+        "atk": 43,
+        "def": 25,
+        "spa": 27,
+        "spd": 31,
+        "spe": 66
       },
       "nature": "Sassy",
       "nature_boost": "spd",
@@ -1893,22 +1900,23 @@
     },
     {
       "name": "LennyBusker",
-      "species": "TRAPINCH",
-      "level": 28,
-      "image": "images/332.png",
+      "species": "VIBRAVA",
+      "level": 40,
+      "image": "images/333.png",
       "when": "2026-09-10T16:53:40Z",
       "types": [
-        "Rock"
+        "Rock",
+        "Ice"
       ],
-      "ability": "Inner Focus",
-      "ability_description": "Prevents flinching.",
+      "ability": "Shell Armor",
+      "ability_description": "Blocks critical hits.",
       "stats": {
-        "hp": 69,
-        "atk": 66,
-        "def": 33,
-        "spa": 31,
-        "spd": 38,
-        "spe": 16
+        "hp": 99,
+        "atk": 74,
+        "def": 49,
+        "spa": 52,
+        "spd": 57,
+        "spe": 75
       },
       "nature": "Hardy",
       "nature_boost": null,
@@ -1946,22 +1954,23 @@
     },
     {
       "name": "Evangelina",
-      "species": "POLIWAG",
-      "level": 3,
-      "image": "images/60.png",
+      "species": "POLIWRATH",
+      "level": 27,
+      "image": "images/62.png",
       "when": "2026-09-11T13:59:48Z",
       "types": [
-        "Bug"
+        "Bug",
+        "Grass"
       ],
       "ability": "Early Bird",
       "ability_description": "Awakens quickly from sleep.",
       "stats": {
-        "hp": 16,
-        "atk": 8,
-        "def": 8,
-        "spa": 7,
-        "spd": 6,
-        "spe": 10
+        "hp": 91,
+        "atk": 57,
+        "def": 63,
+        "spa": 48,
+        "spd": 48,
+        "spe": 49
       },
       "nature": "Naughty",
       "nature_boost": "atk",
@@ -1973,6 +1982,981 @@
           "accuracy": 90,
           "pp": 15,
           "type": "Psychic"
+        },
+        {
+          "name": "SPIDER WEB",
+          "power": null,
+          "accuracy": 100,
+          "pp": 10,
+          "type": "Bug"
+        },
+        {
+          "name": "FURY CUTTER",
+          "power": 10,
+          "accuracy": 95,
+          "pp": 20,
+          "type": "Bug"
+        },
+        {
+          "name": "COVET",
+          "power": 40,
+          "accuracy": 100,
+          "pp": 40,
+          "type": "Normal"
+        }
+      ]
+    },
+    {
+      "name": "Borsti",
+      "species": "DUGTRIO",
+      "level": 26,
+      "image": "images/51.png",
+      "when": "2026-09-11T14:15:40Z",
+      "types": [
+        "Poison"
+      ],
+      "ability": "Keen Eye",
+      "ability_description": "Prevents loss of accuracy.",
+      "stats": {
+        "hp": 55,
+        "atk": 53,
+        "def": 29,
+        "spa": 35,
+        "spd": 43,
+        "spe": 81
+      },
+      "nature": "Hasty",
+      "nature_boost": "spe",
+      "nature_drop": "def",
+      "moves": [
+        {
+          "name": "TEETER DANCE",
+          "power": null,
+          "accuracy": 100,
+          "pp": 20,
+          "type": "Normal"
+        },
+        {
+          "name": "HYDRO PUMP",
+          "power": 120,
+          "accuracy": 80,
+          "pp": 5,
+          "type": "Water"
+        },
+        {
+          "name": "ACID ARMOR",
+          "power": null,
+          "accuracy": null,
+          "pp": 40,
+          "type": "Poison"
+        },
+        {
+          "name": "POISON STING",
+          "power": 15,
+          "accuracy": 100,
+          "pp": 35,
+          "type": "Poison"
+        }
+      ]
+    },
+    {
+      "name": "Alasaell",
+      "species": "SEVIPER",
+      "level": 25,
+      "image": "images/379.png",
+      "when": "2026-09-11T14:15:40Z",
+      "types": [
+        "Electric"
+      ],
+      "ability": "Poison Point",
+      "ability_description": "Poisons foe on contact.",
+      "stats": {
+        "hp": 73,
+        "atk": 58,
+        "def": 39,
+        "spa": 60,
+        "spd": 35,
+        "spe": 39
+      },
+      "nature": "Lax",
+      "nature_boost": "def",
+      "nature_drop": "spd",
+      "moves": [
+        {
+          "name": "WING ATTACK",
+          "power": 60,
+          "accuracy": 100,
+          "pp": 35,
+          "type": "Flying"
+        },
+        {
+          "name": "YAWN",
+          "power": null,
+          "accuracy": 100,
+          "pp": 10,
+          "type": "Normal"
+        },
+        {
+          "name": "HEAL BELL",
+          "power": null,
+          "accuracy": null,
+          "pp": 5,
+          "type": "Normal"
+        },
+        {
+          "name": "GUST",
+          "power": 40,
+          "accuracy": 100,
+          "pp": 35,
+          "type": "Flying"
+        }
+      ]
+    },
+    {
+      "name": "Palico",
+      "species": "QWILFISH",
+      "level": 25,
+      "image": "images/211.png",
+      "when": "2026-09-11T14:16:56Z",
+      "types": [
+        "Water",
+        "Fire"
+      ],
+      "ability": "Static",
+      "ability_description": "Paralyzes on contact.",
+      "stats": {
+        "hp": 70,
+        "atk": 60,
+        "def": 50,
+        "spa": 38,
+        "spd": 33,
+        "spe": 46
+      },
+      "nature": "Relaxed",
+      "nature_boost": "def",
+      "nature_drop": "spe",
+      "moves": [
+        {
+          "name": "POUND",
+          "power": 40,
+          "accuracy": 100,
+          "pp": 35,
+          "type": "Normal"
+        },
+        {
+          "name": "DEFENSE CURL",
+          "power": null,
+          "accuracy": null,
+          "pp": 40,
+          "type": "Normal"
+        },
+        {
+          "name": "SACRED FIRE",
+          "power": 100,
+          "accuracy": 95,
+          "pp": 5,
+          "type": "Fire"
+        },
+        {
+          "name": "DIG",
+          "power": 60,
+          "accuracy": 100,
+          "pp": 10,
+          "type": "Ground"
+        }
+      ]
+    },
+    {
+      "name": "carsydtonney",
+      "species": "KINGDRA",
+      "level": 37,
+      "image": "images/230.png",
+      "when": "2026-09-11T14:16:56Z",
+      "types": [
+        "Ice",
+        "Electric"
+      ],
+      "ability": "Intimidate",
+      "ability_description": "Lowers the foe's Attack.",
+      "stats": {
+        "hp": 113,
+        "atk": 83,
+        "def": 77,
+        "spa": 80,
+        "spd": 93,
+        "spe": 75
+      },
+      "nature": "Sassy",
+      "nature_boost": "spd",
+      "nature_drop": "spe",
+      "moves": [
+        {
+          "name": "DRAGON RAGE",
+          "power": 1,
+          "accuracy": 100,
+          "pp": 10,
+          "type": "Dragon"
+        },
+        {
+          "name": "SLUDGE",
+          "power": 65,
+          "accuracy": 100,
+          "pp": 20,
+          "type": "Poison"
+        },
+        {
+          "name": "SPORE",
+          "power": null,
+          "accuracy": 100,
+          "pp": 15,
+          "type": "Grass"
+        },
+        {
+          "name": "REFLECT",
+          "power": null,
+          "accuracy": null,
+          "pp": 20,
+          "type": "Psychic"
+        }
+      ]
+    },
+    {
+      "name": "Ulgahut",
+      "species": "SPINDA",
+      "level": 25,
+      "image": "images/308.png",
+      "when": "2026-09-11T14:16:56Z",
+      "types": [
+        "Fire"
+      ],
+      "ability": "Rock Head",
+      "ability_description": "Prevents recoil damage.",
+      "stats": {
+        "hp": 72,
+        "atk": 38,
+        "def": 36,
+        "spa": 38,
+        "spd": 37,
+        "spe": 35
+      },
+      "nature": "Brave",
+      "nature_boost": "atk",
+      "nature_drop": "spe",
+      "moves": [
+        {
+          "name": "FIRE SPIN",
+          "power": 15,
+          "accuracy": 70,
+          "pp": 15,
+          "type": "Fire"
+        },
+        {
+          "name": "AEROBLAST",
+          "power": 100,
+          "accuracy": 95,
+          "pp": 5,
+          "type": "Flying"
+        },
+        {
+          "name": "SCREECH",
+          "power": null,
+          "accuracy": 85,
+          "pp": 40,
+          "type": "Normal"
+        },
+        {
+          "name": "TWISTER",
+          "power": 40,
+          "accuracy": 100,
+          "pp": 20,
+          "type": "Dragon"
+        }
+      ]
+    },
+    {
+      "name": "Onslaught",
+      "species": "LEDIAN",
+      "level": 26,
+      "image": "images/166.png",
+      "when": "2026-09-11T14:16:56Z",
+      "types": [
+        "Grass",
+        "Fire"
+      ],
+      "ability": "Battle Armor",
+      "ability_description": "Blocks critical hits.",
+      "stats": {
+        "hp": 72,
+        "atk": 28,
+        "def": 37,
+        "spa": 33,
+        "spd": 67,
+        "spe": 62
+      },
+      "nature": "Jolly",
+      "nature_boost": "spe",
+      "nature_drop": "spa",
+      "moves": [
+        {
+          "name": "VINE WHIP",
+          "power": 35,
+          "accuracy": 100,
+          "pp": 10,
+          "type": "Grass"
+        },
+        {
+          "name": "LOVELY KISS",
+          "power": null,
+          "accuracy": 75,
+          "pp": 10,
+          "type": "Normal"
+        },
+        {
+          "name": "MAGICAL LEAF",
+          "power": 60,
+          "accuracy": null,
+          "pp": 20,
+          "type": "Grass"
+        },
+        {
+          "name": "KNOCK OFF",
+          "power": 20,
+          "accuracy": 100,
+          "pp": 20,
+          "type": "Dark"
+        }
+      ]
+    },
+    {
+      "name": "Blades333",
+      "species": "DUNSPARCE",
+      "level": 29,
+      "image": "images/206.png",
+      "when": "2026-09-11T14:18:12Z",
+      "types": [
+        "Water"
+      ],
+      "ability": "Clear Body",
+      "ability_description": "Prevents ability reduction.",
+      "stats": {
+        "hp": 101,
+        "atk": 54,
+        "def": 42,
+        "spa": 51,
+        "spd": 51,
+        "spe": 36
+      },
+      "nature": "Mild",
+      "nature_boost": "spa",
+      "nature_drop": "def",
+      "moves": [
+        {
+          "name": "MUD SPORT",
+          "power": null,
+          "accuracy": 100,
+          "pp": 15,
+          "type": "Ground"
+        },
+        {
+          "name": "OUTRAGE",
+          "power": 90,
+          "accuracy": 100,
+          "pp": 15,
+          "type": "Dragon"
+        },
+        {
+          "name": "SMOG",
+          "power": 20,
+          "accuracy": 70,
+          "pp": 20,
+          "type": "Poison"
+        },
+        {
+          "name": "WHIRLPOOL",
+          "power": 15,
+          "accuracy": 70,
+          "pp": 15,
+          "type": "Water"
+        }
+      ]
+    },
+    {
+      "name": "otrotc",
+      "species": "PERSIAN",
+      "level": 28,
+      "image": "images/53.png",
+      "when": "2026-09-11T14:19:27Z",
+      "types": [
+        "Dark"
+      ],
+      "ability": "Clear Body",
+      "ability_description": "Prevents ability reduction.",
+      "stats": {
+        "hp": 77,
+        "atk": 48,
+        "def": 40,
+        "spa": 55,
+        "spd": 44,
+        "spe": 75
+      },
+      "nature": "Mild",
+      "nature_boost": "spa",
+      "nature_drop": "def",
+      "moves": [
+        {
+          "name": "SLASH",
+          "power": 70,
+          "accuracy": 100,
+          "pp": 20,
+          "type": "Normal"
+        },
+        {
+          "name": "SKY ATTACK",
+          "power": 140,
+          "accuracy": 90,
+          "pp": 5,
+          "type": "Flying"
+        },
+        {
+          "name": "TAKE DOWN",
+          "power": 90,
+          "accuracy": 85,
+          "pp": 20,
+          "type": "Normal"
+        },
+        {
+          "name": "ROLLING KICK",
+          "power": 60,
+          "accuracy": 85,
+          "pp": 15,
+          "type": "Fighting"
+        }
+      ]
+    },
+    {
+      "name": "ZeroRebellion",
+      "species": "HO-OH",
+      "level": 32,
+      "image": "images/250.png",
+      "when": "2026-09-11T14:20:43Z",
+      "types": [
+        "Grass",
+        "Fire"
+      ],
+      "ability": "Damp",
+      "ability_description": "Prevents self-destruction.",
+      "stats": {
+        "hp": 111,
+        "atk": 94,
+        "def": 69,
+        "spa": 81,
+        "spd": 112,
+        "spe": 59
+      },
+      "nature": "Relaxed",
+      "nature_boost": "def",
+      "nature_drop": "spe",
+      "moves": [
+        {
+          "name": "HORN ATTACK",
+          "power": 65,
+          "accuracy": 100,
+          "pp": 25,
+          "type": "Normal"
+        },
+        {
+          "name": "GIGA DRAIN",
+          "power": 60,
+          "accuracy": 100,
+          "pp": 5,
+          "type": "Grass"
+        },
+        {
+          "name": "MEGA PUNCH",
+          "power": 80,
+          "accuracy": 85,
+          "pp": 20,
+          "type": "Normal"
+        }
+      ]
+    },
+    {
+      "name": "Harmonic",
+      "species": "SHUCKLE",
+      "level": 29,
+      "image": "images/213.png",
+      "when": "2026-09-11T14:21:59Z",
+      "types": [
+        "Psychic",
+        "Grass"
+      ],
+      "ability": "Poison Point",
+      "ability_description": "Poisons foe on contact.",
+      "stats": {
+        "hp": 58,
+        "atk": 12,
+        "def": 140,
+        "spa": 11,
+        "spd": 146,
+        "spe": 14
+      },
+      "nature": "Adamant",
+      "nature_boost": "atk",
+      "nature_drop": "spa",
+      "moves": [
+        {
+          "name": "EXPLOSION",
+          "power": 250,
+          "accuracy": 100,
+          "pp": 5,
+          "type": "Normal"
+        },
+        {
+          "name": "MEGA PUNCH",
+          "power": 80,
+          "accuracy": 85,
+          "pp": 20,
+          "type": "Normal"
+        },
+        {
+          "name": "SPORE",
+          "power": null,
+          "accuracy": 100,
+          "pp": 15,
+          "type": "Grass"
+        },
+        {
+          "name": "HARDEN",
+          "power": null,
+          "accuracy": null,
+          "pp": 30,
+          "type": "Normal"
+        }
+      ]
+    },
+    {
+      "name": "Trexx2k",
+      "species": "SHELGON",
+      "level": 33,
+      "image": "images/396.png",
+      "when": "2026-09-11T14:23:15Z",
+      "types": [
+        "Fighting"
+      ],
+      "ability": "Pure Power",
+      "ability_description": "Raises Attack.",
+      "stats": {
+        "hp": 93,
+        "atk": 83,
+        "def": 72,
+        "spa": 43,
+        "spd": 42,
+        "spe": 41
+      },
+      "nature": "Adamant",
+      "nature_boost": "atk",
+      "nature_drop": "spa",
+      "moves": [
+        {
+          "name": "FIRE SPIN",
+          "power": 15,
+          "accuracy": 70,
+          "pp": 15,
+          "type": "Fire"
+        },
+        {
+          "name": "KARATE CHOP",
+          "power": 50,
+          "accuracy": 100,
+          "pp": 25,
+          "type": "Fighting"
+        },
+        {
+          "name": "FRUSTRATION",
+          "power": 1,
+          "accuracy": 100,
+          "pp": 20,
+          "type": "Normal"
+        },
+        {
+          "name": "CROSS CHOP",
+          "power": 100,
+          "accuracy": 80,
+          "pp": 5,
+          "type": "Fighting"
+        }
+      ]
+    },
+    {
+      "name": "Koin",
+      "species": "HITMONLEE",
+      "level": 29,
+      "image": "images/106.png",
+      "when": "2026-09-11T14:23:15Z",
+      "types": [
+        "Rock"
+      ],
+      "ability": "Limber",
+      "ability_description": "Prevents paralysis.",
+      "stats": {
+        "hp": 75,
+        "atk": 80,
+        "def": 36,
+        "spa": 31,
+        "spd": 68,
+        "spe": 60
+      },
+      "nature": "Serious",
+      "nature_boost": null,
+      "nature_drop": null,
+      "moves": [
+        {
+          "name": "DOUBLESLAP",
+          "power": 15,
+          "accuracy": 85,
+          "pp": 10,
+          "type": "Normal"
+        },
+        {
+          "name": "HYPER BEAM",
+          "power": 150,
+          "accuracy": 90,
+          "pp": 5,
+          "type": "Normal"
+        },
+        {
+          "name": "WISH",
+          "power": null,
+          "accuracy": 100,
+          "pp": 10,
+          "type": "Normal"
+        },
+        {
+          "name": "RECYCLE",
+          "power": null,
+          "accuracy": 100,
+          "pp": 10,
+          "type": "Normal"
+        }
+      ]
+    },
+    {
+      "name": "mogjt",
+      "species": "SWALOT",
+      "level": 28,
+      "image": "images/368.png",
+      "when": "2026-09-11T14:23:15Z",
+      "types": [
+        "Ice"
+      ],
+      "ability": "Run Away",
+      "ability_description": "Makes escaping easier.",
+      "stats": {
+        "hp": 102,
+        "atk": 46,
+        "def": 50,
+        "spa": 52,
+        "spd": 57,
+        "spe": 38
+      },
+      "nature": "Mild",
+      "nature_boost": "spa",
+      "nature_drop": "def",
+      "moves": [
+        {
+          "name": "MORNING SUN",
+          "power": null,
+          "accuracy": null,
+          "pp": 5,
+          "type": "Normal"
+        },
+        {
+          "name": "ICE PUNCH",
+          "power": 75,
+          "accuracy": 100,
+          "pp": 15,
+          "type": "Ice"
+        },
+        {
+          "name": "ICY WIND",
+          "power": 55,
+          "accuracy": 95,
+          "pp": 15,
+          "type": "Ice"
+        },
+        {
+          "name": "SCREECH",
+          "power": null,
+          "accuracy": 85,
+          "pp": 40,
+          "type": "Normal"
+        }
+      ]
+    },
+    {
+      "name": "Rai",
+      "species": "LAPRAS",
+      "level": 31,
+      "image": "images/131.png",
+      "when": "2026-09-11T14:23:15Z",
+      "types": [
+        "Ghost",
+        "Rock"
+      ],
+      "ability": "Rain Dish",
+      "ability_description": "Slight HP recovery in rain.",
+      "stats": {
+        "hp": 121,
+        "atk": 58,
+        "def": 57,
+        "spa": 67,
+        "spd": 64,
+        "spe": 47
+      },
+      "nature": "Docile",
+      "nature_boost": null,
+      "nature_drop": null,
+      "moves": [
+        {
+          "name": "NIGHTMARE",
+          "power": null,
+          "accuracy": 100,
+          "pp": 15,
+          "type": "Ghost"
+        },
+        {
+          "name": "MIND READER",
+          "power": null,
+          "accuracy": 100,
+          "pp": 5,
+          "type": "Normal"
+        },
+        {
+          "name": "SHADOW BALL",
+          "power": 80,
+          "accuracy": 100,
+          "pp": 15,
+          "type": "Ghost"
+        },
+        {
+          "name": "SPIDER WEB",
+          "power": null,
+          "accuracy": 100,
+          "pp": 10,
+          "type": "Bug"
+        }
+      ]
+    },
+    {
+      "name": "ludeum",
+      "species": "DEOXYS",
+      "level": 40,
+      "image": "images/410.png",
+      "when": "2026-09-11T14:27:02Z",
+      "types": [
+        "Dark"
+      ],
+      "ability": "Swarm",
+      "ability_description": "Ups Bug moves in a pinch.",
+      "stats": {
+        "hp": 100,
+        "atk": 117,
+        "def": 60,
+        "spa": 135,
+        "spd": 52,
+        "spe": 132
+      },
+      "nature": "Bold",
+      "nature_boost": "def",
+      "nature_drop": "atk",
+      "moves": [
+        {
+          "name": "FAINT ATTACK",
+          "power": 60,
+          "accuracy": null,
+          "pp": 20,
+          "type": "Dark"
+        },
+        {
+          "name": "PURSUIT",
+          "power": 40,
+          "accuracy": 100,
+          "pp": 20,
+          "type": "Dark"
+        },
+        {
+          "name": "SNATCH",
+          "power": null,
+          "accuracy": 100,
+          "pp": 10,
+          "type": "Dark"
+        },
+        {
+          "name": "FALSE SWIPE",
+          "power": 40,
+          "accuracy": 100,
+          "pp": 40,
+          "type": "Normal"
+        }
+      ]
+    },
+    {
+      "name": "Kamylian",
+      "species": "LUVDISC",
+      "level": 28,
+      "image": "images/325.png",
+      "when": "2026-09-11T14:28:17Z",
+      "types": [
+        "Poison"
+      ],
+      "ability": "Hustle",
+      "ability_description": "Trades accuracy for power.",
+      "stats": {
+        "hp": 63,
+        "atk": 25,
+        "def": 37,
+        "spa": 28,
+        "spd": 55,
+        "spe": 66
+      },
+      "nature": "Calm",
+      "nature_boost": "spd",
+      "nature_drop": "atk",
+      "moves": [
+        {
+          "name": "POISON FANG",
+          "power": 50,
+          "accuracy": 100,
+          "pp": 15,
+          "type": "Poison"
+        },
+        {
+          "name": "SLUDGE",
+          "power": 65,
+          "accuracy": 100,
+          "pp": 20,
+          "type": "Poison"
+        },
+        {
+          "name": "SWAGGER",
+          "power": null,
+          "accuracy": 90,
+          "pp": 15,
+          "type": "Normal"
+        },
+        {
+          "name": "SLUDGE BOMB",
+          "power": 90,
+          "accuracy": 100,
+          "pp": 10,
+          "type": "Poison"
+        }
+      ]
+    },
+    {
+      "name": "TomThePrez",
+      "species": "RATTATA",
+      "level": 26,
+      "image": "images/19.png",
+      "when": "2026-09-11T14:28:17Z",
+      "types": [
+        "Dark"
+      ],
+      "ability": "Static",
+      "ability_description": "Paralyzes on contact.",
+      "stats": {
+        "hp": 53,
+        "atk": 41,
+        "def": 24,
+        "spa": 22,
+        "spd": 23,
+        "spe": 47
+      },
+      "nature": "Quirky",
+      "nature_boost": null,
+      "nature_drop": null,
+      "moves": [
+        {
+          "name": "PAY DAY",
+          "power": 40,
+          "accuracy": 100,
+          "pp": 20,
+          "type": "Normal"
+        },
+        {
+          "name": "HARDEN",
+          "power": null,
+          "accuracy": null,
+          "pp": 30,
+          "type": "Normal"
+        },
+        {
+          "name": "SLASH",
+          "power": 70,
+          "accuracy": 100,
+          "pp": 20,
+          "type": "Normal"
+        },
+        {
+          "name": "WATER SPORT",
+          "power": null,
+          "accuracy": 100,
+          "pp": 15,
+          "type": "Water"
+        }
+      ]
+    },
+    {
+      "name": "Tsuzuriko",
+      "species": "CHINCHOU",
+      "level": 26,
+      "image": "images/170.png",
+      "when": "2026-09-11T14:29:33Z",
+      "types": [
+        "Fire",
+        "Dark"
+      ],
+      "ability": "Illuminate",
+      "ability_description": "Encounter rate increases.",
+      "stats": {
+        "hp": 77,
+        "atk": 30,
+        "def": 34,
+        "spa": 41,
+        "spd": 37,
+        "spe": 38
+      },
+      "nature": "Relaxed",
+      "nature_boost": "def",
+      "nature_drop": "spe",
+      "moves": [
+        {
+          "name": "SANDSTORM",
+          "power": null,
+          "accuracy": null,
+          "pp": 10,
+          "type": "Rock"
+        },
+        {
+          "name": "BEAT UP",
+          "power": 10,
+          "accuracy": 100,
+          "pp": 10,
+          "type": "Dark"
+        },
+        {
+          "name": "HEADBUTT",
+          "power": 70,
+          "accuracy": 100,
+          "pp": 15,
+          "type": "Normal"
+        },
+        {
+          "name": "PURSUIT",
+          "power": 40,
+          "accuracy": 100,
+          "pp": 20,
+          "type": "Dark"
         }
       ]
     }
