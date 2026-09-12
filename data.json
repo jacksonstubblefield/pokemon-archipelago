@@ -1,5 +1,5 @@
 {
-  "version": 1789138626,
+  "version": 1789223915,
   "entries": [
     {
       "name": "Natsafan",
@@ -210,7 +210,7 @@
     {
       "name": "Enff",
       "species": "WAILORD",
-      "level": 75,
+      "level": 79,
       "image": "images/314.png",
       "when": "2026-09-01T14:09:29Z",
       "types": [
@@ -219,12 +219,12 @@
       "ability": "Cloud Nine",
       "ability_description": "Negates weather effects.",
       "stats": {
-        "hp": 366,
-        "atk": 178,
-        "def": 98,
-        "spa": 168,
-        "spd": 90,
-        "spe": 127
+        "hp": 385,
+        "atk": 187,
+        "def": 103,
+        "spa": 177,
+        "spd": 95,
+        "spe": 133
       },
       "nature": "Naughty",
       "nature_boost": "atk",
@@ -453,23 +453,23 @@
     },
     {
       "name": "AlexOvTheAbyss",
-      "species": "SCYTHER",
+      "species": "SCIZOR",
       "level": 4,
-      "image": "images/123.png",
+      "image": "images/212.png",
       "when": "2026-09-01T14:28:29Z",
       "types": [
         "Steel",
-        "Poison"
+        "Grass"
       ],
       "ability": "Levitate",
       "ability_description": "Not hit by Ground attacks.",
       "stats": {
         "hp": 20,
-        "atk": 14,
-        "def": 11,
+        "atk": 15,
+        "def": 13,
         "spa": 10,
         "spd": 12,
-        "spe": 14
+        "spe": 11
       },
       "nature": "Serious",
       "nature_boost": null,
@@ -503,9 +503,9 @@
       "ability": "Thick Fat",
       "ability_description": "Heat-and-cold protection.",
       "stats": {
-        "hp": 19,
+        "hp": 20,
         "atk": 7,
-        "def": 10,
+        "def": 11,
         "spa": 10,
         "spd": 13,
         "spe": 7
@@ -763,23 +763,23 @@
     },
     {
       "name": "Phlap",
-      "species": "PUPITAR",
-      "level": 51,
-      "image": "images/247.png",
+      "species": "TYRANITAR",
+      "level": 56,
+      "image": "images/248.png",
       "when": "2026-09-03T01:24:08Z",
       "types": [
         "Rock",
-        "Psychic"
+        "Fire"
       ],
-      "ability": "Swift Swim",
-      "ability_description": "Raises Speed in rain.",
+      "ability": "Lightning Rod",
+      "ability_description": "Draws electrical moves.",
       "stats": {
-        "hp": 159,
-        "atk": 113,
-        "def": 104,
-        "spa": 83,
-        "spd": 74,
-        "spe": 74
+        "hp": 208,
+        "atk": 179,
+        "def": 163,
+        "spa": 124,
+        "spd": 111,
+        "spe": 92
       },
       "nature": "Lax",
       "nature_boost": "def",
@@ -807,11 +807,11 @@
           "type": "Normal"
         },
         {
-          "name": "ROCK THROW",
-          "power": 50,
-          "accuracy": 90,
+          "name": "FLY",
+          "power": 70,
+          "accuracy": 95,
           "pp": 15,
-          "type": "Rock"
+          "type": "Flying"
         }
       ]
     },
@@ -1026,9 +1026,9 @@
     },
     {
       "name": "Haley",
-      "species": "PORYGON",
+      "species": "PORYGON2",
       "level": 31,
-      "image": "images/137.png",
+      "image": "images/233.png",
       "when": "2026-09-08T21:09:25Z",
       "types": [
         "Dragon"
@@ -1036,12 +1036,12 @@
       "ability": "Shadow Tag",
       "ability_description": "Prevents the foe's escape.",
       "stats": {
-        "hp": 81,
-        "atk": 49,
-        "def": 56,
-        "spa": 64,
-        "spd": 57,
-        "spe": 33
+        "hp": 94,
+        "atk": 62,
+        "def": 68,
+        "spa": 77,
+        "spd": 69,
+        "spe": 45
       },
       "nature": "Hardy",
       "nature_boost": null,
@@ -1294,7 +1294,7 @@
     {
       "name": "pizza",
       "species": "FEEBAS",
-      "level": 9,
+      "level": 14,
       "image": "images/328.png",
       "when": "2026-09-10T15:43:39Z",
       "types": [
@@ -1303,12 +1303,12 @@
       "ability": "Swift Swim",
       "ability_description": "Raises Speed in rain.",
       "stats": {
-        "hp": 24,
-        "atk": 10,
-        "def": 10,
-        "spa": 7,
-        "spd": 17,
-        "spe": 20
+        "hp": 32,
+        "atk": 12,
+        "def": 13,
+        "spa": 9,
+        "spd": 23,
+        "spe": 28
       },
       "nature": "Serious",
       "nature_boost": null,
@@ -1857,12 +1857,12 @@
       "ability": "Cloud Nine",
       "ability_description": "Negates weather effects.",
       "stats": {
-        "hp": 84,
-        "atk": 27,
-        "def": 30,
-        "spa": 44,
+        "hp": 85,
+        "atk": 30,
+        "def": 33,
+        "spa": 47,
         "spd": 49,
-        "spe": 17
+        "spe": 19
       },
       "nature": "Brave",
       "nature_boost": "atk",
@@ -1900,9 +1900,9 @@
     },
     {
       "name": "LennyBusker",
-      "species": "VIBRAVA",
-      "level": 40,
-      "image": "images/333.png",
+      "species": "FLYGON",
+      "level": 46,
+      "image": "images/334.png",
       "when": "2026-09-10T16:53:40Z",
       "types": [
         "Rock",
@@ -1911,23 +1911,23 @@
       "ability": "Shell Armor",
       "ability_description": "Blocks critical hits.",
       "stats": {
-        "hp": 99,
-        "atk": 74,
-        "def": 49,
-        "spa": 52,
-        "spd": 57,
-        "spe": 75
+        "hp": 142,
+        "atk": 115,
+        "def": 84,
+        "spa": 90,
+        "spd": 93,
+        "spe": 115
       },
       "nature": "Hardy",
       "nature_boost": null,
       "nature_drop": null,
       "moves": [
         {
-          "name": "ROLLOUT",
-          "power": 30,
-          "accuracy": 90,
-          "pp": 20,
-          "type": "Rock"
+          "name": "FIRE BLAST",
+          "power": 120,
+          "accuracy": 85,
+          "pp": 5,
+          "type": "Fire"
         },
         {
           "name": "BULLET SEED",
@@ -2537,7 +2537,7 @@
     {
       "name": "Trexx2k",
       "species": "SHELGON",
-      "level": 33,
+      "level": 40,
       "image": "images/396.png",
       "when": "2026-09-11T14:23:15Z",
       "types": [
@@ -2546,12 +2546,12 @@
       "ability": "Pure Power",
       "ability_description": "Raises Attack.",
       "stats": {
-        "hp": 93,
-        "atk": 83,
-        "def": 72,
-        "spa": 43,
-        "spd": 42,
-        "spe": 41
+        "hp": 112,
+        "atk": 104,
+        "def": 87,
+        "spa": 54,
+        "spd": 52,
+        "spe": 51
       },
       "nature": "Adamant",
       "nature_boost": "atk",
@@ -2572,18 +2572,18 @@
           "type": "Fighting"
         },
         {
-          "name": "FRUSTRATION",
-          "power": 1,
-          "accuracy": 100,
-          "pp": 20,
+          "name": "CUT",
+          "power": 50,
+          "accuracy": 95,
+          "pp": 30,
           "type": "Normal"
         },
         {
-          "name": "CROSS CHOP",
-          "power": 100,
-          "accuracy": 80,
-          "pp": 5,
-          "type": "Fighting"
+          "name": "CRABHAMMER",
+          "power": 90,
+          "accuracy": 85,
+          "pp": 10,
+          "type": "Water"
         }
       ]
     },
@@ -2855,9 +2855,9 @@
     },
     {
       "name": "TomThePrez",
-      "species": "RATTATA",
-      "level": 26,
-      "image": "images/19.png",
+      "species": "RATICATE",
+      "level": 27,
+      "image": "images/20.png",
       "when": "2026-09-11T14:28:17Z",
       "types": [
         "Dark"
@@ -2865,12 +2865,12 @@
       "ability": "Static",
       "ability_description": "Paralyzes on contact.",
       "stats": {
-        "hp": 53,
-        "atk": 41,
-        "def": 24,
-        "spa": 22,
-        "spd": 23,
-        "spe": 47
+        "hp": 68,
+        "atk": 57,
+        "def": 39,
+        "spa": 37,
+        "spd": 42,
+        "spe": 62
       },
       "nature": "Quirky",
       "nature_boost": null,
@@ -2908,9 +2908,9 @@
     },
     {
       "name": "Tsuzuriko",
-      "species": "CHINCHOU",
-      "level": 26,
-      "image": "images/170.png",
+      "species": "LANTURN",
+      "level": 27,
+      "image": "images/171.png",
       "when": "2026-09-11T14:29:33Z",
       "types": [
         "Fire",
@@ -2919,12 +2919,12 @@
       "ability": "Illuminate",
       "ability_description": "Encounter rate increases.",
       "stats": {
-        "hp": 77,
-        "atk": 30,
-        "def": 34,
-        "spa": 41,
-        "spd": 37,
-        "spe": 38
+        "hp": 106,
+        "atk": 43,
+        "def": 47,
+        "spa": 54,
+        "spd": 49,
+        "spe": 40
       },
       "nature": "Relaxed",
       "nature_boost": "def",
@@ -2957,6 +2957,251 @@
           "accuracy": 100,
           "pp": 20,
           "type": "Dark"
+        }
+      ]
+    },
+    {
+      "name": "vemid",
+      "species": "DELIBIRD",
+      "level": 25,
+      "image": "images/225.png",
+      "when": "2026-09-12T14:06:55Z",
+      "types": [
+        "Flying",
+        "Steel"
+      ],
+      "ability": "Flash Fire",
+      "ability_description": "Powers up if hit by fire.",
+      "stats": {
+        "hp": 63,
+        "atk": 34,
+        "def": 26,
+        "spa": 42,
+        "spd": 34,
+        "spe": 50
+      },
+      "nature": "Gentle",
+      "nature_boost": "spd",
+      "nature_drop": "def",
+      "moves": [
+        {
+          "name": "LUSTER PURGE",
+          "power": 70,
+          "accuracy": 100,
+          "pp": 5,
+          "type": "Psychic"
+        }
+      ]
+    },
+    {
+      "name": "Seramind",
+      "species": "SEEL",
+      "level": 26,
+      "image": "images/86.png",
+      "when": "2026-09-12T14:18:16Z",
+      "types": [
+        "Dragon"
+      ],
+      "ability": "Poison Point",
+      "ability_description": "Poisons foe on contact.",
+      "stats": {
+        "hp": 74,
+        "atk": 33,
+        "def": 32,
+        "spa": 34,
+        "spd": 51,
+        "spe": 30
+      },
+      "nature": "Gentle",
+      "nature_boost": "spd",
+      "nature_drop": "def",
+      "moves": [
+        {
+          "name": "SAND TOMB",
+          "power": 15,
+          "accuracy": 70,
+          "pp": 15,
+          "type": "Ground"
+        },
+        {
+          "name": "PSYCHO BOOST",
+          "power": 140,
+          "accuracy": 90,
+          "pp": 5,
+          "type": "Psychic"
+        },
+        {
+          "name": "DISABLE",
+          "power": null,
+          "accuracy": 55,
+          "pp": 20,
+          "type": "Normal"
+        },
+        {
+          "name": "ICE BALL",
+          "power": 30,
+          "accuracy": 90,
+          "pp": 20,
+          "type": "Ice"
+        }
+      ]
+    },
+    {
+      "name": "hagen",
+      "species": "SUDOWOODO",
+      "level": 30,
+      "image": "images/185.png",
+      "when": "2026-09-12T14:23:19Z",
+      "types": [
+        "Dragon"
+      ],
+      "ability": "Pure Power",
+      "ability_description": "Raises Attack.",
+      "stats": {
+        "hp": 84,
+        "atk": 71,
+        "def": 77,
+        "spa": 30,
+        "spd": 50,
+        "spe": 28
+      },
+      "nature": "Serious",
+      "nature_boost": null,
+      "nature_drop": null,
+      "moves": [
+        {
+          "name": "MUD SHOT",
+          "power": 55,
+          "accuracy": 95,
+          "pp": 15,
+          "type": "Ground"
+        },
+        {
+          "name": "DRAGON CLAW",
+          "power": 80,
+          "accuracy": 100,
+          "pp": 15,
+          "type": "Dragon"
+        },
+        {
+          "name": "TRICK",
+          "power": null,
+          "accuracy": 100,
+          "pp": 10,
+          "type": "Psychic"
+        },
+        {
+          "name": "HI JUMP KICK",
+          "power": 85,
+          "accuracy": 90,
+          "pp": 20,
+          "type": "Fighting"
+        }
+      ]
+    },
+    {
+      "name": "Lucian_CV",
+      "species": "TAUROS",
+      "level": 25,
+      "image": "images/128.png",
+      "when": "2026-09-12T14:37:11Z",
+      "types": [
+        "Steel"
+      ],
+      "ability": "Early Bird",
+      "ability_description": "Awakens quickly from sleep.",
+      "stats": {
+        "hp": 78,
+        "atk": 58,
+        "def": 52,
+        "spa": 28,
+        "spd": 40,
+        "spe": 67
+      },
+      "nature": "Quirky",
+      "nature_boost": null,
+      "nature_drop": null,
+      "moves": [
+        {
+          "name": "METEOR MASH",
+          "power": 100,
+          "accuracy": 85,
+          "pp": 10,
+          "type": "Steel"
+        },
+        {
+          "name": "SKULL BASH",
+          "power": 100,
+          "accuracy": 100,
+          "pp": 15,
+          "type": "Normal"
+        },
+        {
+          "name": "IRON TAIL",
+          "power": 100,
+          "accuracy": 75,
+          "pp": 15,
+          "type": "Steel"
+        },
+        {
+          "name": "ENCORE",
+          "power": null,
+          "accuracy": 100,
+          "pp": 5,
+          "type": "Normal"
+        }
+      ]
+    },
+    {
+      "name": "Xarrant",
+      "species": "SHUPPET",
+      "level": 27,
+      "image": "images/377.png",
+      "when": "2026-09-12T14:37:11Z",
+      "types": [
+        "Bug"
+      ],
+      "ability": "Cloud Nine",
+      "ability_description": "Negates weather effects.",
+      "stats": {
+        "hp": 68,
+        "atk": 51,
+        "def": 32,
+        "spa": 47,
+        "spd": 31,
+        "spe": 35
+      },
+      "nature": "Bashful",
+      "nature_boost": null,
+      "nature_drop": null,
+      "moves": [
+        {
+          "name": "METAL CLAW",
+          "power": 50,
+          "accuracy": 95,
+          "pp": 35,
+          "type": "Steel"
+        },
+        {
+          "name": "TWINEEDLE",
+          "power": 25,
+          "accuracy": 100,
+          "pp": 20,
+          "type": "Bug"
+        },
+        {
+          "name": "LUSTER PURGE",
+          "power": 70,
+          "accuracy": 100,
+          "pp": 5,
+          "type": "Psychic"
+        },
+        {
+          "name": "STRING SHOT",
+          "power": null,
+          "accuracy": 95,
+          "pp": 40,
+          "type": "Bug"
         }
       ]
     }
